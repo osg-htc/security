@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-07-05/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2019-11-15 Vulnerability in Squid UPDATE 2 - OSG Security</title>
+        <title>OSG-SEC-2022-07-05 HIGH Use-after-free vulnerability in the Linux kernel Netfilter subsystem - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2019-11-15-vulnerability-in-squid-update-2" class="md-skip">
+        <a href="#osg-sec-2022-07-05-high-use-after-free-vulnerability-in-the-linux-kernel-netfilter-subsystem" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2019-11-15 Vulnerability in Squid UPDATE 2
+              OSG-SEC-2022-07-05 HIGH Use-after-free vulnerability in the Linux kernel Netfilter subsystem
             
           </span>
         </div>
@@ -302,11 +302,77 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2022-07-05/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2022-07-05 HIGH Use-after-free vulnerability in the Linux kernel Netfilter subsystem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2022-07-05 HIGH Use-after-free vulnerability in the Linux kernel Netfilter subsystem
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitigations" class="md-nav__link">
+    MITIGATIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -710,56 +776,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2019-11-15 Vulnerability in Squid UPDATE 2
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2/" class="md-nav__link">
         OSG-SEC-2019-11-15 Vulnerability in Squid UPDATE 2
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#update-2" class="md-nav__link">
-    UPDATE 2:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    References:
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1464,15 +1485,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#update-2" class="md-nav__link">
-    UPDATE 2:
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mitigations" class="md-nav__link">
+    MITIGATIONS:
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    References:
+    REFERENCES
   </a>
   
 </li>
@@ -1489,22 +1531,31 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2019-11-15-Vulnerability-in-Squid-UPDATE-2.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-07-05.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2019-11-15-vulnerability-in-squid-update-2">OSG-SEC-2019-11-15 Vulnerability in Squid UPDATE 2</h1>
+                <h1 id="osg-sec-2022-07-05-high-use-after-free-vulnerability-in-the-linux-kernel-netfilter-subsystem">OSG-SEC-2022-07-05 HIGH Use-after-free vulnerability in the Linux kernel Netfilter subsystem</h1>
 <p>Dear OSG Security Contacts,</p>
-<h2 id="update-2">UPDATE 2:</h2>
-<p>This is an update to OSG-SEC-2019-11-11[1].</p>
-<p>OSG 3.5.5[2] and 3.4.39[3] have been released containing frontier-squid-4.9-2.1, fixing the two high-priority vulnerabilities described in the original announcement. </p>
-<p>OSG Security recommends updating to frontier-squid-4.9-2.1 as soon as possible. The previously described workaround involving /etc/squid/customize.sh is no longer necessary when running frontier-squid-4.9-21.</p>
-<h2 id="references">References:</h2>
-<p>[1] https://opensciencegrid.org/security/vulns/OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE/</p>
-<p>[2] https://opensciencegrid.org/docs/release/3.5/release-3-5-5/</p>
-<p>[3] https://opensciencegrid.org/docs/release/3.4/release-3-4-39/</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
+<p>A use-after-free vulnerability was found in the Linux kernel's Netfilter subsystem in net/netfilter/nf_tables_api.c. This flaw allows a local attacker with user access to cause a privilege escalation issue. [1]</p>
+<p>Note: This vulnerability is being tracked with CVE-2022-32250 but is also duplicated by CVE-2022-1966, and may be referred to by either identifier depending on the source.</p>
+<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
+<p>Linux kernel versions through 5.18.1. This vulnerability impacts all major Linux distributions.</p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>net/netfilter/nf_tables_api.c in the Linux kernel through 5.18.1 allows a local user (able to create user/net namespaces) to escalate privileges to root because an incorrect NFT_STATEFUL_EXPR check leads to a use-after-free vulnerability. [1]</p>
+<h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
+<p>Install an updated version of the Linux kernel as soon as a patched version is available for your distribution(s).</p>
+<p>Patched kernel versions are available in RHEL 7, RHEL 9, and Debian. [2][3][4] There is not an update for RHEL 8 yet. </p>
+<h2 id="mitigations">MITIGATIONS:</h2>
+<p>Mitigation is possible by disabling either user namespaces or net namespaces. The OSG recommends leaving net namespaces disabled for those who need user namespaces (for example for use with Singularity), since most kernel vulnerabilities related to user namespaces are in the network area.  Follow the instructions on the OSG Singularity installation page [5] for disabling network namespaces or set user.max_user_namespaces = 0 instead of 15000 to disable user namespaces.</p>
+<h2 id="references">REFERENCES</h2>
+<p>[1] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32250</p>
+<p>[2] https://access.redhat.com/security/cve/CVE-2022-1966</p>
+<p>[3] https://security-tracker.debian.org/tracker/CVE-2022-32250</p>
+<p>[4] https://people.canonical.com/~ubuntu-security/cve/2022/CVE-2022-32250</p>
+<p>[5] https://osg-htc.org/docs/worker-node/install-singularity#enabling-unprivileged-singularity</p>
+<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
                 
               
@@ -1524,7 +1575,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2020-02-07-Vulnerabilities-in-frontier-squid/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1533,19 +1584,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2020-02-07 Vulnerabilities in Frontier Squid
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2019-11-11-Vulnerability-in-Squid-UPDATE/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2022-05-05/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2019-11-11 Vulnerability in Squid UPDATE
+              OSG-SEC-2022-05-05 CRITICAL Vulnerability in Slurm authentication handling
             </div>
           </div>
           <div class="md-footer__button md-icon">
