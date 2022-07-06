@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2022-07-05  | HIGH Use-after-free vulnerability in the Linux kernel Netfilter subsystem | [OSG-SEC-2022-07-05](./vulns/OSG-SEC-2022-07-05.md) |     |
 | 2022-05-05  | CRITICAL Vulnerability in Slurm authentication handling | [OSG-SEC-2022-05-05](./vulns/OSG-SEC-2022-05-05.md) |     |
 | 2022-03-31  | CRITICAL Expat XML parser arbitrary code execution vulnerability | [OSG-SEC-2022-03-31](./vulns/OSG-SEC-2022-03-31.md) |     |
 | 2022-03-18  | CRITICAL OOB memory access flaw in Linux kernel | [OSG-SEC-2022-03-18](./vulns/OSG-SEC-2022-03-18.md) |     |
