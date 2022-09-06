@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-08-26/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2018-05-08 Meltdown-Spectre Update - OSG Security</title>
+        <title>OSG-SEC-2022-08-26 HIGH Linux systemd use-after-free vulnerability - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2018-01-04-cpu-hardware-vulnerabilities" class="md-skip">
+        <a href="#osg-sec-2022-08-26-high-linux-systemd-use-after-free-vulnerability" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2018-05-08 Meltdown-Spectre Update
+              OSG-SEC-2022-08-26 HIGH Linux systemd use-after-free vulnerability
             
           </span>
         </div>
@@ -302,11 +302,70 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2022-08-26/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2022-08-26 HIGH Linux systemd use-after-free vulnerability
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2022-08-26 HIGH Linux systemd use-after-free vulnerability
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -974,77 +1033,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2018-05-08 Meltdown-Spectre Update
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2018-05-08-Meltdown-Spectre-Update/" class="md-nav__link">
         OSG-SEC-2018-05-08 Meltdown-Spectre Update
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#update-2018-05-08" class="md-nav__link">
-    [UPDATE 2018-05-08]
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#affected-versions" class="md-nav__link">
-    AFFECTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES:
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1521,15 +1514,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#update-2018-05-08" class="md-nav__link">
-    [UPDATE 2018-05-08]
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#affected-versions" class="md-nav__link">
-    AFFECTED VERSIONS:
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
   </a>
   
 </li>
@@ -1542,15 +1535,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    REFERENCES:
+    REFERENCES
   </a>
   
 </li>
@@ -1567,39 +1553,36 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2018-05-08-Meltdown-Spectre-Update.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-08-26.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2018-01-04-cpu-hardware-vulnerabilities">OSG-SEC-2018-01-04 CPU hardware vulnerabilities</h1>
-<h2 id="update-2018-05-08">[UPDATE 2018-05-08]</h2>
+                <h1 id="osg-sec-2022-08-26-high-linux-systemd-use-after-free-vulnerability">OSG-SEC-2022-08-26 HIGH Linux systemd use-after-free vulnerability</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>This is an update of the security announcement about the CPU hardware in modern processors that were reported in the beginning of January and are widely known as Meltdown and Spectre and described in CVE-2017-5754 <a href="#more-information">[1]</a>.  An updated kernel is now available for Red Hat Enterprise Linux 7 that fixes another aspect of those issues, and also fixes many other security issues.  The OSG Security team considers applying this update to be IMPORTANT.</p>
-<h2 id="affected-versions">AFFECTED VERSIONS:</h2>
-<p>EL7 kernel versions prior to 3.10-0-862 are affected.</p>
+<p>Vulnerabilities have been found concerning a user-after-free vulnerability in systemd when dealing with DNSStream which may allow an unprivileged user on a local or adjacent network to gain access to the affected system [1][7].</p>
+<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
+<p>Most major Linux distributions.</p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>A use-after-free vulnerability was found in systemd. This issue occurs due to the on_stream_io() function and dns_stream_complete() function in 'resolved-dns-stream.c' not incrementing the reference counting for the DnsStream object. Therefore, other functions and callbacks called can dereference the DNSStream object, causing the use-after-free when the reference is still used later. [7]</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Update the kernel using the following command: </p>
-<pre><code>yum update kernel
-</code></pre>
-<p>Kernel updates are available for the following systems. 
- - Red Hat Enterprise Linux 7 [2]
- - Scientific Linux 7 [3] 
- - CentOS 7 (in the “cr” yum repo - - use “yum --enablerepo=cr update kernel”) </p>
-<p>This should update the kernel to version 3.10.0-862.el7.  The system must be rebooted for this update to take effect.</p>
-<p>NOTE: this kernel is known to cause problems with ZFS [4]; machines that support ZFS should wait for an updated ZFS release.</p>
-<h2 id="related-links">RELATED LINKS:</h2>
-<ul>
-<li>https://ticket.opensciencegrid.org/35754</li>
-</ul>
-<h2 id="references">REFERENCES:</h2>
-<ul>
-<li>[1] https://access.redhat.com/security/cve/cve-2017-5754</li>
-<li>[2] https://access.redhat.com/errata/RHSA-2018:1062 </li>
-<li>[3] https://www.scientificlinux.org/category/sl-errata/slsa-20181062-1/ </li>
-<li>[4] https://github.com/zfsonlinux/zfs/issues/7460</li>
-</ul>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
+<p>Update affected systems as patches are made available and restart them.</p>
+<p>Sites running RHEL should see [1]</p>
+<p>Sites running CentOS should also see [1]</p>
+<p>Sites running Ubuntu should see [2]</p>
+<p>Sites running Scientific Linux should see [3]</p>
+<p>Sites running Debian should see [4]</p>
+<p>Sites running RockyLinux should see [5]</p>
+<p>Sites running Almalinux should see [6]</p>
+<h2 id="references">REFERENCES</h2>
+<p>[1] https://access.redhat.com/security/cve/CVE-2022-2526</p>
+<p>[2] https://ubuntu.com/security/CVE-2022-2526</p>
+<p>[3] https://www.scientificlinux.org/category/sl-errata/</p>
+<p>[4] https://security-tracker.debian.org/tracker</p>
+<p>[5] https://errata.rockylinux.org/</p>
+<p>[6] https://errata.almalinux.org/</p>
+<p>[7] https://vulners.com/redhatcve/RH:CVE-2022-2526</p>
+<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
                 
               
@@ -1619,7 +1602,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2018-05-18-Multiple-EL7-Linux-kernel-vulnerabilities/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1628,19 +1611,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2018-05-18 Multiple EL7 Linux kernel vulnerabilities
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2018-05-07-Unprivileged-User-Namespaces-vulnerability/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2022-08-10_2/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2018-05-07 Unprivileged user namespaces in Singularity
+              OSG-SEC-2022-08-10_2 HIGH Linux rsyslog heap-based buffer overflow
             </div>
           </div>
           <div class="md-footer__button md-icon">
