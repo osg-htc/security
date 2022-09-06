@@ -1,6 +1,9 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2022-08-26  | HIGH Linux systemd use-after-free vulnerability | [OSG-SEC-2022-08-26](./vulns/OSG-SEC-2022-08-26.md)
+| 2022-08-10  | HIGH Linux rsyslog heap-based buffer overflow | [OSG-SEC-2022-08-10_2](./vulns/OSG-SEC-2022-08-10_2.md)
+| 2022-08-10  | HIGH Linux kernel perf use-after-free flaw | [OSG-SEC-2022-08-10](./vulns/OSG-SEC-2022-08-10.md) 
 | 2022-07-05  | HIGH Use-after-free vulnerability in the Linux kernel Netfilter subsystem | [OSG-SEC-2022-07-05](./vulns/OSG-SEC-2022-07-05.md) |     |
 | 2022-05-05  | CRITICAL Vulnerability in Slurm authentication handling | [OSG-SEC-2022-05-05](./vulns/OSG-SEC-2022-05-05.md) |     |
 | 2022-03-31  | CRITICAL Expat XML parser arbitrary code execution vulnerability | [OSG-SEC-2022-03-31](./vulns/OSG-SEC-2022-03-31.md) |     |
