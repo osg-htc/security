@@ -12,6 +12,12 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2022-01-24 HIGH sudoedit privilege escalation: './vulns/OSG-SEC-2023-01-24.md'
+    - OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows: './vulns/OSG-SEC-2022-11-02.md'
+    - OSG-SEC-2022-10-25 HIGH libksba integer overflow: './vulns/OSG-SEC-2022-10-25.md'
+    - OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter: './vulns/OSG-SEC-2022-10-17.md'
+    - OSG-SEC-2022-10-07 HIGH expat use-after-free: './vulns/OSG-SEC-2022-10-07.md'
+    - OSG-SEC-2022-10-04 MEDIUM DNS BIND memory leaks: './vulns/OSG-SEC-2022-10-04.md'
     - OSG-SEC-2022-08-26 HIGH Linux systemd use-after-free vulnerability: './vulns/OSG-SEC-2022-08-26.md'
     - OSG-SEC-2022-08-10_2 HIGH Linux rsyslog heap-based buffer overflow: './vulns/OSG-SEC-2022-08-10_2.md'
     - OSG-SEC-2022-08-10 HIGH Linux kernel perf use-after-free flaw: './vulns/OSG-SEC-2022-08-10.md'
