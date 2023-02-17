@@ -12,7 +12,8 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
-    - OSG-SEC-2022-01-24 HIGH sudoedit privilege escalation: './vulns/OSG-SEC-2023-01-24.md'
+    - OSG-SEC-2023-02-17 INFO OpenSSL vulnerability: './vulns/OSG-SEC-2023-02-17.md'
+    - OSG-SEC-2023-01-24 HIGH sudoedit privilege escalation: './vulns/OSG-SEC-2023-01-24.md'
     - OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows: './vulns/OSG-SEC-2022-11-02.md'
     - OSG-SEC-2022-10-25 HIGH libksba integer overflow: './vulns/OSG-SEC-2022-10-25.md'
     - OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter: './vulns/OSG-SEC-2022-10-17.md'
