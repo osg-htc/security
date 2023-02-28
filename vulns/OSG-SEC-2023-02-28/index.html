@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2023-02-28/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8 - OSG Security</title>
+        <title>OSG-SEC-2023-02-28 MEDIUM Linux kernel use-after-free in mm/mremap - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2020-09-22-cve-2020-14386-memory-corruption-in-kernel-on-el8" class="md-skip">
+        <a href="#osg-sec-2023-02-28-medium-linux-kernel-use-after-free-in-mmmremap" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8
+              OSG-SEC-2023-02-28 MEDIUM Linux kernel use-after-free in mm/mremap
             
           </span>
         </div>
@@ -302,11 +302,70 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2023-02-28/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2023-02-28 MEDIUM Linux kernel use-after-free in mm/mremap
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2023-02-28 MEDIUM Linux kernel use-after-free in mm/mremap
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -782,70 +841,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8/" class="md-nav__link">
         OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1649,39 +1649,27 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2023-02-28.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2020-09-22-cve-2020-14386-memory-corruption-in-kernel-on-el8">OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8</h1>
+                <h1 id="osg-sec-2023-02-28-medium-linux-kernel-use-after-free-in-mmmremap">OSG-SEC-2023-02-28 MEDIUM Linux kernel use-after-free in mm/mremap</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>A memory corruption vulnerability described in CVE-2020-14386 [1] has been found in some versions of the Linux kernel that can result in privilege escalation. Specifically, this affects EL8 systems; RHEL 7 and CentOS 7 are not affected.</p>
-<p>The OSG Security team considers this vulnerability to be HIGH severity.</p>
+<p>A use-after-free flaw was found in the Linux kernel's mm/mremap memory address space accounting source code in how a race condition happens between rmap walk and mremap (CVE-2022-41222).[1]</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>Red Hat Enterprise Linux 8, CentOS 8</p>
+<p>Linux kernel versions before 5.13.3</p>
+<p>The CVE doesn't specify the earliest version of the kernel impacted, but Red Hat indicates that only RHEL 8 based distributions are affected [1] and Ubuntu only indicates that 20.04.x LTS (focal) is affected.[2]  All RHEL 8 derived distributions will also be impacted.</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>A memory corruption vulnerability [2] exists in code related to handling AF_PACKET sockets. An unprivileged user on systems where unprivileged user namespaces are enabled, such as EL8 systems, can acquire the CAP_NET_RAW capability to create AF_PACKET sockets and trigger this memory corruption, potentially leading to privilege escalation.</p>
+<p>This flaw allows a local user to crash or potentially escalate their privileges on the system.[3]</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>A patched kernel is not yet available. The Red Hat security announcement [3] recommends disabling the CAP_NET_RAW capability for regular users and executables as a mitigation.</p>
-<p>Additionally, the OSG Security team recommends disabling network namespaces when unprivileged user namespaces are enabled [4]:</p>
-<pre><code>echo &quot;user.max_net_namespaces = 0&quot; \
-    &gt; /etc/sysctl.d/90-max_net_namespaces.conf
-sysctl -p /etc/sysctl.d/90-max_net_namespaces.conf
-</code></pre>
-<p>Note that docker uses network namespaces, unless it is invoked with --net=host.</p>
-<p>Unprivileged user namespaces are enabled by default on EL8. If you are not using unprivileged user namespaces (for example for singularity), you can also mitigate this issue by disabling them:</p>
-<pre><code>echo &quot;user.max_user_namespaces = 0&quot; \
-    &gt; /etc/sysctl.d/90-max_user_namespaces.conf
-sysctl -p /etc/sysctl.d/90-max_user_namespaces.conf
-</code></pre>
+<p>The vulnerability is rated as difficult to exploit, and there are no proof of concept examples available at this time, so we're giving it a MEDIUM priority. Be aware of the issue and remember to apply updates to your Linux systems' kernel packages and reboot as a part of your regularly scheduled system maintenance practices.</p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14386</p>
-<p>[2] https://seclists.org/oss-sec/2020/q3/146 </p>
-<p>[3] https://access.redhat.com/security/cve/CVE-2020-14386</p>
-<p>[4] https://opensciencegrid.org/docs/worker-node/install-singularity/#enabling-unprivileged-singularity</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
-<p>OSG Security Team</p>
+<p>[1] https://access.redhat.com/security/cve/CVE-2022-41222</p>
+<p>[2] https://ubuntu.com/security/CVE-2022-41222</p>
+<p>[3] https://bugzilla.redhat.com/show_bug.cgi?id=2138818</p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.
+OSG Security Team</p>
                 
               
               
@@ -1700,7 +1688,7 @@ sysctl -p /etc/sysctl.d/90-max_user_namespaces.conf
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8-UPDATE/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1709,19 +1697,19 @@ sysctl -p /etc/sysctl.d/90-max_user_namespaces.conf
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8 **UPDATE**
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2020-08-31-Vulnerabilities-in-frontier-squid/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2023-02-17/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2020-08-31 Vulnerabilities in frontier-squid
+              OSG-SEC-2023-02-17 INFO OpenSSL vulnerability
             </div>
           </div>
           <div class="md-footer__button md-icon">
