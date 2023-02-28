@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2023-02-28 MEDIUM Linux kernel use-after-free in mm/mremap: './vulns/OSG-SEC-2023-02-28.md'
     - OSG-SEC-2023-02-17 INFO OpenSSL vulnerability: './vulns/OSG-SEC-2023-02-17.md'
     - OSG-SEC-2023-01-24 HIGH sudoedit privilege escalation: './vulns/OSG-SEC-2023-01-24.md'
     - OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows: './vulns/OSG-SEC-2022-11-02.md'
