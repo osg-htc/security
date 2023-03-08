@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2023-03-08  | HIGH multiple Linux kernel vulnerabilities | [OSG-SEC-2023-03-08](./vulns/OSG-SEC-2023-03-08.md) |     |
 | 2023-02-28  | MEDIUM Linux kernel use-after-free in mm/mremap | [OSG-SEC-2023-02-28](./vulns/OSG-SEC-2023-02-28.md) |     |
 | 2023-02-17  | INFO OpenSSL vulnerability | [OSG-SEC-2023-02-17](./vulns/OSG-SEC-2023-02-17.md) |     |
 | 2023-01-24  | HIGH sudoedit privilege escalation | [OSG-SEC-2023-01-24](./vulns/OSG-SEC-2023-01-24.md) |     |
