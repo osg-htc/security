@@ -1,6 +1,9 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2023-04-26  | MEDIUM GNU Emacs Org Mode arbitrary command injection | [OSG-SEC-2023-04-26_2](./vulns/OSG-SEC-2023-04-26_2.md) |     |
+| 2023-04-26  | HIGH setuid-mode Apptainer exploit | [OSG-SEC-2023-04-26](./vulns/OSG-SEC-2023-04-26.md) |     |
+| 2023-04-25  | CRITICAL Linux Kernel OverlayFS | [OSG-SEC-2023-04-25](./vulns/OSG-SEC-2023-04-25.md) |     |
 | 2023-04-05  | HIGH Apache HTTP request splitting | [OSG-SEC-2023-04-05](./vulns/OSG-SEC-2023-04-05.md) |     |
 | 2023-03-08  | HIGH multiple Linux kernel vulnerabilities | [OSG-SEC-2023-03-08](./vulns/OSG-SEC-2023-03-08.md) |     |
 | 2023-02-28  | MEDIUM Linux kernel use-after-free in mm/mremap | [OSG-SEC-2023-02-28](./vulns/OSG-SEC-2023-02-28.md) |     |
