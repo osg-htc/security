@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2023-05-17 HIGH Flaw in Linux kernel Netfilter module: './vulns/OSG-SEC-2023-05-17.md'
     - OSG-SEC-2023-04-26_2 MEDIUM GNU Emacs Org Mode arbitrary command injection: './vulns/OSG-SEC-2023-04-26_2.md'
     - OSG-SEC-2023-04-26 HIGH setuid-mode Apptainer exploit: './vulns/OSG-SEC-2023-04-26.md'
     - OSG-SEC-2023-04-25 CRITICAL Linux Kernel OverlayFS: './vulns/OSG-SEC-2023-04-25.md'
