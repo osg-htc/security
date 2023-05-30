@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2023-05-24  | MEDIUM multiple git vulnerabilities | [OSG-SEC-2023-05-24](./vulns/OSG-SEC-2023-05-24.md) |     |
 | 2023-05-18  | HIGH Linux kernel user-after-free flaw in TLS protocol | [OSG-SEC-2023-05-18](./vulns/OSG-SEC-2023-05-18.md) |     |
 | 2023-05-17  | HIGH Flaw in Linux kernel Netfilter module | [OSG-SEC-2023-05-17](./vulns/OSG-SEC-2023-05-17.md) |     |
 | 2023-04-26  | MEDIUM GNU Emacs Org Mode arbitrary command injection | [OSG-SEC-2023-04-26_2](./vulns/OSG-SEC-2023-04-26_2.md) |     |

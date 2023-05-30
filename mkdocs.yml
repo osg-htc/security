@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2023-05-24 MEDIUM multiple git vulnerabilities: './vulns/OSG-SEC-2023-05-24.md'
     - OSG-SEC-2023-05-18 HIGH Linux kernel user-after-free flaw in TLS protocol: './vulns/OSG-SEC-2023-05-18.md'
     - OSG-SEC-2023-05-17 HIGH Flaw in Linux kernel Netfilter module: './vulns/OSG-SEC-2023-05-17.md'
     - OSG-SEC-2023-04-26_2 MEDIUM GNU Emacs Org Mode arbitrary command injection: './vulns/OSG-SEC-2023-04-26_2.md'
