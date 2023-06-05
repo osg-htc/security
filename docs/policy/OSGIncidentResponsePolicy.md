@@ -161,7 +161,7 @@ During this phase, it is important not to modify or alter any logs or configurat
 
 **ACTION by IR Lead​:** The IR Lead will keep the ISO informed of any major developments and discoveries, making at least twice a day updates. 
 
-**ACTION by IR Lead​:** The IR Lead will keep OSG User Support (​user-support@opensciencegrid.org​) informed of any user-visible service impacts of the incident. The incident identifier will be used in the subject of any email message related to the incident.
+**ACTION by IR Lead​:** The IR Lead will keep OSG User Support (​support@osg-htc.org​) informed of any user-visible service impacts of the incident. The incident identifier will be used in the subject of any email message related to the incident.
 
 ### 4.5 Eradication and Recovery
 
@@ -261,7 +261,7 @@ OSG User Support is one of the interfaces to our user community. They might see 
 * (1) they can best communicate to users who may contact them and 
 * (2) alert the IR team if a user reports something that we are not aware of. 
 
-User Support will forward the advisory or recommendation along with the security patches (if available) for known vulnerabilities to our user community. The IR Lead and/or ISO should keep them informed via email to ​user-support@opensciencegrid.org during the incident.
+User Support will forward the advisory or recommendation along with the security patches (if available) for known vulnerabilities to our user community. The IR Lead and/or ISO should keep them informed via email to ​support@osg-htc.org during the incident.
 
 ## 6 Interactions with Other Entities
 
