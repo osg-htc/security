@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2023-06-30  | CRITICAL Go programming language vulnerabilities | [OSG-SEC-2023-06-30](./vulns/OSG-SEC-2023-06-30.md) |     |
 | 2023-05-31  | UPDATE on setuid-mode Apptainer exploit | [OSG-SEC-2023-05-31](./vulns/OSG-SEC-2023-05-31.md) |     |
 | 2023-05-24  | MEDIUM multiple git vulnerabilities | [OSG-SEC-2023-05-24](./vulns/OSG-SEC-2023-05-24.md) |     |
 | 2023-05-18  | HIGH Linux kernel user-after-free flaw in TLS protocol | [OSG-SEC-2023-05-18](./vulns/OSG-SEC-2023-05-18.md) |     |
