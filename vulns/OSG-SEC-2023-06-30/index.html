@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-10-04/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2023-06-30/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2022-10-04 MEDIUM DNS BIND memory leaks - OSG Security</title>
+        <title>OSG-SEC-2023-06-30 CRITICAL Go programming language vulnerabilities - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2022-10-04-medium-dns-bind-memory-leaks" class="md-skip">
+        <a href="#osg-sec-2023-06-30-critical-go-programming-language-vulnerabilities" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2022-10-04 MEDIUM DNS BIND memory leaks
+              OSG-SEC-2023-06-30 CRITICAL Go programming language vulnerabilities
             
           </span>
         </div>
@@ -302,11 +302,70 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2023-06-30/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2023-06-30 CRITICAL Go programming language vulnerabilities
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2023-06-30 CRITICAL Go programming language vulnerabilities
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -506,70 +565,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2022-10-04 MEDIUM DNS BIND memory leaks
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2022-10-04/" class="md-nav__link">
         OSG-SEC-2022-10-04 MEDIUM DNS BIND memory leaks
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1769,37 +1769,45 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-10-04.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2023-06-30.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2022-10-04-medium-dns-bind-memory-leaks">OSG-SEC-2022-10-04 MEDIUM DNS BIND memory leaks</h1>
+                <h1 id="osg-sec-2023-06-30-critical-go-programming-language-vulnerabilities">OSG-SEC-2023-06-30 CRITICAL Go programming language vulnerabilities</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>The DNSSEC verification code for the ECDSA algorithm leaks memory when there is a signature length mismatch, and can crash the DNS server daemon. Additional details are covered in CVE-2022-38177. [1]</p>
+<p>Red Hat released errata for multiple critical security vulnerabilities in the Go programming language [1][2]. For any systems or developers using Go we strongly recommend that the available patches be applied. The CVEs are as follows: CVE-2023-29402 (go command may generate unexpected code at build time when using cgo), CVE-2023-29403 (runtime: unexpected behavior of setuid/setgid binaries), CVE-2023-29404 (go command may execute arbitrary code at build time when using cgo), and CVE-2023-29405 (Arbitrary code execution triggered by linker flags).</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>BIND 9.8.4 -&gt; 9.16.32</p>
+<p>CVE-2023-29402: RHEL 7,8,9 based distributions</p>
+<p>CVE-2023-29403: RHEL 7,8,9 based distributions</p>
+<p>CVE-2023-29404: RHEL 7,8,9 based distributions</p>
+<p>CVE-2023-29405: RHEL 7,8,9 based distributions</p>
+<p>Go 1.19.x versions before 1.19.10</p>
+<p>Go 1.20.x versions before 1.20.5</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>By spoofing the target resolver with responses that have a malformed ECDSA signature, an attacker can trigger a small memory leak. It is possible to gradually erode available memory to the point where 'named' crashes for lack of resources, resulting in a denial of service attack for DNS lookups made against the crashed server. [7]  The risk is negligible for systems not using BIND to run a DNS server. If, however, you are using 'named' to run a DNS server then the impact could be a significant but temporary interruption of any services relying on DNS lookups.</p>
+<p>CVE-2023-29402: The go command may generate unexpected code at build time when using cgo. This may result in unexpected behavior when running a go program which uses cgo. This may occur when running an untrusted module which contains directories with newline characters in their names. Modules which are retrieved using the go command, i.e. via "go get", are not affected (modules retrieved using GOPATH-mode, i.e. GO111MODULE=off, may be affected). [3][7]</p>
+<p>CVE-2023-29403: On Unix platforms, the Go runtime does not behave differently when a binary is run with the setuid/setgid bits. This can be dangerous in certain cases, such as when dumping memory state, or assuming the status of standard i/o file descriptors. If a setuid/setgid binary is executed with standard I/O file descriptors closed, opening any files can result in unexpected content being read or written with elevated privileges. Similarly, if a setuid/setgid program is terminated, either via panic or signal, it may leak the contents of its registers. [4][8]</p>
+<p>CVE-2023-29404: The go command may execute arbitrary code at build time when using cgo. This may occur when running "go get" on a malicious module, or when running any other command which builds untrusted code. This is can be triggered by linker flags, specified via a "#cgo LDFLAGS" directive. The arguments for a number of flags which are non-optional are incorrectly considered optional, allowing disallowed flags to be smuggled through the LDFLAGS sanitization. This affects usage of both the gc and gccgo compilers. [5][9]</p>
+<p>CVE-2023-29405: The go command may execute arbitrary code at build time when using cgo. This may occur when running "go get" on a malicious module, or when running any other command which builds untrusted code. This is can be triggered by linker flags, specified via a "#cgo LDFLAGS" directive. Flags containing embedded spaces are mishandled, allowing disallowed flags to be smuggled through the LDFLAGS sanitization by including them in the argument of another flag. This only affects usage of the gccgo compiler. [6][10]</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Update affected systems as patches become available and make sure relevant daemons are restarted.</p>
-<p>Sites running RHEL should see [1]</p>
-<p>Sites running CentOS should also see [1]</p>
-<p>Sites running Ubuntu should see [2]</p>
-<p>Sites running Scientific Linux should see [3]</p>
-<p>Sites running Debian should see [4]</p>
-<p>Sites running RockyLinux should see [5]</p>
-<p>Sites running Almalinux should see [6]</p>
+<p>For RHEL 7 based distributions: golang comes from EPEL. It should be available in epel-testing by the weekend and in epel in about another week. Install these updates when they become available.</p>
+<p>For RHEL 8 based distributions: An update for the go-toolset:rhel8 module is now available for Red Hat Enterprise Linux 8. Install these updates. You can find a full list of the updated packages in the RHEL 8 security announcement errata [1].</p>
+<p>For RHEL 9 based distributions: An update for go-toolset and golang is now available for Red Hat Enterprise Linux 9. Install these updates. You can find a full list of the updated packages in the RHEL 8 security announcement errata [2].</p>
+<p>If you are using your own builds of Go 1.19.x or 1.20.x, upgrade to versions 1.19.10 or 1.20.5 or higher respectively.</p>
+<p>Software that has been compiled with the unpatched versions of the Go tools should be recompiled after the updated versions have been installed.</p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://access.redhat.com/security/cve/CVE-2022-38177</p>
-<p>[2] https://ubuntu.com/security/CVE-2022-38177</p>
-<p>[3] https://www.scientificlinux.org/category/sl-errata/</p>
-<p>[4] https://security-tracker.debian.org/tracker</p>
-<p>[5] https://errata.rockylinux.org/</p>
-<p>[6] https://errata.almalinux.org/</p>
-<p>[7] https://bugzilla.redhat.com/show_bug.cgi?id=2128601</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
-<p>OSG Security Team</p>
+<p>[1] https://access.redhat.com/errata/RHSA-2023:3922</p>
+<p>[2] https://access.redhat.com/errata/RHSA-2023:3923</p>
+<p>[3] https://access.redhat.com/security/cve/CVE-2023-29402</p>
+<p>[4] https://access.redhat.com/security/cve/CVE-2023-29403</p>
+<p>[5] https://access.redhat.com/security/cve/CVE-2023-29404</p>
+<p>[6] https://access.redhat.com/security/cve/CVE-2023-29405</p>
+<p>[7] https://pkg.go.dev/vuln/GO-2023-1839</p>
+<p>[8] https://pkg.go.dev/vuln/GO-2023-1840</p>
+<p>[9] https://pkg.go.dev/vuln/GO-2023-1841</p>
+<p>[10] https://pkg.go.dev/vuln/GO-2023-1842</p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.
+OSG Security Team</p>
                 
               
               
@@ -1818,7 +1826,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2022-10-07/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1827,19 +1835,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2022-10-07 HIGH expat use-after-free
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2022-08-26/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2023-05-31/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2022-08-26 HIGH Linux systemd use-after-free vulnerability
+              OSG-SEC-2023-05-31 UPDATE on setuid-mode Apptainer exploit
             </div>
           </div>
           <div class="md-footer__button md-icon">
