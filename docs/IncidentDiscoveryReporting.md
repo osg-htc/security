@@ -5,7 +5,7 @@ If you suspect a security problem, please **report it immediately**.
 
 Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
 
-Please promptly report security incidents involving OSG resources via email to  <security@opensciencegrid.org>. 
+Please promptly report security incidents involving OSG resources via email to  <security@osg-htc.org>. 
 Please include the following information in your report:
 
 -   Your name, email address, phone number.
