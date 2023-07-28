@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-10-17/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2023-07-28/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter - OSG Security</title>
+        <title>OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2022-10-17-high-linux-kernel-use-after-free-in-cls_route-filter" class="md-skip">
+        <a href="#osg-sec-2023-07-28-high-openssh-remote-code-execution" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter
+              OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution
             
           </span>
         </div>
@@ -302,11 +302,70 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2023-07-28/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -494,70 +553,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2022-10-17/" class="md-nav__link">
         OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1781,39 +1781,39 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-10-17.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2023-07-28.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2022-10-17-high-linux-kernel-use-after-free-in-cls_route-filter">OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter</h1>
+                <h1 id="osg-sec-2023-07-28-high-openssh-remote-code-execution">OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>A use-after-free flaw was found in route4_change in the net/sched/cls_route.c filter implementation in the Linux kernel as described in CVE-2022-2588. [2]  It was discovered that the cls_route filter implementation in the Linux kernel would not remove an old filter from the hashtable before freeing it if its handle had the value 0. [1]</p>
+<p>A remote code execution vulnerability has been discovered in OpenSSH's forwarded ssh-agent. This vulnerability allows a remote attacker to potentially execute arbitrary commands on vulnerable OpenSSH's forwarded ssh-agent. [1] [2]</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>RHEL 6, 7, 8 based distributions (RHEL 9 is not affected). [2]
-Ubuntu (all actively supported versions). [5]</p>
+<p>OpenSSH 5.5 - 9.3p1 (inclusive)  [3]</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>This flaw allows a local user to crash the system and may allow local privilege escalation.</p>
+<p>Successful exploitation of this vulnerability allows a remote attacker to execute arbitrary commands on vulnerable OpenSSH forwarded ssh-agent. It occurs where specific libraries loaded via ssh-agent(1)'s PKCS#11 support could be abused to achieve remote code execution via a forwarded agent socket if the following conditions are met: [3]</p>
+<ul>
+<li>
+<p>Exploitation requires the presence of specific libraries on
+  the victim system.</p>
+</li>
+<li>
+<p>Remote exploitation requires that the agent was forwarded
+  to an attacker-controlled system.</p>
+</li>
+</ul>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Patches for the kernel and mitigations for RHEL based distributions aren't yet available. We recommend you pay attention to CVE references and update the kernel when patched versions are available, and then restart the systems.</p>
-<p>Patches for Debian/Ubuntu based distributions are available. Update the kernel with the patched versions, and restart the systems.</p>
-<p>Sites running RHEL should see [2]</p>
-<p>Sites running CentOS should also see [2]</p>
-<p>Sites running Scientific Linux should see [3]</p>
-<p>Sites running Debian should see [4]</p>
-<p>Sites running Ubuntu should see [5]</p>
-<p>Sites running RockyLinux should see [6]</p>
-<p>Sites running Almalinux should see [7]</p>
+<p>Upgrade to OpenSSH when updates are available for your Linux distributions. Presently there are no patched packages available for RHEL 6, 7, 8, or 9 based distributions [4].</p>
+<p>A patched version of the OpenSSH project source, 9.3p2, is available from the OpenSSH project if you want to build your own binaries from source. [3]</p>
+<p>The vulnerability can be mitigated by starting ssh-agent with an empty PKCS#11/FIDO allowlist (ssh-agent -P "") or by configuring an allowlist that contains only specific provider libraries. [3]</p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://bugzilla.redhat.com/show_bug.cgi?id=2114849</p>
-<p>[2] https://access.redhat.com/security/cve/CVE-2022-2588</p>
-<p>[3] https://www.scientificlinux.org/category/sl-errata/</p>
-<p>[4] https://security-tracker.debian.org/tracker/CVE-2022-2588</p>
-<p>[5] https://ubuntu.com/security/CVE-2022-2588</p>
-<p>[6] https://errata.rockylinux.org/</p>
-<p>[7] https://errata.almalinux.org/</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
-<p>OSG Security Team</p>
+<p>[1] https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent</p>
+<p>[2] https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt</p>
+<p>[3] https://www.openssh.com/releasenotes.html#9.3p2</p>
+<p>[4] https://access.redhat.com/security/cve/cve-2023-38408</p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.
+OSG Security Team</p>
                 
               
               
@@ -1832,7 +1832,7 @@ Ubuntu (all actively supported versions). [5]</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2022-10-25/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1841,19 +1841,19 @@ Ubuntu (all actively supported versions). [5]</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2022-10-25 HIGH libksba integer overflow
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2022-10-07/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2023-06-30/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2022-10-07 HIGH expat use-after-free
+              OSG-SEC-2023-06-30 CRITICAL Go programming language vulnerabilities
             </div>
           </div>
           <div class="md-footer__button md-icon">
