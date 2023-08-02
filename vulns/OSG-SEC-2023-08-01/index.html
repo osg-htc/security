@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-10-25/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2023-08-01/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2022-10-25 HIGH libksba integer overflow - OSG Security</title>
+        <title>OSG-SEC-2023-08-01 MEDIUM OpenJDK TLS vulnerability - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2022-10-25-high-libksba-integer-overflow" class="md-skip">
+        <a href="#osg-sec-2023-08-01-medium-openjdk-tls-vulnerability" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2022-10-25 HIGH libksba integer overflow
+              OSG-SEC-2023-08-01 MEDIUM OpenJDK TLS vulnerability
             
           </span>
         </div>
@@ -302,11 +302,70 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2023-08-01/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2023-08-01 MEDIUM OpenJDK TLS vulnerability
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2023-08-01 MEDIUM OpenJDK TLS vulnerability
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -494,70 +553,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2022-10-25 HIGH libksba integer overflow
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2022-10-25/" class="md-nav__link">
         OSG-SEC-2022-10-25 HIGH libksba integer overflow
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1793,36 +1793,31 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-10-25.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2023-08-01.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2022-10-25-high-libksba-integer-overflow">OSG-SEC-2022-10-25 HIGH libksba integer overflow</h1>
+                <h1 id="osg-sec-2023-08-01-medium-openjdk-tls-vulnerability">OSG-SEC-2023-08-01 MEDIUM OpenJDK TLS vulnerability</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>A vulnerability was found in the libksba library due to an integer overflow within the CRL parser. The vulnerability is outlined in CVE-2022-3515. [1]  KSBA (pronounced Kasbah) is a library to make X.509 certificates as well as the CMS (Cryptographic Message Syntax) easily accessible by other applications. Both specifications are building blocks of S/MIME and TLS.</p>
+<p>It was discovered that the TLS implementation in the JSSE component of OpenJDK did not correctly handle half-duplex connections during TLS handshake. A remote attacker could use this flaw to affect confidentiality or integrity of a TLS connection (CVE-2023-21930)  [1].</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>All versions of libksba before 1.6.2.</p>
+<p>All supported versions of RHEL and derived distributions [2].</p>
+<p>RHEL packages affected:</p>
+<p>java-11-openjdk</p>
+<p>java-17-openjdk</p>
+<p>java-1.8.0-openjdk</p>
+<p>java-1.8.0-ibm</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>The vulnerability can be exploited remotely for code execution on the target system by passing specially crafted data to the application, for example, a malicious S/MIME attachment. [7]</p>
+<p>This is described as a difficult to exploit vulnerability that allows an unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM Enterprise Edition. Successful attacks of this vulnerability can result in unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data as well as unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM Enterprise Edition accessible data [3].</p>
+<p>Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability can also be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs [3].</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Update affected systems as patches become available. Fixes are available for RedHat EL7, 8 and 9. All currently supported versions of Ubuntu also have fixes available.</p>
-<p>Sites running RHEL should see [1]</p>
-<p>Sites running CentOS should also see [1]</p>
-<p>Sites running Ubuntu should see [2]</p>
-<p>Sites running Scientific Linux should see [3]</p>
-<p>Sites running Debian should see [4]</p>
-<p>Sites running RockyLinux should see [5]</p>
-<p>Sites running Almalinux should see [6]</p>
+<p>Update the relevant OpenJDK packages installed on your Linux systems.</p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://access.redhat.com/security/cve/CVE-2022-3515</p>
-<p>[2] https://ubuntu.com/security/CVE-2022-3515</p>
-<p>[3] https://www.scientificlinux.org/category/sl-errata/</p>
-<p>[4] https://security-tracker.debian.org/tracker</p>
-<p>[5] https://errata.rockylinux.org/</p>
-<p>[6] https://errata.almalinux.org/</p>
-<p>[7] https://bugzilla.redhat.com/show_bug.cgi?id=2135610</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
+<p>[1] https://bugzilla.redhat.com/show_bug.cgi?id=2187435</p>
+<p>[2] https://access.redhat.com/security/cve/CVE-2023-21930</p>
+<p>[3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21930</p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
                 
               
@@ -1842,7 +1837,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2022-11-02/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1851,19 +1846,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2022-10-17/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2023-07-28/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2022-10-17 HIGH Linux kernel use-after-free in cls_route filter
+              OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution
             </div>
           </div>
           <div class="md-footer__button md-icon">
