@@ -1,6 +1,7 @@
 
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2023-08-01  | MEDIUM OpenJDK TLS vulnerability | [OSG-SEC-2023-08-01](./vulns/OSG-SEC-2023-08-01.md) |     |
 | 2023-07-28  | HIGH OpenSSH remote code execution | [OSG-SEC-2023-07-28](./vulns/OSG-SEC-2023-07-28.md) |     |
 | 2023-06-30  | CRITICAL Go programming language vulnerabilities | [OSG-SEC-2023-06-30](./vulns/OSG-SEC-2023-06-30.md) |     |
 | 2023-05-31  | UPDATE on setuid-mode Apptainer exploit | [OSG-SEC-2023-05-31](./vulns/OSG-SEC-2023-05-31.md) |     |
