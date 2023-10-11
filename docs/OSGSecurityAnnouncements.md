@@ -3,6 +3,7 @@
 |-------------|-------------------------------------------------------|---------------------|---------------|
 | 2023-10-11  | HIGH Severity GNU C Library Privilege Escalation | [OSG-SEC-2023-10-09](./vulns/OSG-SEC-2023-10-09.md) |     |
 | 2023-09-26  | CRITICAL PMIx race condition vulnerability affecting Slurm | [OSG-SEC-2023-09-26](./vulns/OSG-SEC-2023-09-26.md) |     |
+| 2023-09-25  | HIGH Multiple Linux Kernel Vulnerabilities | [OSG-SEC-2023-09-25](./vulns/OSG-SEC-2023-09-25.md) |     |
 | 2023-08-01  | MEDIUM OpenJDK TLS vulnerability | [OSG-SEC-2023-08-01](./vulns/OSG-SEC-2023-08-01.md) |     |
 | 2023-07-28  | HIGH OpenSSH remote code execution | [OSG-SEC-2023-07-28](./vulns/OSG-SEC-2023-07-28.md) |     |
 | 2023-06-30  | CRITICAL Go programming language vulnerabilities | [OSG-SEC-2023-06-30](./vulns/OSG-SEC-2023-06-30.md) |     |
