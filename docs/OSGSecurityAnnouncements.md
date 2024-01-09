@@ -1,6 +1,6 @@
-
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2023-10-11  | HIGH SSH vulnerability exploitable in Terrapin attack | [OSG-SEC-2024-01-08](./OSG-SEC-2024-01-08-HIGH-SSH-vulnerability-exploitable-in-Terrapin-attacks.md) |     |
 | 2023-10-11  | HIGH Severity GNU C Library Privilege Escalation | [OSG-SEC-2023-10-09](./vulns/OSG-SEC-2023-10-09.md) |     |
 | 2023-09-26  | CRITICAL PMIx race condition vulnerability affecting Slurm | [OSG-SEC-2023-09-26](./vulns/OSG-SEC-2023-09-26.md) |     |
 | 2023-09-25  | HIGH Multiple Linux Kernel Vulnerabilities | [OSG-SEC-2023-09-25](./vulns/OSG-SEC-2023-09-25.md) |     |
