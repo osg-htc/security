@@ -13,7 +13,7 @@ If you suspect a security problem, please **report it immediately**.
 !!! note
     Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
 
-Please promptly report security incidents involving OSG resources via email to  <security@opensciencegrid.org>. 
+Please promptly report security incidents involving OSG resources via email to <security@osg-htc.org>. 
 Please include the following information in your report:
 
 -   Your name, email address, phone number.
@@ -24,24 +24,11 @@ Please include the following information in your report:
 
 For urgent incidents or security issues, please escalate reports to security team members (below) via direct message in the OSG Slack Server or ask your team lead to contact the Information Security Officer via phone or SMS.
 
-## OSG Security team members
-
-The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
-
-- OSG Security Officer: Josh Drake
-- Adrian Crenshaw
-- Brian Chase
-
 ## Mailing Lists
 *The following addresses are open for use by all OSG members, partners, and collaborators:*
 
-**<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents.
-
-**<security-sig@opensciencegrid.org>** is an open security discussion group for **non-sensitive** security topics related to OSG.  You can join this mailing list [here](fnal-mail-list-join.md). 
-
-*The following addresses are for internal use by OSG staff:*
-
-**<osg-security-team@opensciencegrid.org>** is for internal discussions among OSG security team members.
+**<security@osg-htc.org>** is the standard email address open to the OSG public for reporting of security incidents.
+**<security-announcements@osg-htc.org>** is a google group which recieves OSG security annoucements and public incident reports from the OSG Security Team.  Membership is open to the public subject to approval by the security team.
 
 ## OSG Security Team PGP key
 
