@@ -28,6 +28,7 @@ For urgent incidents or security issues, please escalate reports to security tea
 *The following addresses are open for use by all OSG members, partners, and collaborators:*
 
 **<security@osg-htc.org>** is the standard email address open to the OSG public for reporting of security incidents.
+
 **<security-announcements@osg-htc.org>** is a google group which recieves OSG security annoucements and public incident reports from the OSG Security Team.  Membership is open to the public subject to approval by the security team.
 
 ## OSG Security Team PGP key
