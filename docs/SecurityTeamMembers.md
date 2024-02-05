@@ -1,8 +1,8 @@
 # OSG Security Team
 
-The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
+The OSG Security Team can be contacted at security AT osg-htc DOT org
 
 - Security Officer - Josh Drake
-- Analyst - Brian Chase
+- Analyst - Mike Stanfield
 - Analyst - Adrian Crenshaw
-- Analyst - Ryan Kiser
+- Analyst - Chris Lauderbaugh
