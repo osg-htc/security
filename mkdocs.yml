@@ -106,10 +106,6 @@ nav:
     - OSG-SEC-2018-01-22 Meltdown-Spectre Update: './vulns/OSG-SEC-2018-01-22-Meltdown-Spectre-Update.md'
     - OSG-SEC-2018-01-10 Meltdown-Spectre Update: './vulns/OSG-SEC-2018-01-10-Meltdown-Spectre-Update.md'
     - OSG-SEC-2018-01-04 Meltdown-Spectre Update: './vulns/OSG-SEC-2018-01-04-Meltdown-Spectre.md'
-- CILogon OSG CA:
-  - CILogon OSG CA: 'OSGCertificateService.md'
-  - Frequently Asked Questions (FAQ): 'CILogonOSGFAQ.md'
-- Certificate Authorities (CA) Distribution: 'CaDistribution.md'
 - OSG Security Policies & Procedures:
   - Including Let’s Encrypt signing certificate in OSG CA bundle: 'LetsEncryptOSGCAbundle.md'
   - Approved OSG Security Policies: 'OSGSecurityPolicies.md'
@@ -120,10 +116,6 @@ nav:
   - Software Vulnerability Handling: 'SoftwareVulnerabilityHandling.md'
   - Incident Discovery Reporting: 'IncidentDiscoveryReporting.md'
   - Joining Security-SIG mailing list: 'fnal-mail-list-join.md'
-- Integrated Security for the OSG:
-  - Security Awareness for the OSG: 'SecurityAwarenessForTheOSG.md'
-  - Security User Responsibilities: 'SecurityUserResponsibilities.md'
-  - Security Site Responsibilities: 'SecuritySiteResponsibilities.md'
 
 markdown_extensions:
   - admonition
