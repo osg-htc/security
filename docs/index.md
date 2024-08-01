@@ -13,24 +13,23 @@ If you suspect a security problem, please **report it immediately**.
 !!! note
     Also do NOT forget to report security incidents to your **local/home organization's** incident response team.
 
-Please promptly report security incidents involving OSG resources via email to  <security@opensciencegrid.org>. 
+Please promptly report security incidents involving OSG resources via email to <security@osg-htc.org>. 
 Please include the following information in your report:
 
 -   Your name, email address, phone number.
 -   A description of the incident, including time(s), systems and user accounts involved, and any related event.
 -   What is your affiliation with the OSG? Which Virtual Organization are you a member of?
--   Did this incident occur on a Site machine or on a VO machine or on your personal computer? Please provide detailed information (names, IPs, URLs, etc.) if you have
 -   Do you think your grid identity (certificate and/or proxy) is compromised?
 -   Any additional comments or questions you have
+
+For urgent incidents or security issues, please escalate reports to security team members (below) via direct message in the OSG Slack Server or ask your team lead to contact the Information Security Officer via phone or SMS.
 
 ## Mailing Lists
 *The following addresses are open for use by all OSG members, partners, and collaborators:*
 
-**<security@opensciencegrid.org>** is the standard email address open to the OSG public for reporting of security incidents. 
+**<security@osg-htc.org>** is the standard email address open to the OSG public for reporting of security incidents.
 
-*The following addresses are for internal use by OSG staff:*
-
-**<osg-security-team@opensciencegrid.org>** is for internal discussions among OSG security team members.
+**<security-announcements@osg-htc.org>** is a google group which recieves OSG security annoucements and public incident reports from the OSG Security Team.  Membership is open to the public subject to approval by the security team.
 
 ## OSG Security Team PGP key
 
@@ -42,11 +41,3 @@ Fingerprint: 6E5F 4DD8 7ABC 9F68 A49B  F3CA 15E3 B3AD 7FD4 2669
 ```
 
 The team key is available from the [MIT PGP server](http://pgp.mit.edu:11371/pks/lookup?search=security%40opensciencegrid.org&op=index). PGP software is available from: [GnuPG](http://www.gnupg.org/)
-
-## OSG Security team members
-
-The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
-
-- OSG Security Officer: Susan Sons sesons AT iu.edu
-- Zalak Shah: zsshah AT iu.edu
-- Jeny Teheran: jteheran AT fnal.gov

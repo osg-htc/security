@@ -1,9 +1,8 @@
 # OSG Security Team
 
-The OSG Security Team can be contacted at osg-security-team AT opensciencegrid.org
+The OSG Security Team can be contacted at security AT osg-htc DOT org
 
-- OSG Security Officer: Susan Sons sesons AT iu.edu
-- Zalak Shah: zsshah AT iu.edu
-- Jeny Teheran: jteheran AT fnal.gov
-- Ryan Kiser: rlkiser AT iu.edu
-- Mike Stanfield: stanfiem AT iu.edu
+- Security Officer - Josh Drake
+- Analyst - Mike Stanfield
+- Analyst - Adrian Crenshaw
+- Analyst - Chris Lauderbaugh
