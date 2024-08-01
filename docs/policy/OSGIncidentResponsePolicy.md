@@ -243,7 +243,7 @@ During an incident investigation, members of the IR team may need to share sensi
     * It has been noted that GPG signatures are fragile and often do not validate for benign reasons. Staff should also validate a request using an alternate channel if they have any doubt as to the legitimacy of a message.
     * It has been noted that emails are not predictable in their delivery latency and cannot be relied on for timely communication.
 * Phone (voice & secure message app Signal)
-* In person [IU Slashtmp](​https://www.slashtmp.iu.edu/​) - CRITICAL version
+* In person [IU Secure Share](​https://secureshare.iu.edu/​) - CRITICAL version
     * Transfers must be initiated by IU account holder
 
 When communication of sensitive data using an approved method is not possible (e.g. not all management is familiar with the above methods), OSG personnel must exercise judgment regarding the method, content, and timing of related communications.
