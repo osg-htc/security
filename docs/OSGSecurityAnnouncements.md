@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2024-10-03  | IDTOKEN Signing Key Present In OSG Hosted-CE Container Images | [OSG-SEC-2024-10-03](./vulns/OSG-SEC-2024-10-03.md) |     |
 | 2024-01-09  | HIGH SSH vulnerability exploitable in Terrapin attack | [OSG-SEC-2024-01-08](./vulns/OSG-SEC-2024-01-08-HIGH-SSH-vulnerability-exploitable-in-Terrapin-attacks.md) |     |
 | 2023-10-11  | HIGH Severity GNU C Library Privilege Escalation | [OSG-SEC-2023-10-09](./vulns/OSG-SEC-2023-10-09.md) |     |
 | 2023-09-26  | CRITICAL PMIx race condition vulnerability affecting Slurm | [OSG-SEC-2023-09-26](./vulns/OSG-SEC-2023-09-26.md) |     |
