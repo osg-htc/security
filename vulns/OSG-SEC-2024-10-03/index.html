@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2023-09-25/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2024-10-03/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2023-09-25 HIGH Multiple Linux Kernel Vulnerabilities - OSG Security</title>
+        <title>OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2023-09-25-high-multiple-linux-kernel-vulnerabilities" class="md-skip">
+        <a href="#osg-sec-2024-10-03-idtoken-signing-key-present-in-osg-hosted-ce-container-images" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2023-09-25 HIGH Multiple Linux Kernel Vulnerabilities
+              OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images
             
           </span>
         </div>
@@ -302,11 +302,49 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2024-10-03/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -338,70 +376,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2023-09-25 HIGH Multiple Linux Kernel Vulnerabilities
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2023-09-25/" class="md-nav__link">
         OSG-SEC-2023-09-25 HIGH Multiple Linux Kernel Vulnerabilities
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1667,27 +1646,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
     REFERENCES
   </a>
@@ -1706,52 +1664,21 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2023-09-25.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2024-10-03.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2023-09-25-high-multiple-linux-kernel-vulnerabilities">OSG-SEC-2023-09-25 HIGH Multiple Linux Kernel Vulnerabilities</h1>
+                <h1 id="osg-sec-2024-10-03-idtoken-signing-key-present-in-osg-hosted-ce-container-images">OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>Red Hat has announced multiple Linux kernel security vulnerabilities that can result in privilege escalation. Please see the details below.</p>
-<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>RHEL 7, 8, 9 and all RHEL based distributions.</p>
-<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>The following CVEs affect RHEL7, RHEL8 &amp; RHEL9:</p>
-<p>CVE-2023-35001 - An out-of-bounds (OOB) memory access flaw was found in the Netfilter module in the Linux kernel's nft_byteorder_eval in net/netfilter/nft_byteorder.c. A bound check failure allows a local attacker with CAP_NET_ADMIN access to cause a local privilege escalation issue due to incorrect data alignment. [1]</p>
-<p>CVE-2023-3776 - A use-after-free vulnerability was found in fw_set_parms in net/sched/cls_fw.c in the network scheduler sub-component in the Linux Kernel. This issue occurs due to a missing sanity check during cleanup at the time of failure, leading to a misleading reference. This may allow a local attacker to gain local privilege escalation. [2]</p>
-<p>CVE-2023-20593 - Zenbleed AMD Zen 2 CPU data leak. [3]</p>
-<p>The following CVEs affect RHEL8 &amp; RHEL9:</p>
-<p>CVE-2023-3390 - A use-after-free flaw was found in the Netfilter subsystem of the Linux kernel when processing named and anonymous sets in batch requests, which can lead to performing arbitrary reads and writes in kernel memory. This flaw allows a local user with CAP_NET_ADMIN capability to crash or potentially escalate their privileges on the system. [4]</p>
-<p>CVE-2023-4004 - A use-after-free flaw was found in the Linux kernel's netfilter in the way a user triggers the nft_pipapo_remove function with the element, without a NFT_SET_EXT_KEY_END. This issue could allow a local user to crash the system or potentially escalate their privileges on the system. [5]</p>
-<p>CVE-2023-21102 - A vulnerability was found in the __efi_rt_asm_wrapper of the efi-rt-wrapper.S in the Linux kernel, where there is a possible bypass of shadow stack protection due to a logic error in the code. This flaw could lead to local escalation of privilege without additional execution privileges needed. [6]</p>
-<p>CVE-2023-1637 - A flaw was found in the Linux kernel X86 CPU Power management when resuming CPU from suspend-to-RAM. This issue could allow a local user unauthorized access to memory from the CPU. [7]</p>
-<p>The following CVEs affect RHEL9 only:</p>
-<p>CVE-2023-3610 - A use-after-free vulnerability was found in the netfilter: nf_tables component in the Linux kernel due to a missing error handling in the abort path of NFT_MSG_NEWRULE. This flaw allows a local attacker with CAP_NET_ADMIN access capability to cause a local privilege escalation problem. [8]</p>
-<p>CVE-2023-4147 - A use-after-free flaw was found in the Linux kernel’s Netfilter functionality when adding a rule with NFTA_RULE_CHAIN_ID. This flaw allows a local user to crash or escalate their privileges on the system. [9]</p>
-<p>CVE-2023-31248 - A use-after-free flaw was found in the Linux kernel's Netfilter module in net/netfilter/nf_tables_api.c in nft_chain_lookup_byid. This flaw allows a local attacker to cause a local privilege escalation issue due to a missing cleanup. [10]</p>
-<h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Sites running RHEL7 are recommended to carry out mitigation, unless this disables functionality required, again see references below.</p>
-<p>Sites running RHEL8 are also recommended to update relevant components, as most of the vulnerabilities affecting RHEL8 have also been fixed.</p>
-<p>Sites running RHEL9 and derivatives are recommended to update relevant components as soon as possible, when a patched version is available see references below.</p>
-<p>Sites running various linux derivatives should see references below [11] [12] [13] [14].</p>
-<h2 id="references">REFERENCES</h2>
-<p>[1] https://access.redhat.com/security/cve/cve-2023-35001</p>
-<p>[2] https://access.redhat.com/security/cve/cve-2023-3776</p>
-<p>[3] https://access.redhat.com/security/cve/cve-2023-20593</p>
-<p>[4] https://access.redhat.com/security/cve/cve-2023-3390 </p>
-<p>[5] https://access.redhat.com/security/cve/cve-2023-4004</p>
-<p>[6] https://access.redhat.com/security/cve/cve-2023-21102</p>
-<p>[7] https://access.redhat.com/security/cve/cve-2023-1637</p>
-<p>[8] https://access.redhat.com/security/cve/cve-2023-3610 </p>
-<p>[9] https://access.redhat.com/security/cve/cve-2023-4147 </p>
-<p>[10] https://access.redhat.com/security/cve/cve-2023-31248</p>
-<p>[11] https://scientificlinux.org/category/sl-errata/</p>
-<p>[12] https://lists.centos.org/pipermail/centos-announce/</p>
-<p>[13] https://errata.build.resf.org/</p>
-<p>[14] https://errata.almalinux.org/</p>
-<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
+<p>OSG has discovered a security issue with the OSG Hosted-CE container images [1] where a default IDTOKEN signing key was generated each time the images were built. This key could have been used to submit local jobs to the Hosted-CEs until a new image, containing a new key, was generated.</p>
+<p>Upon discovery of the issue, we investigated our audit logs and found no evidence of job submission using this key. We have made changes to our container infrastructure to mitigate this issue and prevent the automatically generated key from being used.</p>
+<p>We are investigating further improvements to harden the Hosted-CEs to make access to an IDTOKEN signing key less impactful. Additionally, we are investigating methods and tools to implement automated secret scanning for OSG container images and other release artifacts to reduce the likelihood of future secrets being included in release artifacts. </p>
+<p>While we have no evidence that this issue was ever exploited, out of an abundance of caution we are rotating ALL SSH keys used by the Hosted-CEs to connect back to sites. OSG is working with the affected sites to minimize any disruptions caused by this credential rotation.</p>
+<p>Please contact the OSG Security team at security@osg-htc.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
+<h2 id="references">REFERENCES</h2>
+<p>[1] https://hub.docker.com/r/opensciencegrid/hosted-ce</p>
                 
               
               
@@ -1770,7 +1697,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2023-09-26/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1779,19 +1706,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2023-09-26 CRITICAL PMIx race condition vulnerability affecting Slurm
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2023-08-01/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2024-01-08-HIGH-SSH-vulnerability-exploitable-in-Terrapin-attacks/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2023-08-01 MEDIUM OpenJDK TLS vulnerability
+              OSG-SEC-2024-01-08 HIGH SSH vulnerability exploitable in Terrapin attacks
             </div>
           </div>
           <div class="md-footer__button md-icon">
