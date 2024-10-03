@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images: './vulns/OSG-SEC-2024-10-03.md'
     - OSG-SEC-2024-01-08 HIGH SSH vulnerability exploitable in Terrapin attacks: './vulns/OSG-SEC-2024-01-08-HIGH-SSH-vulnerability-exploitable-in-Terrapin-attacks.md'
     - OSG-SEC-2023-09-26 CRITICAL PMIx race condition vulnerability affecting Slurm: './vulns/OSG-SEC-2023-09-26.md'
     - OSG-SEC-2023-09-25 HIGH Multiple Linux Kernel Vulnerabilities: './vulns/OSG-SEC-2023-09-25.md'
