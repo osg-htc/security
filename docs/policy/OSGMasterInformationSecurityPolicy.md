@@ -2,10 +2,10 @@
 ========================================================================
 
 Version 1.1 
-Updated 28 June 2021
+Updated 6 December 2024
 
 Authors: Zalak Shah, Mike Stanfield  
-Information Security Officer: Josh Drake
+Information Security Officer: Mike Stanfield
 
 # 1 Introduction
 
@@ -23,10 +23,9 @@ OSG maintains a position of Information Security Officer (ISO), who reports to t
 
 Contact information for the ISO follows:
 
-ISO: Josh Drake  
-Email: [drakejc@iu.edu](mailto:drakejc@iu.edu)  
-Office Phone: 812-855-9567  
-OSG Security Team: [security@opensciencegrid.org](mailto:security@opensciencegrid.org)
+ISO: Mike Stanfield  
+Email: [stanfiem@iu.edu](mailto:stanfiem@iu.edu)    
+OSG Security Team: [security@osg-htc.org](mailto:security@osg-htc.org)
 
 ### 2.3 Project Personnel and Staff
 
@@ -40,13 +39,13 @@ External users are responsible for reviewing and respecting the following polici
 * [Open Science Grid Privacy Policy](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=741)
 * [Policy on OSG use by Commercial Entities](http://osg-docdb.opensciencegrid.org/cgi-bin/ShowDocument?docid=851)
  
- # 3 Developing, Implementing, and Maintaining Our Cybersecurity Program
+# 3 Developing, Implementing, and Maintaining Our Cybersecurity Program
 
- The goal of the OSG is to advance open science through distributed high throughput computing. Our Cybersecurity program is an essential component in support of this goal. Both the information security risk management processes, and possible exceptions to these processes are evaluated by the management, ISO, staff, and external stakeholders with an eye towards this overarching goal.
+The goal of the OSG is to advance open science through distributed high throughput computing. Our Cybersecurity program is an essential component in support of this goal. Both the information security risk management processes, and possible exceptions to these processes are evaluated by the management, ISO, staff, and external stakeholders with an eye towards this overarching goal.
 
- ### 3.1 Information Security Risk Management Processes
+### 3.1 Information Security Risk Management Processes
 
- The Security team is responsible for identifying, assessing and managing risks to the Open Science Grid project, as well as providing guidance and training to other teams within OSG in order to enable OSG’s continued security.
+The Security team is responsible for identifying, assessing and managing risks to the Open Science Grid project, as well as providing guidance and training to other teams within OSG in order to enable OSG’s continued security.
 
 *Goals*
 
