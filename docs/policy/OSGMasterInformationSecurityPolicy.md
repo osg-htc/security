@@ -65,7 +65,7 @@ The security policies of OSG will be reviewed by the security team at least once
 
 ### 3.2 Exception Management
 
-In order to request an exception to a particular policy, send an email to security@opensciencegrid.org​ with the following details.
+In order to request an exception to a particular policy, send an email to security@osg-htc.org​ with the following details.
 
 1. Name, version, and URL of the policy to which you want to make an exception 
 2. Name of the requester 
@@ -78,7 +78,7 @@ The Security team will own the risk for the exceptions that are approved by the 
  
 ### 3.3 Enforcement
 
-Violations of OSG information security policies can result in loss of access to resources and services, and/or disciplinary action. Activities in violation of any laws may be reported to the proper authorities for investigation and prosecution. Anyone who believes that there is a violation of any information security policy or has a related question should contact [security@opensciencegrid.org​](mailto:security@opensciencegrid.org).
+Violations of OSG information security policies can result in loss of access to resources and services, and/or disciplinary action. Activities in violation of any laws may be reported to the proper authorities for investigation and prosecution. Anyone who believes that there is a violation of any information security policy or has a related question should contact [security@osg-htc.org​](mailto:security@osg-htc.org).
  
 ### 3.4 Modifications to Information Security Policies and Procedures
 
@@ -95,7 +95,7 @@ The Information Security Officer (ISO) is responsible for coordinating changes t
 *Key Contacts*
 
 * [The OSG areas and their coordinators](https://opensciencegrid.org/management/#executive-team)
-* OSG Security Team: [security@opensciencegrid.org](mailto:security@opensciencegrid.org)
+* OSG Security Team: [security@osg-htc.org](mailto:security@osg-htc.org)
 
 # 5 Other Policy and Procedure Documents
 
