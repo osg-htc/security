@@ -1,4 +1,4 @@
-**Open Science Grid Master Information Security Policy and Procedures**
+**OSG Master Information Security Policy and Procedures**
 ========================================================================
 
 Version 1.1 
