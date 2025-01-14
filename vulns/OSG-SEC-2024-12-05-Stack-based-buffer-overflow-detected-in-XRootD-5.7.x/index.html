@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2024-12-05-Stack-based-buffer-overflow-detected-in-XRootD-5.7.x/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2018-03-08 Limiting Singularity image types - OSG Security</title>
+        <title>OSG-SEC-2024-12-05 Stack based buffer overflow detected in XRootD-5.7.x - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2018-03-08-limiting-singularity-image-types" class="md-skip">
+        <a href="#osg-sec-2024-12-05-stack-based-buffer-overflow-detected-in-xrootd-57x" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2018-03-08 Limiting Singularity image types
+              OSG-SEC-2024-12-05 Stack based buffer overflow detected in XRootD-5.7.x
             
           </span>
         </div>
@@ -302,11 +302,77 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2024-12-05-Stack-based-buffer-overflow-detected-in-XRootD-5.7.x/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2024-12-05 Stack based buffer overflow detected in XRootD-5.7.x
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2024-12-05 Stack based buffer overflow detected in XRootD-5.7.x
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workarounds" class="md-nav__link">
+    WORKAROUNDS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1382,77 +1448,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2018-03-08 Limiting Singularity image types
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2018-03-08-Limiting-Singularity-image-types/" class="md-nav__link">
         OSG-SEC-2018-03-08 Limiting Singularity image types
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-the-potential-vulnerability" class="md-nav__link">
-    WHAT IS THE POTENTIAL VULNERABILITY:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES:
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1693,8 +1693,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-is-the-potential-vulnerability" class="md-nav__link">
-    WHAT IS THE POTENTIAL VULNERABILITY:
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
   </a>
   
 </li>
@@ -1707,15 +1707,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS:
+  <a href="#workarounds" class="md-nav__link">
+    WORKAROUNDS
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    REFERENCES:
+    REFERENCES
   </a>
   
 </li>
@@ -1732,37 +1732,37 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2018-03-08-Limiting-Singularity-image-types.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2024-12-05-Stack-based-buffer-overflow-detected-in-XRootD-5.7.x.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2018-03-08-limiting-singularity-image-types">OSG-SEC-2018-03-08 Limiting Singularity image types</h1>
+                <h1 id="osg-sec-2024-12-05-stack-based-buffer-overflow-detected-in-xrootd-57x">OSG-SEC-2024-12-05 Stack-based buffer overflow detected in XRootD 5.7.x</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>This security advisory is INFORMATIONAL for OSG sites that have installed Singularity. The OSG Security Team would like to inform sites of how they can reduce risk of unknown exploits by disabling unused features.</p>
-<p>The default configuration of Singularity allows image types that carry a higher theoretical risk of attack. These image types are not currently used on the OSG, no specific exploit has been found, and we believe that any discovered vulnerability would be patched by RedHat. For those reasons, sites may choose whether or not to protect against the potential vulnerability. This issue has been documented in the OSG singularity install documentation for a few months so you may already be aware of it, but there has been no OSG security announcement about it before now.</p>
+<p>TLP:GREEN </p>
+<p>XRootD team has announced a security vulnerability in XRootD 5.7.x. This vulnerability is a network-reachable stack-based buffer overflow that could allow an attacker to crash vulnerable XRootD installs.</p>
+<p>The official advisory[1] will be released to coincide with the public announcement of the XrootD 5.7.2 release. This security announcement is being sent to give time for sites to update prior to the official announcement; as such this announcement will not be publicly posted on our website until the official XRootD advisory is posted.</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<ul>
-<li>RedHat 6 &amp; 7 and its derivatives are affected, and all versions of Singularity.</li>
-</ul>
-<h2 id="what-is-the-potential-vulnerability">WHAT IS THE POTENTIAL VULNERABILITY:</h2>
-<p>By default the setuid (RPM) distribution of Singularity allows unprivileged users to mount image files via loopback devices. This carries an inherently higher exposure to potential kernel exploits, as discussed in [1]. There are no known public exploits at this time, but Linux kernel developers are concerned enough to refuse allowing the capability in the kernel. Singularity enables the capability via a setuid-root function.</p>
-<p>No OSG VOs require mounting image files via loopback devices with Singularity on worker nodes. They instead use operating system images in directory trees distributed in CVMFS.  However, as sites utilize OSG-provided Singularity for non-OSG use cases, we have not changed the upstream default value. Changing the RPM’s default values could potentially cause problems when upgrading between Singularity versions.</p>
-<p>Sites should balance their understanding of the elevated risk with local use cases when planning any configuration change.</p>
+<p>XRootD 5.7.0 and 5.7.1</p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>This vulnerability consists in a stack-based buffer overflow coming from
+std::regex which may crash when matching very long lines. This would allow
+a malicious agent to cause a crash of either the client or the server when
+processing very long URLs or HTTP headers.</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Read the “Limiting Image Types” section in the OSG documentation for installing Singularity [2] and decide whether or not to set the number of loopback devices to zero. Note the warning about watching out for singularity.conf.rpmnew after upgrades.</p>
-<p>Sites should also consider limiting their vulnerability further by installing only the singularity-runtime rpm and not the singularity rpm on worker nodes.</p>
-<h2 id="related-links">RELATED LINKS:</h2>
-<ul>
-<li>https://ticket.grid.iu.edu/36388</li>
-</ul>
-<h2 id="references">REFERENCES:</h2>
-<ul>
-<li>[1] https://lwn.net/Articles/652468/</li>
-<li>[2] http://opensciencegrid.github.io/docs/worker-node/install-singularity/#limiting-image-types</li>
-</ul>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
-<p>OSG Security Team</p>
+<p>All sites running XRootD 5.7.x should update immediately.</p>
+<p>XRootD 5.7.2 is currently available in the osg-testing repository [2]. It is also available via Github [3], XRootD release tarballs [4], and the XRootD repos [5].</p>
+<p>XRootD 5.6.9 and earlier are unaffected.</p>
+<h2 id="workarounds">WORKAROUNDS</h2>
+<p>There is no known workaround for this vulnerability, users of XRootD 5.7.0 and 5.7.1 should upgrade to XRootD 5.7.2.</p>
+<h2 id="references">REFERENCES</h2>
+<p>[1] https://github.com/xrootd/xrootd/security/advisories/GHSA-hrvf-4x86-8xrq 
+[2] https://osg-htc.org/docs/common/yum/#repositories
+[3] https://github.com/xrootd/xrootd/releases/tag/v5.7.2
+[4] https://xrootd.web.cern.ch/download/v5.7.2/xrootd-5.7.2.tar.gz 
+[5] http://xrootd.org/dload.html#official-rpm-repositories</p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
+<p>OSG Security Team </p>
                 
               
               
@@ -1781,7 +1781,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1790,19 +1790,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2018-03-13 SAML Vulnerabilities affecting multiple implementations
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2018-03-05-Singularity-Vulnerability/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2024-10-03/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2018-03-05 Vulnerability in Singularity
+              OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images
             </div>
           </div>
           <div class="md-footer__button md-icon">
