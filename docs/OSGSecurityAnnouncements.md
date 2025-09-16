@@ -1,6 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
-| 2024-12-05  | linux-pam: Incomplete fix for CVE-2025-6020 (CVE-2025-8941) | [OSG-SEC-2025-09-04](./vulns/OSG-SEC-2025-09-04.md) |     |
+| 2025-09-04  | linux-pam: Incomplete fix for CVE-2025-6020 (CVE-2025-8941) | [OSG-SEC-2025-09-04](./vulns/OSG-SEC-2025-09-04.md) |     |
 | 2024-12-05  | Stack based buffer overflow detected in XRootD 5.7.x | [OSG-SEC-2024-12-05](./vulns/OSG-SEC-2024-12-05-Stack-based-buffer-overflow-detected-in-XRootD-5.7.x.md) |     |
 | 2024-10-03  | IDTOKEN Signing Key Present In OSG Hosted-CE Container Images | [OSG-SEC-2024-10-03](./vulns/OSG-SEC-2024-10-03.md) |     |
 | 2024-01-09  | HIGH SSH vulnerability exploitable in Terrapin attack | [OSG-SEC-2024-01-08](./vulns/OSG-SEC-2024-01-08-HIGH-SSH-vulnerability-exploitable-in-Terrapin-attacks.md) |     |
