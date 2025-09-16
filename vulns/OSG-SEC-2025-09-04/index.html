@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2023-07-28/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2025-09-04/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution - OSG Security</title>
+        <title>OSG-SEC-2025-09-04 Linux pam Incomplete fix for CVE-2025-6020 (CVE-2025-8941) - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2023-07-28-high-openssh-remote-code-execution" class="md-skip">
+        <a href="#osg-sec-2025-09-04-high-linux-pam-incomplete-fix-for-cve-2025-6020-cve-2025-8941" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution
+              OSG-SEC-2025-09-04 Linux pam Incomplete fix for CVE-2025-6020 (CVE-2025-8941)
             
           </span>
         </div>
@@ -302,11 +302,77 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2025-09-04/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2025-09-04 Linux pam Incomplete fix for CVE-2025-6020 (CVE-2025-8941)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2025-09-04 Linux pam Incomplete fix for CVE-2025-6020 (CVE-2025-8941)
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attack-preconditions" class="md-nav__link">
+    Attack Preconditions:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -386,70 +452,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2023-07-28/" class="md-nav__link">
         OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1705,6 +1712,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#attack-preconditions" class="md-nav__link">
+    Attack Preconditions:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#what-you-should-do" class="md-nav__link">
     WHAT YOU SHOULD DO:
   </a>
@@ -1713,7 +1727,7 @@
       
         <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    REFERENCES
+    REFERENCES:
   </a>
   
 </li>
@@ -1730,39 +1744,39 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2023-07-28.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2025-09-04.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2023-07-28-high-openssh-remote-code-execution">OSG-SEC-2023-07-28 HIGH OpenSSH remote code execution</h1>
+                <h1 id="osg-sec-2025-09-04-high-linux-pam-incomplete-fix-for-cve-2025-6020-cve-2025-8941">OSG-SEC-2025-09-04 HIGH linux-pam: Incomplete fix for CVE-2025-6020 (CVE-2025-8941)</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>A remote code execution vulnerability has been discovered in OpenSSH's forwarded ssh-agent. This vulnerability allows a remote attacker to potentially execute arbitrary commands on vulnerable OpenSSH's forwarded ssh-agent. [1] [2]</p>
+<p>A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root.
+This CVE provides a "complete" fix for CVE-2025-6020. Successful exploitation requires only the ability to create and manipulate filesystem paths in such directories, without the need for special capabilities or kernel-level vulnerabilities.</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>OpenSSH 5.5 - 9.3p1 (inclusive)  [3]</p>
+<p>RHEL version 8 and 9 and others.</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>Successful exploitation of this vulnerability allows a remote attacker to execute arbitrary commands on vulnerable OpenSSH forwarded ssh-agent. It occurs where specific libraries loaded via ssh-agent(1)'s PKCS#11 support could be abused to achieve remote code execution via a forwarded agent socket if the following conditions are met: [3]</p>
-<ul>
-<li>
-<p>Exploitation requires the presence of specific libraries on
-  the victim system.</p>
-</li>
-<li>
-<p>Remote exploitation requires that the agent was forwarded
-  to an attacker-controlled system.</p>
-</li>
-</ul>
+<p>This vulnerability in pam_namespace is rated Important because it allows a local, unprivileged user to escalate privileges to root by exploiting symlink attacks or race conditions in polyinstantiated directories under their control. Successful exploitation requires only the ability to create and manipulate filesystem paths in such directories, without the need for special capabilities or kernel-level vulnerabilities. 
+In multi-user environments—such as shared systems, terminal servers, or certain container deployments, an unprotected or misconfigured pam_namespace configuration can serve as a single point of compromise. Privilege escalation flaws of this nature may also be chained with other vulnerabilities to maintain persistence or evade detection, further increasing the overall impact.</p>
+<h2 id="attack-preconditions">Attack Preconditions:</h2>
+<p>Any valid, unprivileged user account.
+Ability to create/manipulate files in polyinstantiated directories (/tmp, /var/tmp, etc.).</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Upgrade to OpenSSH when updates are available for your Linux distributions. Presently there are no patched packages available for RHEL 6, 7, 8, or 9 based distributions [4].</p>
-<p>A patched version of the OpenSSH project source, 9.3p2, is available from the OpenSSH project if you want to build your own binaries from source. [3]</p>
-<p>The vulnerability can be mitigated by starting ssh-agent with an empty PKCS#11/FIDO allowlist (ssh-agent -P "") or by configuring an allowlist that contains only specific provider libraries. [3]</p>
-<h2 id="references">REFERENCES</h2>
-<p>[1] https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent</p>
-<p>[2] https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt</p>
-<p>[3] https://www.openssh.com/releasenotes.html#9.3p2</p>
-<p>[4] https://access.redhat.com/security/cve/cve-2023-38408</p>
-<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.
-OSG Security Team</p>
+<p>Upgrade to secure packages as they become available.
+Interim mitigation: Disable pam_namespace.so in /etc/pam.d/systemd-user, /etc/pam.d/login, and /etc/pam.d/remote if not strictly needed.
+RHEL 7 is impacted, but no fix is available as RHEL 7 has reached End of Maintenance (EOM) support as of June 30, 2024. The fix for RHEL 7 is to upgrade to a supported OS version.</p>
+<h2 id="references">REFERENCES:</h2>
+<ul>
+<li>[1] https://access.redhat.com/errata/RHSA-2025:15099</li>
+<li>[2] https://bugzilla.redhat.com/show_bug.cgi?id=2388220 </li>
+<li>[3] https://access.redhat.com/security/cve/cve-2025-8941</li>
+<li>[4] https://nvd.nist.gov/vuln/detail/CVE-2025-8941</li>
+<li>[5] https://security-tracker.debian.org/tracker/CVE-2025-8941</li>
+<li>[6] https://errata.almalinux.org/</li>
+<li>[7] https://errata.build.resf.org/</li>
+</ul>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
+<p>OSG Security Team</p>
                 
               
               
@@ -1781,7 +1795,7 @@ OSG Security Team</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2023-08-01/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1790,19 +1804,19 @@ OSG Security Team</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2023-08-01 MEDIUM OpenJDK TLS vulnerability
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2023-06-30/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2024-12-05-Stack-based-buffer-overflow-detected-in-XRootD-5.7.x/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2023-06-30 CRITICAL Go programming language vulnerabilities
+              OSG-SEC-2024-12-05 Stack based buffer overflow detected in XRootD-5.7.x
             </div>
           </div>
           <div class="md-footer__button md-icon">
