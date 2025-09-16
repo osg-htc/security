@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2025-09-11 linux-kernel- CRITICAL risk vulnerability allowing local privilege escalation,CVE-2025-38352: './vulns/OSG-SEC-2025-09-11.md'
     - OSG-SEC-2025-09-04 Linux pam Incomplete fix for CVE-2025-6020 (CVE-2025-8941): './vulns/OSG-SEC-2025-09-04.md'
     - OSG-SEC-2024-12-05 Stack based buffer overflow detected in XRootD-5.7.x: './vulns/OSG-SEC-2024-12-05-Stack-based-buffer-overflow-detected-in-XRootD-5.7.x.md'
     - OSG-SEC-2024-10-03 IDTOKEN Signing Key Present In OSG Hosted-CE Container Images: './vulns/OSG-SEC-2024-10-03.md'
