@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-11-02/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2025-12-04/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows - OSG Security</title>
+        <title>OSG-SEC-2025-12-04 CRITICAL React Server Components Vulnerability (CVE-2025-55182) - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2022-11-02-high-openssl-buffer-overflows" class="md-skip">
+        <a href="#osg-sec-2025-12-04-critical-react-server-components-vulnerability-cve-2025-55182" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows
+              OSG-SEC-2025-12-04 CRITICAL React Server Components Vulnerability (CVE-2025-55182)
             
           </span>
         </div>
@@ -302,11 +302,84 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2025-12-04/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2025-12-04 CRITICAL React Server Components Vulnerability (CVE-2025-55182)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2025-12-04 CRITICAL React Server Components Vulnerability (CVE-2025-55182)
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#affected-packages" class="md-nav__link">
+    Affected Packages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-vulnerability" class="md-nav__link">
+    WHAT IS THE VULNERABILITY:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact" class="md-nav__link">
+    Impact
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -578,70 +651,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2022-11-02/" class="md-nav__link">
         OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1722,8 +1736,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
+  <a href="#affected-packages" class="md-nav__link">
+    Affected Packages
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-vulnerability" class="md-nav__link">
+    WHAT IS THE VULNERABILITY:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact" class="md-nav__link">
+    Impact
   </a>
   
 </li>
@@ -1754,39 +1782,43 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-11-02.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2025-12-04.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2022-11-02-high-openssl-buffer-overflows">OSG-SEC-2022-11-02 HIGH OpenSSL buffer overflows</h1>
+                <h1 id="osg-sec-2025-12-04-critical-react-server-components-vulnerability-cve-2025-55182">OSG-SEC-2025-12-04 CRITICAL React Server Components Vulnerability (CVE-2025-55182)</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>Two buffer overflow vulnerabilities were found in the OpenSSL toolkit: X.509 Email Address Buffer Overflow (CVE-2022-3602) [9] and X.509 Email Address Variable Length Buffer Overflow (CVE-2022-3786) [10]. OpenSSL is a toolkit that implements the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) protocols, as well as a full strength general purpose cryptography library.</p>
+<p>A pre-authentication remote code execution vulnerability exists in React Server Components. The vulnerable code unsafely deserializes payloads from HTTP requests to Server Function endpoints.</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>OpenSSL 3.0.0 - 3.0.6 (Older versions of OpenSSL are not affected.)</p>
-<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>The two separate buffer overflow vulnerabilities were discovered in the OpenSSL toolkit. A buffer overrun can be triggered by sending an X.509 certificate with a specially crafted email address field to a vulnerable client or server. This can result in an overflow of four attacker-controlled bytes on the stack. This could result in a crash (causing a denial of service) or possibly result in remote code execution. [7][8]</p>
+<p>19.0.0,
+19.1.0,
+19.1.1,
+19.2.0,</p>
+<h2 id="affected-packages">Affected Packages</h2>
+<p>react-server-dom-parcel,
+react-server-dom-turbopack,
+react-server-dom-webpack,</p>
+<h2 id="what-is-the-vulnerability">WHAT IS THE VULNERABILITY:</h2>
+<p>The vulnerability stems from unsafe deserialization logic used by React Server Components. An attacker can send a maliciously crafted serialized payload in an HTTP request to a Server Function endpoint. When React deserializes this payload, it may create unintended objects or trigger unexpected execution paths, enabling pre-authentication remote code execution on the server.
+This vulnerability does not affect client-side React applications, and only impacts applications that use React Server Components on the server.</p>
+<h2 id="impact">Impact</h2>
+<p>An unauthenticated remote attacker could:
+Execute arbitrary code on the server
+Access or manipulate data processed by server-side React functions
+Compromise the hosting environment
+Potentially pivot deeper into infrastructure</p>
+<p>Because this vulnerability requires no authentication and may be reachable through public endpoints, it is considered Critical.</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Several newer releases of Linux distributions include the OpenSSL 3.0 packages: RHEL 9, Ubuntu 22.04, Ubuntu 22.10. Some distributions may also provide the packages as non-standard add-ons like RHEL 8 through EPEL (Extra Packages for Enterprise Linux). You'll want to first establish if any of your Linux systems are impacted. If they are, update their OpenSSL 3.0 packages with the latest available patched versions.</p>
-<p>Sites running RHEL should see [1]</p>
-<p>Sites running CentOS should also see [1]</p>
-<p>Sites running Ubuntu should see [2]</p>
-<p>Sites running Scientific Linux should see [3]</p>
-<p>Sites running Debian should see [4]</p>
-<p>Sites running RockyLinux should see [5]</p>
-<p>Sites running Almalinux should see [6]</p>
+<p>Patched versions have been released. All users of the affected packages must upgrade immediately.
+19.0.1,
+19.1.2,
+19.2.1,
+Additionally, if you are a user of a React based component such as Next.js, React Router, Expo, Redwood SDK, or Waku, please check the react.dev link below for upgrade instructions.</p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://access.redhat.com/errata/RHSA-2022:7288</p>
-<p>[2] https://ubuntu.com/security/notices/USN-5710-1</p>
-<p>[3] https://www.scientificlinux.org/category/sl-errata/</p>
-<p>[4] https://security-tracker.debian.org/tracker</p>
-<p>[5] https://errata.rockylinux.org/</p>
-<p>[6] https://errata.almalinux.org/</p>
-<p>[7] https://bugzilla.redhat.com/show_bug.cgi?id=2137723</p>
-<p>[8] https://bugzilla.redhat.com/show_bug.cgi?id=2139104</p>
-<p>[9] https://access.redhat.com/security/cve/CVE-2022-3602</p>
-<p>[10] https://access.redhat.com/security/cve/CVE-2022-3786</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
+<p>[1] https://nvd.nist.gov/vuln/detail/CVE-2025-55182</p>
+<p>[2] https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components</p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
                 
               
@@ -1806,7 +1838,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2023-01-24/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1815,19 +1847,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2023-01-24 HIGH sudoedit privilege escalation
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2022-10-25/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2025-09-11/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2022-10-25 HIGH libksba integer overflow
+              OSG-SEC-2025-09-11 linux-kernel- CRITICAL risk vulnerability allowing local privilege escalation,CVE-2025-38352
             </div>
           </div>
           <div class="md-footer__button md-icon">
