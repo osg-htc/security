@@ -1794,11 +1794,11 @@
 <p>19.0.0,
 19.1.0,
 19.1.1,
-19.2.0,</p>
+19.2.0</p>
 <h2 id="affected-packages">Affected Packages</h2>
 <p>react-server-dom-parcel,
 react-server-dom-turbopack,
-react-server-dom-webpack,</p>
+react-server-dom-webpack</p>
 <h2 id="what-is-the-vulnerability">WHAT IS THE VULNERABILITY:</h2>
 <p>The vulnerability stems from unsafe deserialization logic used by React Server Components. An attacker can send a maliciously crafted serialized payload in an HTTP request to a Server Function endpoint. When React deserializes this payload, it may create unintended objects or trigger unexpected execution paths, enabling pre-authentication remote code execution on the server.
 This vulnerability does not affect client-side React applications, and only impacts applications that use React Server Components on the server.</p>
@@ -1813,7 +1813,7 @@ Potentially pivot deeper into infrastructure</p>
 <p>Patched versions have been released. All users of the affected packages must upgrade immediately.
 19.0.1,
 19.1.2,
-19.2.1,
+19.2.1.
 Additionally, if you are a user of a React based component such as Next.js, React Router, Expo, Redwood SDK, or Waku, please check the react.dev link below for upgrade instructions.</p>
 <h2 id="references">REFERENCES</h2>
 <p>[1] https://nvd.nist.gov/vuln/detail/CVE-2025-55182</p>
