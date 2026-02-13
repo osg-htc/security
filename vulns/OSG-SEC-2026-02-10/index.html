@@ -1799,15 +1799,15 @@
                 
                 <h1 id="osg-sec-2026-02-10-high-risk-munge-buffer-overflow-vulnerability-cve-2026-25506">OSG-SEC-2026-02-10 High risk MUNGE buffer overflow vulnerability (CVE-2026-25506)</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>MUNGE is an authentication service for creating and validating user credentials. From 0.5 to 0.5.17, a local attacker cou&gt;</p>
+<p>MUNGE is an authentication service for creating and validating user credentials. From 0.5 to 0.5.17, a local attacker could exploit a buffer overflow vulnerability in munged (the MUNGE authentication daemon) to leak cryptographic key material from process memory.</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
 <blockquote>
 <p>= 0.5,  &lt;= 0.5.17</p>
 </blockquote>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>An attacker who obtains this leaked key material could forge arbitrary MUNGE credentials to impersonate any user (includi&gt;</p>
+<p>An attacker who obtains this leaked key material could forge arbitrary MUNGE credentials to impersonate any user (including root) to services that rely on MUNGE for authentication. The vulnerability allows a buffer overflow by sending a crafted message with an oversized address length field, corrupting munged's internal state and enabling extraction of the MAC subkey used for credential verification. The issue applies only to sites running Slurm with MUNGE.</p>
 <h2 id="mitigation">MITIGATION</h2>
-<p>As a precautionary measure, regenerate MUNGE keys on all systems after patching. Note that key regeneration requires stop&gt;</p>
+<p>As a precautionary measure, regenerate MUNGE keys on all systems after patching. Note that key regeneration requires stopping munged cluster-wide, which will impact running jobs that need to authenticate. Sites should schedule an appropriate maintenance window based on their risk tolerance and operational requirements.</p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <p>Site admins should upgrade to 0.5.18 or apply vendor-supported updates that include fixes for CVE-2026-25506.</p>
 <h2 id="references">REFERENCES</h2>
