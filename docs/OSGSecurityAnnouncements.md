@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-02-17  | CRITICAL Rucio WebUI - React/Next.js Dependency Vulnerability (CVE-2025-55182) | [OSG-SEC-2026-02-17](./vulns/OSG-SEC-2026-02-17.md) |     |
 | 2026-02-10  | HIGH risk MUNGE buffer overflow vulnerability (CVE-2026-25506) | [OSG-SEC-2026-02-10](./vulns/OSG-SEC-2026-02-10.md) |     |
 | 2026-01-27  | CRITICAL ROOT Framework Remote Code Execution Vulnerability (CVE-2026-24811, CVE-2026-24812) | [OSG-SEC-2026-01-27](./vulns/OSG-SEC-2026-01-27.md) |     |
 | 2025-12-04  | CRITICAL React Server Components Vulnerability (CVE-2025-55182) | [OSG-SEC-2025-12-04](./vulns/OSG-SEC-2025-12-04.md) |     |
