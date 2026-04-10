@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-03-15/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-04-06/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2022-03-15 HTCondor Security Release 8.8.16, 9.0.10, and 9.6.0 - OSG Security</title>
+        <title>OSG-SEC-2026-04-06 HIGH GPUBreach Vulnerability - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2022-03-15-htcondor-security-release-8816-9010-and-960" class="md-skip">
+        <a href="#impacted-versions" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2022-03-15 HTCondor Security Release 8.8.16, 9.0.10, and 9.6.0
+              OSG-SEC-2026-04-06 HIGH GPUBreach Vulnerability
             
           </span>
         </div>
@@ -302,11 +302,66 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2026-04-06/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2026-04-06 HIGH GPUBreach Vulnerability
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2026-04-06 HIGH GPUBreach Vulnerability
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -818,70 +873,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2022-03-15 HTCondor Security Release 8.8.16, 9.0.10, and 9.6.0
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2022-03-15/" class="md-nav__link">
         OSG-SEC-2022-03-15 HTCondor Security Release 8.8.16, 9.0.10, and 9.6.0
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1777,8 +1773,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1809,7 +1803,7 @@
       
         <li class="md-nav__item">
   <a href="#references" class="md-nav__link">
-    REFERENCES
+    REFERENCES:
   </a>
   
 </li>
@@ -1826,38 +1820,36 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-03-15.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-04-06.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2022-03-15-htcondor-security-release-8816-9010-and-960">OSG-SEC-2022-03-15 HTCondor Security Release 8.8.16, 9.0.10, and 9.6.0</h1>
-<p>Dear OSG Security Contacts,</p>
-<p>New versions of HTCondor have been released to address three security vulnerabilities.</p>
+                  <h1>OSG-SEC-2026-04-06 HIGH GPUBreach Vulnerability</h1>
+                
+                <p>Dear OSG Security Contacts,</p>
+<p>Recent research (GPUBreach) demonstrates that specially crafted GPU workloads can induce bit flips in GDDR6 memory, potentially corrupting GPU page tables. Under certain conditions, this could be chained with GPU driver vulnerabilities to achieve host-level (root) compromise. </p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>All versions prior to 8.8.16, 9.0.10, and 9.6.0</p>
+<p>GPUs using GDDR6 memory (demonstrated on NVIDIA RTX A6000; other GDDR6 GPUs may also be susceptible).</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>There are three separate vulnerabilities addressed with these releases:</p>
-<ul>
-<li>
-<p>(affects 8.9.4 and above) For jobs that request HTCondor to transfer files to or from S3 cloud storage, an attacker with either a.) login access to a SchedD or StartD machine or b.) READ access to SchedD can obtain pre-signed URLs. These pre-signed URLs can then be used to access the S3 file associated with each pre-signed URL with both read and write permissions. [1]</p>
-</li>
-<li>
-<p>(affects 8.9.3 and above) For communication between version 9  and version 8.8 HTCondor daemons or for configurations using weak encryption protocols a piece of secret information may be sent over the network unencrypted.  An attacker with the ability to capture network traffic between SchedD, StartD, and/or Collector and with a good understanding of HTCondor network protocol could capture this secret and use it to manipulate running jobs, including executing arbitrary code in place of the running job. [2]</p>
-</li>
-<li>
-<p>(affects all versions) An attacker with READ access to HTCondor daemons and knowledge of HTCondor internal APIs can use the CLAIMTOBE authentication method to impersonate another user, administrator, or daemon. [3]</p>
-</li>
-</ul>
+<p>GPUBreach is a research-demonstrated technique in which specially crafted GPU workloads induce bit flips (Rowhammer) in GDDR6 memory, potentially corrupting GPU page tables. This may allow:</p>
+<p>Unauthorized GPU memory access, including possible cross-process data exposure <br />
+In combination with GPU driver vulnerabilities, potential escalation to root access on the host system<br />
+In demonstrated scenarios, attackers may achieve root shell access, resulting in full system compromise  </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>All sites running HTCondor should update to one of the patched versions (8.8.16, 9.0.10, and 9.6.0) from the public repositories as soon as they are available. [4]</p>
-<h2 id="references">REFERENCES</h2>
-<p>[1] https://research.cs.wisc.edu/htcondor/security/vulnerabilities/HTCONDOR-2022-0001.html</p>
-<p>[2] https://research.cs.wisc.edu/htcondor/security/vulnerabilities/HTCONDOR-2022-0002.html</p>
-<p>[3] https://research.cs.wisc.edu/htcondor/security/vulnerabilities/HTCONDOR-2022-0003.html</p>
-<p>[4] https://research.cs.wisc.edu/htcondor/repo/current/</p>
-<p>Please contact the OSG Security team at security@opensciencegrid.org if you have any questions or concerns.</p>
-<p>OSG Security team</p>
+<ul>
+<li>Avoid multi-tenant GPU sharing to reduce the likelihood of exploitation   </li>
+<li>Keep GPU drivers up to date to mitigate potential escalation paths  </li>
+<li>Enable ECC on GPUs (if supported) to reduce the probability of successful bit flips  </li>
+<li>Limit and monitor GPU access where feasible  </li>
+<li>Monitor vendor advisories for updates, as patch availability is not yet confirmed  </li>
+</ul>
+<h2 id="references">REFERENCES:</h2>
+<p>[1] https://gpubreach.ca/<br />
+[2] https://www.nvidia.com/en-us/security/ <br />
+[3] https://radar.offseq.com/threat/gpubreach-root-shell-access-achieved-via-gpu-rowha-1215a777    </p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
+<p>OSG Security Team</p>
                 
               
               
@@ -1876,7 +1868,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2022-03-16/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1885,19 +1877,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2022-03-16 HIGH Severity DOS Vulnerability in OpenSSL
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2022-03-09/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2026-04-02/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2022-03-09 CRITICAL “dirtypipe” vulnerability in Linux Kernel 5.8 and above
+              OSG-SEC-2026-04-02 OpenBao XSS Vulnerabilities (CVE-2026-33758, CVE-2026-33757)
             </div>
           </div>
           <div class="md-footer__button md-icon">
