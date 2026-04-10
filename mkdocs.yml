@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-04-02 OpenBao XSS Vulnerabilities (CVE-2026-33758, CVE-2026-33757): './vulns/OSG-SEC-2026-04-02.md'
     - OSG-SEC-2026-03-13 CRITICAL AppArmor Multiple Vulnerabilities: './vulns/OSG-SEC-2026-03-13.md'
     - OSG-SEC-2026-02-17 CRITICAL Rucio WebUI - React/Next.js Dependency Vulnerability (CVE-2025-55182): './vulns/OSG-SEC-2026-02-17.md'
     - OSG-SEC-2026-02-10 HIGH risk MUNGE buffer overflow vulnerability (CVE-2026-25506): './vulns/OSG-SEC-2026-02-10.md'
