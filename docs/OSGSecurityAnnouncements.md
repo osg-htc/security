@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-04-06  | HIGH GPUBreach Vulnerability | [OSG-SEC-2026-04-06](./vulns/OSG-SEC-2026-04-06.md) |     |
 | 2026-04-02  | OpenBao XSS Vulnerabilities (CVE-2026-33758, CVE-2026-33757) | [OSG-SEC-2026-04-02](./vulns/OSG-SEC-2026-04-02.md) |     |
 | 2026-03-13  | CRITICAL AppArmor Multiple Vulnerabilities | [OSG-SEC-2026-03-13](./vulns/OSG-SEC-2026-03-13.md) |     |
 | 2026-02-17  | CRITICAL Rucio WebUI - React/Next.js Dependency Vulnerability (CVE-2025-55182) | [OSG-SEC-2026-02-17](./vulns/OSG-SEC-2026-02-17.md) |     |
