@@ -1860,12 +1860,12 @@
 <p>Linux kernels built between 2017 and the upstream patch (April 2026) are affected. This includes most mainstream distributions unless updated with vendor-provided fixes.</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
 <p>“Copy Fail” is a logic flaw in the Linux kernel’s algif_aead implementation (AF_ALG interface), which can be exploited using splice() to overwrite page cache contents of privileged binaries.<br />
-Local privilege escalation from an unprivileged user to root<br />
-Reliable exploitation without race conditions or kernel-specific offsets<br />
-Cross-environment impact, including shared systems and containerized workloads<br />
-The vulnerability requires only a local user account and does not depend on special configurations. In demonstrated scenarios, the same exploit code successfully achieves root access across multiple Linux distributions.<br />
-In most cases, exploitation modifies in-memory state such that subsequent use of privileged binaries (e.g., su) can result in unauthorized root access without authentication for any other user on the system.<br />
-An indicator of active exploitation is that the process table will have an empty entry that shows up in the output of ps as a '?'. This can be searched for using the command ps aux | grep '?$'. More specifically, the 'cmdline' file under the /proc filesystem for a process will be empty.  </p>
+- Local privilege escalation from an unprivileged user to root<br />
+- Reliable exploitation without race conditions or kernel-specific offsets<br />
+- Cross-environment impact, including shared systems and containerized workloads<br />
+- The vulnerability requires only a local user account and does not depend on special configurations. In demonstrated scenarios, the same exploit code successfully achieves root access across multiple Linux distributions.<br />
+- In most cases, exploitation modifies in-memory state such that subsequent use of privileged binaries (e.g., su) can result in unauthorized root access without authentication for any other user on the system.<br />
+- An indicator of active exploitation is that the process table will have an empty entry that shows up in the output of ps as a '?'. This can be searched for using the command ps aux | grep '?$'. More specifically, the 'cmdline' file under the /proc filesystem for a process will be empty.  </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <p>Update system kernel to a version that includes the fix for CVE-2026-31431 (mainline commit a664bf3d603d or distribution-provided equivalent).</p>
 <p>If patches are not yet available, disable the vulnerable algif_aead functionality:<br />
