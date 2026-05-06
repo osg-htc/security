@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2018-08-17-Foreshadow/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-04-30/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2018-08-17 Foreshadow - OSG Security</title>
+        <title>OSG-SEC-2026-04-30 IMPORTANT Linux Kernel Copy Fail LPE Vulnerability - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2018-08-17-cpu-speculative-execution-vulnerabilities-foreshadow" class="md-skip">
+        <a href="#important-linux-kernel-copy-fail-lpe-vulnerability" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2018-08-17 Foreshadow
+              OSG-SEC-2026-04-30 IMPORTANT Linux Kernel Copy Fail LPE Vulnerability
             
           </span>
         </div>
@@ -302,11 +302,73 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2026-04-30/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2026-04-30 IMPORTANT Linux Kernel Copy Fail LPE Vulnerability
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2026-04-30 IMPORTANT Linux Kernel Copy Fail LPE Vulnerability
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#important-linux-kernel-copy-fail-lpe-vulnerability" class="md-nav__link">
+    IMPORTANT Linux Kernel Copy Fail LPE Vulnerability
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1322,70 +1384,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2018-08-17 Foreshadow
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2018-08-17-Foreshadow/" class="md-nav__link">
         OSG-SEC-2018-08-17 Foreshadow
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versionsenvironments" class="md-nav__link">
-    IMPACTED VERSIONS/ENVIRONMENTS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#action-recommendations" class="md-nav__link">
-    ACTION RECOMMENDATIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
-    HOW IT WORKS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#more-information" class="md-nav__link">
-    MORE INFORMATION:
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1789,8 +1792,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1799,29 +1800,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#impacted-versionsenvironments" class="md-nav__link">
-    IMPACTED VERSIONS/ENVIRONMENTS:
+  <a href="#important-linux-kernel-copy-fail-lpe-vulnerability" class="md-nav__link">
+    IMPORTANT Linux Kernel Copy Fail LPE Vulnerability
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#action-recommendations" class="md-nav__link">
-    ACTION RECOMMENDATIONS:
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
-    HOW IT WORKS:
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#more-information" class="md-nav__link">
-    MORE INFORMATION:
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES:
   </a>
   
 </li>
@@ -1838,42 +1846,42 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2018-08-17-Foreshadow.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-04-30.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2018-08-17-cpu-speculative-execution-vulnerabilities-foreshadow">OSG-SEC-2018-08-17 CPU speculative execution vulnerabilities (Foreshadow)</h1>
+                  <h1>OSG-SEC-2026-04-30 IMPORTANT Linux Kernel Copy Fail LPE Vulnerability</h1>
+                
+                <h2 id="important-linux-kernel-copy-fail-lpe-vulnerability">IMPORTANT Linux Kernel Copy Fail LPE Vulnerability</h2>
 <p>Dear OSG Security Contacts,</p>
-<p>A new speculative execution-based attack similar to Meltdown and Spectre (CVE-2017-5754 <a href="#more-information">[1]</a>), has been reported in Intel processors. The L1 Terminal Fault (L1TF) also known as Foreshadow allows an attacker to gain access to sensitive data in the memory of any computing device. </p>
-<h2 id="impacted-versionsenvironments">IMPACTED VERSIONS/ENVIRONMENTS:</h2>
-<p>These vulnerabilities are present in the hardware and appear to affect all the operating systems running on x86 architectures. RedHat 6 &amp; 7 and all its derivatives are impacted.</p>
-<h2 id="action-recommendations">ACTION RECOMMENDATIONS:</h2>
-<p>OSG Security team advises sites to patch all hosts, prioritizing CEs, submit hosts, and worker nodes ASAP. Patches for these vulnerabilities are expected to affect CPU performance. </p>
-<p>RedHat have mitigations available for kernel and microcode_ctl in RHEL6, RHEL7. Scientific Linux have mitigations available for kernel in SL6 and SL7.</p>
-<p>RedHat Linux:
-   - RHEL6: 
-- kernel: https://access.redhat.com/errata/RHSA-2018:2390
-- microcode_ctl: https://access.redhat.com/errata/RHEA-2018:2300
-   - RHEL7: 
-- kernel: https://access.redhat.com/errata/RHSA-2018:2384
-- microcode_ctl: https://access.redhat.com/errata/RHEA-2018:2299</p>
-<p>Scientific Linux:
-   - SL6 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182390-1/
-   - SL7 (kernel): https://www.scientificlinux.org/category/sl-errata/slsa-20182384-1/</p>
-<p>There is a higher concern with virtualized environments. "..if two virtual machines share a physical core, then the virtual machine using one logical core can potentially spy on the virtual machine using the other logical core." <a href="https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/">[4]</a> . For further mitigation, after installing the updated 
-microcode_ctl patch, disable hyperthreading on virtual-machine hosts. An alternative is to change the configuration of the virtualized environment to ensure that virtual machines are bound to separate physical cores.</p>
-<p>Note that existing mitigations and patches for Meltdown are <em>not</em> sufficient to protect against this new vulnerability. Some vendors have not released security patches for this vulnerability yet. Pay attention to new releases from your software vendor and patch as soon as the fix(es) become available. </p>
-<h2 id="how-it-works">HOW IT WORKS:</h2>
-<p>Privileged memory space can be accessed, exposing sensitive information. Details about the vulnerability and the attack can be found in <a href="https://access.redhat.com/security/vulnerabilities/L1TF">[3]</a>.</p>
-<h2 id="more-information">MORE INFORMATION:</h2>
-<ul>
-<li>[1] http://www.theregister.co.uk/2018/01/04/intel_amd_arm_cpu_vulnerability/ </li>
-<li>[2] https://www.intel.com/content/www/us/en/architecture-and-technology/l1tf.html</li>
-<li>[3] https://access.redhat.com/security/vulnerabilities/L1TF</li>
-<li>[4] https://arstechnica.com/gadgets/2018/08/intels-sgx-blown-wide-open-by-you-guessed-it-a-speculative-execution-attack/ </li>
-</ul>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns. </p>
+<p>A critical local privilege escalation vulnerability (CVE-2026-31431), known as “Copy Fail,” has been identified in the Linux kernel. This issue allows an unprivileged local user to easily gain root privileges due to a logic flaw in the kernel crypto API. Public proof-of-concept (PoC) exploit code is available and demonstrates reliable exploitation across multiple Linux distributions. </p>
+<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
+<p>Linux kernels built between 2017 and the upstream patch (April 2026) are affected. This includes most mainstream distributions unless updated with vendor-provided fixes.</p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>“Copy Fail” is a logic flaw in the Linux kernel’s algif_aead implementation (AF_ALG interface), which can be exploited using splice() to overwrite page cache contents of privileged binaries.<br />
+Local privilege escalation from an unprivileged user to root<br />
+Reliable exploitation without race conditions or kernel-specific offsets<br />
+Cross-environment impact, including shared systems and containerized workloads<br />
+The vulnerability requires only a local user account and does not depend on special configurations. In demonstrated scenarios, the same exploit code successfully achieves root access across multiple Linux distributions.<br />
+In most cases, exploitation modifies in-memory state such that subsequent use of privileged binaries (e.g., su) can result in unauthorized root access without authentication for any other user on the system.<br />
+An indicator of active exploitation is that the process table will have an empty entry that shows up in the output of ps as a '?'. This can be searched for using the command ps aux | grep '?$'. More specifically, the 'cmdline' file under the /proc filesystem for a process will be empty.  </p>
+<h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
+<p>Update system kernel to a version that includes the fix for CVE-2026-31431 (mainline commit a664bf3d603d or distribution-provided equivalent).</p>
+<p>If patches are not yet available, disable the vulnerable algif_aead functionality:<br />
+- On Debian-based systems, unload and blacklist the algif_aead module.<br />
+- On RHEL-based systems, disable it via the kernel parameter initcall_blacklist=algif_aead_init and reboot.  </p>
+<p>For systems running untrusted workloads (e.g., containers, CI, multi-user environments), restrict AF_ALG socket access (e.g., via seccomp or BPF filters).<br />
+Prioritize patching and mitigation on shared systems, CI/CD infrastructure, and container platforms where unprivileged users have access.<br />
+As a temporary risk-reduction measure, consider limiting unprivileged user access on shared systems (e.g., SSH, HTCondor jobs, and other batch or scheduled workloads) until mitigations or patches are applied.<br />
+If exploitation is suspected, after your security incident response process is followed, systems should be rebooted to clear potentially corrupted in-memory state (page cache).<br />
+After mitigation, it is recommended to perform an audit of system accounts and search for potential root kits or new suid binaries that may have been installed. If you aren't already, it is recommended that you perform these checks on a regular basis.  </p>
+<h2 id="references">REFERENCES:</h2>
+<p>[1] https://copy.fail/<br />
+[2] https://github.com/theori-io/copy-fail-CVE-2026-31431<br />
+[3] https://gitlab.cern.ch/ComputerSecurity/mitigations/cve-2026-31431<br />
+[4] https://nvd.nist.gov/vuln/detail/CVE-2026-31431  </p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.  </p>
 <p>OSG Security Team</p>
                 
               
@@ -1893,7 +1901,7 @@ microcode_ctl patch, disable hyperthreading on virtual-machine hosts. An alterna
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2018-09-06-Apache-Struts-Vulnerability/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1902,19 +1910,19 @@ microcode_ctl patch, disable hyperthreading on virtual-machine hosts. An alterna
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2018-09-06 Vulnerability in Apache Struts
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2018-08-07-data-channel-encryption-not-guaranteed/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2026-04-06/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2018-08-07 Data channel encryption not guaranteed
+              OSG-SEC-2026-04-06 HIGH GPUBreach Vulnerability
             </div>
           </div>
           <div class="md-footer__button md-icon">
