@@ -1888,7 +1888,7 @@ Importantly, previously discussed Copy Fail mitigations (such as blacklisting al
 <p>RxRPC Page-Cache Write does not require the privilege to create a namespace, but the rxrpc.ko module itself is not included in most distributions. However, on Ubuntu, the rxrpc.ko module is loaded by default.  </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <p>Until vendor patches become available, consider applying temporary mitigations by unloading and blacklisting the affected kernel modules where operationally feasible. In our testing, these mitigations prevented both vulnerabilities.</p>
-<p>Currently discussed mitigations include disabling:
+<p>Currently discussed mitigations include disabling:<br />
 - esp4<br />
 - esp6<br />
 - xfrm_user<br />
