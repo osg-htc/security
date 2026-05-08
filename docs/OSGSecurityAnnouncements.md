@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-05-07  | ZERODAY Important Linux Dirty Frag, CopyFail2 Local Privilege Escalation (LPE) Vulnerabilities | [OSG-SEC-2026-05-07](./vulns/OSG-SEC-2026-05-07.md) |     |
 | 2026-04-30  | IMPORTANT Linux Kernel Copy Fail LPE Vulnerability (CVE-2026-31431) | [OSG-SEC-2026-04-30](./vulns/OSG-SEC-2026-04-30.md) |     |
 | 2026-04-06  | HIGH GPUBreach Vulnerability | [OSG-SEC-2026-04-06](./vulns/OSG-SEC-2026-04-06.md) |     |
 | 2026-04-02  | OpenBao XSS Vulnerabilities (CVE-2026-33758, CVE-2026-33757) | [OSG-SEC-2026-04-02](./vulns/OSG-SEC-2026-04-02.md) |     |
