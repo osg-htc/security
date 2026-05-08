@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-05-07/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2018-03-27 Vulnerability in SLURM - OSG Security</title>
+        <title>OSG-SEC-2026-05-07 ZERODAY Important Linux Dirty Frag, CopyFail2 Local Privilege Escalation (LPE) Vulnerabilities - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2018-03-27-slurm-vulnerability" class="md-skip">
+        <a href="#zeroday-important-linux-dirty-frag-copyfail2-local-privilege-escalation-lpe-vulnerabilities" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2018-03-27 Vulnerability in SLURM
+              OSG-SEC-2026-05-07 ZERODAY Important Linux Dirty Frag, CopyFail2 Local Privilege Escalation (LPE) Vulnerabilities
             
           </span>
         </div>
@@ -302,11 +302,77 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2026-05-07/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2026-05-07 ZERODAY Important Linux Dirty Frag, CopyFail2 Local Privilege Escalation (LPE) Vulnerabilities
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2026-05-07 ZERODAY Important Linux Dirty Frag, CopyFail2 Local Privilege Escalation (LPE) Vulnerabilities
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploit-pre-conditions" class="md-nav__link">
+    EXPLOIT PRE-CONDITIONS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1490,77 +1556,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2018-03-27 Vulnerability in SLURM
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2018-03-27-SLURM-Vulnerability/" class="md-nav__link">
         OSG-SEC-2018-03-27 Vulnerability in SLURM
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-the-vulnerability" class="md-nav__link">
-    WHAT IS THE VULNERABILITY:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1825,8 +1825,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-is-the-vulnerability" class="md-nav__link">
-    WHAT IS THE VULNERABILITY:
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploit-pre-conditions" class="md-nav__link">
+    EXPLOIT PRE-CONDITIONS
   </a>
   
 </li>
@@ -1834,13 +1841,6 @@
         <li class="md-nav__item">
   <a href="#what-you-should-do" class="md-nav__link">
     WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS
   </a>
   
 </li>
@@ -1864,32 +1864,48 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2018-03-27-SLURM-Vulnerability.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-05-07.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2018-03-27-slurm-vulnerability">OSG-SEC-2018-03-27 SLURM Vulnerability</h1>
+                <h1 id="zeroday-important-linux-dirty-frag-copyfail2-local-privilege-escalation-lpe-vulnerabilities">ZERODAY Important Linux Dirty Frag, CopyFail2 Local Privilege Escalation (LPE) Vulnerabilities</h1>
 <p>Dear OSG Security Contacts,</p>
-<p>A critical vulnerability was reported in Slurm which allows SQL injection attacks against the SlurmDBD component and it is described in CVE-2018-7033. </p>
+<p>Two Linux kernel exploits were released to the public on May 7th, called Dirty Frag and Copy.Fail2_Electric-Boogaloo, that allow a local normal user to perform root privilege escalation. Kernel developers seem to have found out at the same time as the public, making these zero day vulnerabilities. These vulnerabilities use a similar page-cache write approach to the recently disclosed "Copy Fail" vulnerability, but target different Linux kernel subsystems.<br />
+While there is no patch yet available, there are mitigating steps below that you should apply immediately to protect yourself from the potential rapid spread of these exploits. This is the information we have at the time of writing.  </p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>SLURM Versions 17.11.5 and 17.02.10 were released on March 15th 2018 with a fix for the mentioned vulnerability. All previous versions are considered to be vulnerable. </p>
-<h2 id="what-is-the-vulnerability">WHAT IS THE VULNERABILITY:</h2>
-<p>"Several issues were discovered with incomplete sanitization of user-provided text strings, which could potentially lead to SQL injection attacks against SlurmDBD itself. Such exploits could lead to a loss of accounting data, or escalation of user privileges on the cluster." [1]</p>
+<p>The disclosed vulnerabilities reportedly affect Linux kernels across broad version ranges and have been reproduced on major Linux distributions including Ubuntu, RHEL, CentOS Stream, Fedora, AlmaLinux, and openSUSE. In our testing it worked with default configurations of the OS and could be exploited in less than a minute.<br />
+The xfrm-ESP Page-Cache Write vulnerability reportedly affects kernels since 2017.<br />
+The RxRPC Page-Cache Write vulnerability reportedly affects kernels since 2023.<br />
+At the time of disclosure, no upstream patches or CVEs are available.  </p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>Dirty Frag and Copy Fail 2 Electric Boogaloo belong to the same broader page-cache write vulnerability class as Dirty Pipe and Copy Fail. The vulnerabilities allow deterministic local privilege escalation without race conditions or kernel-version-specific offsets.<br />
+The vulnerabilities target Linux kernel networking subsystems related to xfrm-ESP and RxRPC handling. Public exploit code demonstrates reliable privilege escalation across multiple Linux distributions.<br />
+Note that the esp4 and esp6 modules are used in the encryption of network traffic at the IP layer of the networking model. You will need to determine if you are actively using these modules for production use and do a quick risk analysis to determine if you need to remove the modules or mitigate this vulnerability in another way.<br />
+Importantly, previously discussed Copy Fail mitigations (such as blacklisting algif_aead) do NOT mitigate these vulnerabilities.  </p>
+<h2 id="exploit-pre-conditions">EXPLOIT PRE-CONDITIONS</h2>
+<p>xfrm-ESP Page-Cache Write requires the privilege to create a namespace (unshare(CLONE_NEWUSER)). Ubuntu sometimes blocks unprivileged user namespace creation through AppArmor policy. In such an environment, xfrm-ESP Page-Cache Write cannot be triggered.  </p>
+<p>RxRPC Page-Cache Write does not require the privilege to create a namespace, but the rxrpc.ko module itself is not included in most distributions. However, on Ubuntu, the rxrpc.ko module is loaded by default.  </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<ol>
-<li>Sites running SLURM are recommended to update to the most current versions as soon as possible if they have not done so already.</li>
-<li>As stated in the security advisory by the software vendor: "The only safe mitigation, aside from installing these updated versions, is to disable SlurmDBD on your system." [1]</li>
-</ol>
-<h2 id="related-links">RELATED LINKS</h2>
-<ul>
-<li>https://ticket.grid.iu.edu/36596</li>
-</ul>
+<p>Until vendor patches become available, consider applying temporary mitigations by unloading and blacklisting the affected kernel modules where operationally feasible. In our testing, these mitigations prevented both vulnerabilities.</p>
+<p>Currently discussed mitigations include disabling:
+- esp4
+- esp6
+- xfrm_user
+- rxrpc</p>
+<p>This is accomplished on vulnerable systems by adding the following lines to the file "/etc/modprobe.d/dirtyfrag.conf"</p>
+<p>install esp4 /bin/false<br />
+install esp6 /bin/false<br />
+install rxrpc /bin/false  </p>
+<p>And then run the following command as root to remove the affected modules:</p>
+<p>rmmod esp4 esp6 rxrpc 2&gt;/dev/null  </p>
+<p>For shared environments, consider restricting unprivileged user access paths (SSH, HTCondor jobs, containers, CI workloads, etc.) until mitigations or vendor patches are available.<br />
+If exploitation is suspected, systems should be rebooted and audited to check for injected accounts or rootkits.  </p>
 <h2 id="references">REFERENCES</h2>
-<ul>
-<li>[1] https://www.schedmd.com/news.php?id=201#OPT_201</li>
-</ul>
-<p>Please contact the OSG security team [immediately] at security@opensciencegrid.org if you have any questions or concerns. </p>
+<p>[1] https://github.com/V4bel/dirtyfrag <br />
+[2] https://github.com/V4bel/dirtyfrag/blob/master/assets/write-up.md <br />
+[3] https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo   </p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
 <p>OSG Security Team</p>
                 
               
@@ -1909,7 +1925,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2018-04-02-Critical-Vulnerability-in-Singularity/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1918,19 +1934,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2018-04-02 Critical vulnerability in Singularity
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2018-03-13-SAML-Vulnerabilities-affecting-multiple-implementations/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2026-04-30/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2018-03-13 SAML Vulnerabilities affecting multiple implementations
+              OSG-SEC-2026-04-30 IMPORTANT Linux Kernel Copy Fail LPE Vulnerability
             </div>
           </div>
           <div class="md-footer__button md-icon">
