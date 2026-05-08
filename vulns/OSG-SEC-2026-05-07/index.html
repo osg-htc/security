@@ -1889,10 +1889,10 @@ Importantly, previously discussed Copy Fail mitigations (such as blacklisting al
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <p>Until vendor patches become available, consider applying temporary mitigations by unloading and blacklisting the affected kernel modules where operationally feasible. In our testing, these mitigations prevented both vulnerabilities.</p>
 <p>Currently discussed mitigations include disabling:
-- esp4
-- esp6
-- xfrm_user
-- rxrpc</p>
+- esp4<br />
+- esp6<br />
+- xfrm_user<br />
+- rxrpc  </p>
 <p>This is accomplished on vulnerable systems by adding the following lines to the file "/etc/modprobe.d/dirtyfrag.conf"</p>
 <p>install esp4 /bin/false<br />
 install esp6 /bin/false<br />
