@@ -1899,36 +1899,36 @@
                 
                   <h1>OSG-SEC-2026-05-21 HIGH Nginx Vulnerability ngx_http_rewrite_module</h1>
                 
-                <p>Dear OSG Security Contacts,
-There is a HIGH risk vulnerability concerning "nginx" module "ngx_http_rewrite_module" used by many webservices. It is extensively described at the links in references.</p>
+                <p>Dear OSG Security Contacts, </p>
+<p>There is a HIGH risk vulnerability concerning "nginx" module "ngx_http_rewrite_module" used by many webservices. It is extensively described at the links in references.</p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>NGINX Open Source
-Versions 1.0.0 through 1.30.0: Update to version 1.30.1, 1.31.0, or later
-Legacy versions 0.6.27 through 0.9.7: No official patch is planned; manual configuration changes are required to mitigate the risk
-NGINX Plus
-Release 36 (R36 to R36 P3): Update to R36 P4
-Release 32 (R32 to R32 P5): Update to R32 P6
-Releases 33, 34, and 35: No direct patch; you must upgrade to R36 P4 or R37.0.0 (or higher)</p>
+<p>NGINX Open Source<br />
+- Versions 1.0.0 through 1.30.0: Update to version 1.30.1, 1.31.0, or later<br />
+- Legacy versions 0.6.27 through 0.9.7: No official patch is planned; manual configuration changes are required to mitigate the risk  </p>
+<p>NGINX Plus<br />
+- Release 36 (R36 to R36 P3): Update to R36 P4<br />
+- Release 32 (R32 to R32 P5): Update to R32 P6<br />
+- Releases 33, 34, and 35: No direct patch; you must upgrade to R36 P4 or R37.0.0 (or higher) </p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_rewrite_module module. The issue occurs when:
-a rewrite directive uses unnamed PCRE captures (e.g., $1, $2)
-the replacement string contains a ?
-and the directive is followed in the same context by another rewrite, if, or set directive
-An unauthenticated attacker along with conditions beyond its control can exploit this vulnerability by sending crafted HTTP requests. This may cause a heap buffer overflow in the NGINX worker process leading to a restart. 
-Additionally, for systems with Address Space Layout Randomization (ASLR) disabled, code execution may also be possible.</p>
+<p>NGINX Plus and NGINX Open Source have a vulnerability in the ngx_http_rewrite_module module. The issue occurs when:<br />
+- a rewrite directive uses unnamed PCRE captures (e.g., $1, $2)<br />
+- the replacement string contains a ?<br />
+- and the directive is followed in the same context by another rewrite, if, or set directive  </p>
+<p>An unauthenticated attacker along with conditions beyond its control can exploit this vulnerability by sending crafted HTTP requests. This may cause a heap buffer overflow in the NGINX worker process leading to a restart. <br />
+Additionally, for systems with Address Space Layout Randomization (ASLR) disabled, code execution may also be possible.  </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <p>Sites running affected nginx versions are strongly encouraged to apply vendor patches or upgrade to fixed releases as soon as possible.
-If immediate patching is not possible, review nginx rewrite rules for vulnerable patterns and modify configurations accordingly.
-The condition that has to hold for a rewrite to be exploitable is:
-The rewrite uses an unnamed PCRE capture in the replacement ($1, $2, …), and
-The replacement string contains a ?, and
-The rewrite is followed in the same context by another rewrite, if, or set directive.
-Removing any one of these conditions mitigates the vulnerable code path. The cleanest approach is to switch from unnamed captures to named captures, which sidesteps the buggy code path entirely.
-Replace unnamed captures ($1, $2) with named captures in every affected rewrite directive.
-Vulnerable pattern:</p>
-<p>rewrite ^/users/([0-9]+)/profile/(.*)$ /profile.php?id=$1&amp;tab=$2 last;</p>
-<p>Example mitigated pattern:</p>
-<p>rewrite ^/users/(?&lt;user_id&gt;[0-9]+)/profile/(?&lt;section&gt;.*)$ /profile.php?id=$user_id&amp;tab=$section last;</p>
+If immediate patching is not possible, review nginx rewrite rules for vulnerable patterns and modify configurations accordingly.</p>
+<p>The condition that has to hold for a rewrite to be exploitable is:<br />
+- The rewrite uses an unnamed PCRE capture in the replacement ($1, $2, …), and<br />
+- The replacement string contains a ?, and<br />
+- The rewrite is followed in the same context by another rewrite, if, or set directive.<br />
+Removing any one of these conditions mitigates the vulnerable code path. The cleanest approach is to switch from unnamed captures to named captures, which sidesteps the buggy code path entirely.</p>
+<p>Replace unnamed captures ($1, $2) with named captures in every affected rewrite directive. 
+Vulnerable pattern:  </p>
+<p>rewrite ^/users/([0-9]+)/profile/(.*)$ /profile.php?id=$1&amp;tab=$2 last;  </p>
+<p>Example mitigated pattern:  </p>
+<p>rewrite ^/users/(?&lt;user_id&gt;[0-9]+)/profile/(?&lt;section&gt;.*)$ /profile.php?id=$user_id&amp;tab=$section last;   </p>
 <h2 id="references">REFERENCES</h2>
 <p>https://almalinux.org/blog/2026-05-13-nginx-rift-cve-2026-42945/ </p>
 <p>https://access.redhat.com/security/cve/cve-2026-42945 </p>
@@ -1937,8 +1937,8 @@ Vulnerable pattern:</p>
 <p>https://www.akamai.com/blog/security-research/nginx-critical-heap-buffer-overflow-cve-2026-42945</p>
 <p>https://www.regular-expressions.info/named.html</p>
 <p>https://depthfirst.com/nginx-rift </p>
-<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.
-OSG Security Team </p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.   </p>
+<p>OSG Security Team </p>
                 
               
               
