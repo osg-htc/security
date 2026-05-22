@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-05-21 HIGH Nginx Vulnerability ngx_http_rewrite_module: './vulns/OSG-SEC-2026-05-21.md'
     - OSG-SEC-2026-05-18 HIGH NVIDIA GPU Display Drivers Multiple Vulnerabilities: './vulns/OSG-SEC-2026-05-18.md'
     - OSG-SEC-2026-05-14 IMPORTANT Linux SSH Keysign Vulnerability (CVE-2026-46333): './vulns/OSG-SEC-2026-05-14.md'
     - OSG-SEC-2026-05-13 Important Linux Fragnesia Local Privilege Escalation (LPE) Vulnerability: './vulns/OSG-SEC-2026-05-13.md'
