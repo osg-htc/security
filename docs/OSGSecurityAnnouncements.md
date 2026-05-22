@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-05-21  | HIGH Nginx Vulnerability ngx_http_rewrite_module  | [OSG-SEC-2026-05-21](./vulns/OSG-SEC-2026-05-21.md) |     |
 | 2026-05-18  | HIGH NVIDIA GPU Display Drivers Multiple Vulnerabilities | [OSG-SEC-2026-05-18](./vulns/OSG-SEC-2026-05-18.md) |     |
 | 2026-05-14  | IMPORTANT Linux SSH Keysign Vulnerability (CVE-2026-46333) | [OSG-SEC-2026-05-14](./vulns/OSG-SEC-2026-05-14.md) |     |
 | 2026-05-13  | Important Linux Fragnesia Local Privilege Escalation (LPE) Vulnerability | [OSG-SEC-2026-05-13](./vulns/OSG-SEC-2026-05-13.md) |     |
