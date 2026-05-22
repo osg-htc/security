@@ -1925,10 +1925,10 @@ The replacement string contains a ?, and
 The rewrite is followed in the same context by another rewrite, if, or set directive.
 Removing any one of these conditions mitigates the vulnerable code path. The cleanest approach is to switch from unnamed captures to named captures, which sidesteps the buggy code path entirely.
 Replace unnamed captures ($1, $2) with named captures in every affected rewrite directive.
-Vulnerable pattern:
-rewrite ^/users/([0-9]+)/profile/(.<em>)$ /profile.php?id=$1&amp;tab=$2 last;
-Example mitigated pattern:
-rewrite ^/users/(?<user_id>[0-9]+)/profile/(?<section>.</em>)$ /profile.php?id=$user_id&amp;tab=$section last;</p>
+Vulnerable pattern:</p>
+<p>rewrite ^/users/([0-9]+)/profile/(.*)$ /profile.php?id=$1&amp;tab=$2 last;</p>
+<p>Example mitigated pattern:</p>
+<p>rewrite ^/users/(?<user_id>[0-9]+)/profile/(?<section>.*)$ /profile.php?id=$user_id&amp;tab=$section last;</p>
 <h2 id="references">REFERENCES</h2>
 <p>https://almalinux.org/blog/2026-05-13-nginx-rift-cve-2026-42945/ </p>
 <p>https://access.redhat.com/security/cve/cve-2026-42945 </p>
