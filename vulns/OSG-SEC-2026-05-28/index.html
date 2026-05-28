@@ -1995,14 +1995,14 @@ The issue is local-only and does not provide remote code execution by itself.  <
 <p>Mitigations <br />
 Vulnerability can be mitigated via any of the following:   </p>
 <ol>
-<li>Remove unused CIFS support
-If SMB/CIFS functionality is not required: </li>
-<li>uninstall cifs-utils </li>
 <li>
-<p>or disable/blacklist the CIFS kernel module</p>
+<p>Remove unused CIFS support
+If SMB/CIFS functionality is not required:<br />
+uninstall cifs-utils<br />
+or disable/blacklist the CIFS kernel module </p>
 </li>
 <li>
-<p>Override the cifs.spnego request-key rule <br />
+<p>Override the cifs.spnego request-key rule  <br />
 If Kerberos CIFS functionality is not required: 
 cat &gt;/etc/request-key.d/cifs.spnego.conf &lt;&lt;'EOF'<br />
 create cifs.spnego * * /usr/sbin/keyctl negate %k 30 %S</p>
