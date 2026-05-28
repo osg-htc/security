@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-05-28  | HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils  | [OSG-SEC-2026-05-28](./vulns/OSG-SEC-2026-05-28.md) |     |
 | 2026-05-21  | HIGH Nginx Vulnerability ngx_http_rewrite_module  | [OSG-SEC-2026-05-21](./vulns/OSG-SEC-2026-05-21.md) |     |
 | 2026-05-18  | HIGH NVIDIA GPU Display Drivers Multiple Vulnerabilities | [OSG-SEC-2026-05-18](./vulns/OSG-SEC-2026-05-18.md) |     |
 | 2026-05-14  | IMPORTANT Linux SSH Keysign Vulnerability (CVE-2026-46333) | [OSG-SEC-2026-05-14](./vulns/OSG-SEC-2026-05-14.md) |     |
