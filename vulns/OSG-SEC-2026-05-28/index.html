@@ -1995,23 +1995,22 @@ The issue is local-only and does not provide remote code execution by itself.  <
 <p>Mitigations <br />
 Vulnerability can be mitigated via any of the following:   </p>
 <ol>
-<li>Remove unused CIFS support 
+<li>Remove unused CIFS support
 If SMB/CIFS functionality is not required: </li>
 <li>uninstall cifs-utils </li>
 <li>
-<p>or disable/blacklist the CIFS kernel module   </p>
+<p>or disable/blacklist the CIFS kernel module</p>
 </li>
 <li>
 <p>Override the cifs.spnego request-key rule <br />
 If Kerberos CIFS functionality is not required: 
 cat &gt;/etc/request-key.d/cifs.spnego.conf &lt;&lt;'EOF'<br />
-create cifs.spnego * * /usr/sbin/keyctl negate %k 30 %S<br />
-EOF  </p>
+create cifs.spnego * * /usr/sbin/keyctl negate %k 30 %S</p>
 </li>
 <li>
 <p>Disable unprivileged user namespaces <br />
 Where operationally feasible: 
-sysctl -w kernel.unprivileged_userns_clone=0<br />
+sysctl -w kernel.unprivileged_userns_clone=0 
 Note this may impact containers or sandboxing technologies.   </p>
 </li>
 <li>
