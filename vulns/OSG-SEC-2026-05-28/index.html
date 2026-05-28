@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-05-28/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2021-07-27 Vulnerabilities in HTCondor - OSG Security</title>
+        <title>OSG-SEC-2026-05-28 HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#osg-sec-2021-07-27-vulnerabilities-in-htcondor" class="md-skip">
+        <a href="#high-cifswitch-local-privilege-escalation-in-linux-cifscifs-utils" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2021-07-27 Vulnerabilities in HTCondor
+              OSG-SEC-2026-05-28 HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils
             
           </span>
         </div>
@@ -302,11 +302,87 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2026-05-28/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2026-05-28 HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2026-05-28 HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#high-cifswitch-local-privilege-escalation-in-linux-cifscifs-utils" class="md-nav__link">
+    HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#detection-verification" class="md-nav__link">
+    Detection / Verification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact" class="md-nav__link">
+    Impact
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1070,70 +1146,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2021-07-27 Vulnerabilities in HTCondor
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor/" class="md-nav__link">
         OSG-SEC-2021-07-27 Vulnerabilities in HTCondor
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-the-vulnerability" class="md-nav__link">
-    WHAT IS THE VULNERABILITY:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1861,14 +1878,26 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#high-cifswitch-local-privilege-escalation-in-linux-cifscifs-utils" class="md-nav__link">
+    HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#impacted-versions" class="md-nav__link">
@@ -1878,8 +1907,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-is-the-vulnerability" class="md-nav__link">
-    WHAT IS THE VULNERABILITY:
+  <a href="#detection-verification" class="md-nav__link">
+    Detection / Verification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impact" class="md-nav__link">
+    Impact
   </a>
   
 </li>
@@ -1910,30 +1946,87 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2021-07-27-Vulnerabilities-in-HTCondor.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-05-28.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="osg-sec-2021-07-27-vulnerabilities-in-htcondor">OSG-SEC-2021-07-27 Vulnerabilities in HTCondor</h1>
-<p>Dear OSG Security Contacts,</p>
-<p>Two security vulnerabilities have been discovered in HTCondor, HTCONDOR-2021-0003 [1] and HTCONDOR-2021-0004 [2], both of which allow unprivileged users to perform unauthorized actions.</p>
-<p>The OSG Security team considers these vulnerabilities to be of HIGH severity and recommend updating HTCondor to the fixed version as soon as possible.</p>
+                  <h1>OSG-SEC-2026-05-28 HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils</h1>
+                
+                <h2 id="high-cifswitch-local-privilege-escalation-in-linux-cifscifs-utils">HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils</h2>
+<p>Dear OSG Security Contacts,  </p>
+<p>A local privilege escalation vulnerability affecting the Linux CIFS subsystem and cifs-utils has been publicly disclosed. The issue allows an unprivileged local user to obtain root code execution under certain configurations involving CIFS/SMB support.
+At the time of writing, a CVE assignment is still pending.  </p>
+<h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
+<p>CIFS/SMB is a Windows-style network filesystem protocol. On Linux, the CIFS kernel client handles the actual filesystem parts: mounting the share, talking SMB to the server, doing reads/writes, etc.
+An unprivileged user may invoke: <br />
+request_key("cifs.spnego", ...)<br />
+with a forged CIFS SPNEGO description.<br />
+The request-key subsystem launches cifs.upcall as root. Affected versions of cifs.upcall trust attacker-controlled fields including: <br />
+- pid <br />
+- uid <br />
+- creduid <br />
+- upcall_target   </p>
+<p>When upcall_target=app is specified, the helper may switch into attacker-controlled namespaces and perform NSS lookups before privilege dropping, allowing execution of attacker-controlled libnss_*.so.2 libraries as root.   </p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>HTCONDOR-2021-0003 affects SchedD and Collector components in all versions of HTCondor.
-HTCONDOR-2021-0004 affects all daemons from version 9.0.0 and above.</p>
-<h2 id="what-is-the-vulnerability">WHAT IS THE VULNERABILITY:</h2>
-<p>HTCONDOR-2021-003 allows a user with read access to a SchedD or Collector to discover secrets that could allow them to control other user's jobs and/or read their data.</p>
-<p>HTCONDOR-2021-004 may allow users bearing a SciToken to be granted authorizations beyond what the token should allow.</p>
+<p>The issue appears to affect a broad range of modern Linux distributions and kernels. See reference [2] for more details. Systems may be vulnerable when all of the following conditions are met:</p>
+<ul>
+<li>cifs-utils is installed   </li>
+<li>the cifs.spnego request-key rule is enabled  </li>
+<li>the CIFS kernel module is available (default on most distributions)  </li>
+<li>unprivileged user namespaces are enabled  </li>
+</ul>
+<h2 id="detection-verification">Detection / Verification</h2>
+<p>cifs-utils does not typically appear in many minimal Linux installations and is generally associated with SMB/CIFS interoperability use cases. However, desktop-oriented, workstation, NAS-integrated, or cloud-focused images may include it by default or as a dependency.  </p>
+<p>Check whether cifs-utils is installed:<br />
+RHEL/Rocky/Alma/SUSE: <br />
+rpm -q cifs-utils  </p>
+<p>Ubuntu/Debian: <br />
+dpkg -s cifs-utils  </p>
+<p>Check for the vulnerable request-key rule:<br />
+grep -R cifs.spnego /etc/request-key<em> /usr/lib/request-key</em>  </p>
+<p>Check user namespace configuration:<br />
+sysctl kernel.unprivileged_userns_clone   </p>
+<h2 id="impact">Impact</h2>
+<p>Successful exploitation may allow:<br />
+unprivileged local user to execute arbitrary code as root<br />
+The issue is local-only and does not provide remote code execution by itself.  </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Update any HTCondor-CEs, HTCondor access points, and HTCondor central managers to a fixed version of the software [3] (8.8.14, 9.0.3 or 9.1.1) as soon as reasonably possible.</p>
-<p>A workaround for HTCONDOR-2021-0004 can be implemented by not allowing SciTokens as an authentication method until the patch can be applied. This means overriding the list of authentication methods (which includes SciTokens by default) by setting SEC_DEFAULT_AUTHENTICATION_METHODS to all the methods you would actually like to use. To simply remove SciTokens, set it to "FS,TOKEN,KERBEROS,GSI,SSL". [2]</p>
+<p>Mitigations <br />
+Vulnerability can be mitigated via any of the following:   </p>
+<ol>
+<li>Remove unused CIFS support <br />
+If SMB/CIFS functionality is not required:   </li>
+<li>uninstall cifs-utils   </li>
+<li>
+<p>or disable/blacklist the CIFS kernel module  </p>
+</li>
+<li>
+<p>Override the cifs.spnego request-key rule<br />
+If Kerberos CIFS functionality is not required: 
+cat &gt;/etc/request-key.d/cifs.spnego.conf &lt;&lt;'EOF'<br />
+create cifs.spnego * * /usr/sbin/keyctl negate %k 30 %S<br />
+EOF   </p>
+</li>
+<li>
+<p>Disable unprivileged user namespaces<br />
+Where operationally feasible:<br />
+sysctl -w kernel.unprivileged_userns_clone=0   </p>
+</li>
+</ol>
+<p>Note this may impact containers or sandboxing technologies.   </p>
+<ol>
+<li>Apply vendor kernel updates<br />
+The upstream kernel fix is: <br />
+3da1fdf4efbc ("smb: client: reject userspace cifs.spnego descriptions")  </li>
+</ol>
+<p>Sites should monitor vendor advisories and apply updated kernel packages as they become available.  </p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://research.cs.wisc.edu/htcondor/security/vulnerabilities/HTCONDOR-2021-0003-8b300a1e.html</p>
-<p>[2] https://research.cs.wisc.edu/htcondor/security/vulnerabilities/HTCONDOR-2021-0004-e92cd87d.html</p>
-<p>[3] https://research.cs.wisc.edu/htcondor/downloads.html</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
-<p>OSG Security Team</p>
+<p>[1] https://www.openwall.com/lists/oss-security/2026/05/28/2   <br />
+[2] https://heyitsas.im/posts/cifswitch  <br />
+[3] https://github.com/torvalds/linux/commit/3da1fdf4efbc490041eb4f836bf596201203f8f2    </p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns. </p>
+<p>OSG Security Team </p>
                 
               
               
@@ -1952,7 +2045,7 @@ HTCONDOR-2021-0004 affects all daemons from version 9.0.0 and above.</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2021-08-25-Vulnerabilities-in-JupyterLab-and-Jupyter-Notebook/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -1961,19 +2054,19 @@ HTCONDOR-2021-0004 affects all daemons from version 9.0.0 and above.</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2021-08-25 Vulnerabilities in JupyterLab and Jupyter Notebook
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2021-07-22-Vulnerability-in-Linux-kernel/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2026-05-21/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2021-07-22 Vulnerability in Linux kernel
+              OSG-SEC-2026-05-21 HIGH Nginx Vulnerability ngx_http_rewrite_module
             </div>
           </div>
           <div class="md-footer__button md-icon">
