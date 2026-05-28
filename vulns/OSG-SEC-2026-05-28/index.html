@@ -2009,14 +2009,14 @@ create cifs.spnego * * /usr/sbin/keyctl negate %k 30 %S<br />
 EOF   </p>
 </li>
 <li>
-<p>Disable unprivileged user namespaces<br />
+<p>Disable unprivileged user namespaces <br />
 Where operationally feasible:<br />
 sysctl -w kernel.unprivileged_userns_clone=0   </p>
 </li>
 </ol>
 <p>Note this may impact containers or sandboxing technologies.   </p>
 <ol>
-<li>Apply vendor kernel updates<br />
+<li>Apply vendor kernel updates <br />
 The upstream kernel fix is: <br />
 3da1fdf4efbc ("smb: client: reject userspace cifs.spnego descriptions")  </li>
 </ol>
