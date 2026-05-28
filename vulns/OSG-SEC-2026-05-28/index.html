@@ -1995,30 +1995,30 @@ The issue is local-only and does not provide remote code execution by itself.  <
 <p>Mitigations <br />
 Vulnerability can be mitigated via any of the following:   </p>
 <ol>
-<li>Remove unused CIFS support <br />
-If SMB/CIFS functionality is not required:   </li>
-<li>uninstall cifs-utils   </li>
+<li>Remove unused CIFS support 
+If SMB/CIFS functionality is not required: </li>
+<li>uninstall cifs-utils </li>
 <li>
-<p>or disable/blacklist the CIFS kernel module  </p>
+<p>or disable/blacklist the CIFS kernel module   </p>
 </li>
 <li>
-<p>Override the cifs.spnego request-key rule<br />
+<p>Override the cifs.spnego request-key rule <br />
 If Kerberos CIFS functionality is not required: 
 cat &gt;/etc/request-key.d/cifs.spnego.conf &lt;&lt;'EOF'<br />
 create cifs.spnego * * /usr/sbin/keyctl negate %k 30 %S<br />
-EOF   </p>
+EOF  </p>
 </li>
 <li>
 <p>Disable unprivileged user namespaces <br />
-Where operationally feasible:<br />
-sysctl -w kernel.unprivileged_userns_clone=0   </p>
+Where operationally feasible: 
+sysctl -w kernel.unprivileged_userns_clone=0<br />
+Note this may impact containers or sandboxing technologies.   </p>
 </li>
-</ol>
-<p>Note this may impact containers or sandboxing technologies.   </p>
-<ol>
-<li>Apply vendor kernel updates <br />
+<li>
+<p>Apply vendor kernel updates <br />
 The upstream kernel fix is: <br />
-3da1fdf4efbc ("smb: client: reject userspace cifs.spnego descriptions")  </li>
+3da1fdf4efbc ("smb: client: reject userspace cifs.spnego descriptions")  </p>
+</li>
 </ol>
 <p>Sites should monitor vendor advisories and apply updated kernel packages as they become available.  </p>
 <h2 id="references">REFERENCES</h2>
