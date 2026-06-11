@@ -1927,13 +1927,13 @@
 <p>A Linux kernel local privilege escalation vulnerability (CVE-2026-23111) enables local root access to attackers. Vulnerability was first disclosed in February 2026 and exploits are now public. Security researchers have published a detailed exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. </p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
 <p>CVE-2026-23111 is a use-after-free vulnerability in the Linux kernel nf_tables packet filtering subsystem.This is caused by a bug in the rollback logic for failed firewall rule transactions. An attacker can repeatedly trigger the faulty rollback path, causing the kernel to incorrectly reduce the reference count of a firewall chain until it is freed while still being referenced by other objects. This creates a use-after-free condition that can lead to kernel memory corruption.</p>
-<p>The vulnerability is reachable when both:
-- nf_tables support is available
-- unprivileged user namespaces are enabled
-An attacker with local access may exploit the vulnerability to:
-- Escalate privileges to root
-- Escape from containers
-- Gain control of the host system</p>
+<p>The vulnerability is reachable when both:  <br />
+- nf_tables support is available <br />
+- unprivileged user namespaces are enabled  <br />
+An attacker with local access may exploit the vulnerability to:  <br />
+- Escalate privileges to root <br />
+- Escape from containers <br />
+- Gain control of the host system    </p>
 <p>The vulnerability is local-only and does not provide remote code execution by itself. </p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
 <p>The vulnerability affects Linux kernels containing the vulnerable nf_tables code path prior to the upstream fix released on February 5, 2026.
