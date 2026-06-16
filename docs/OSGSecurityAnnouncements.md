@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-06-11  | IPv6 ICMP Error Handling Vulnerability  | [OSG-SEC-2026-06-11](./vulns/OSG-SEC-2026-06-11.md) |     |
 | 2026-06-09  | HIGH nf_tables bug leads to privilege escalation  | [OSG-SEC-2026-06-09](./vulns/OSG-SEC-2026-06-09.md) |     |
 | 2026-05-28  | HIGH CIFSwitch Local Privilege Escalation in Linux CIFS/cifs-utils  | [OSG-SEC-2026-05-28](./vulns/OSG-SEC-2026-05-28.md) |     |
 | 2026-05-21  | HIGH Nginx Vulnerability ngx_http_rewrite_module  | [OSG-SEC-2026-05-21](./vulns/OSG-SEC-2026-05-21.md) |     |
