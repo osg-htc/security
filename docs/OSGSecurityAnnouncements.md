@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-06-17  | Critical libssh2 RCE Vulnerability (CVE-2026-55200)  | [OSG-SEC-2026-06-17](./vulns/OSG-SEC-2026-06-17.md) |     |
 | 2026-06-23  | Important privilege escalation flaw in act_pedit   | [OSG-SEC-2026-06-23](./vulns/OSG-SEC-2026-06-23.md) |     |
 | 2026-06-11  | Critical flaw in the Linux kernel's IPv6 tunneling   | [OSG-SEC-2026-06-11a](./vulns/OSG-SEC-2026-06-11a.md) |     |
 | 2026-06-11  | IPv6 ICMP Error Handling Vulnerability  | [OSG-SEC-2026-06-11](./vulns/OSG-SEC-2026-06-11.md) |     |
