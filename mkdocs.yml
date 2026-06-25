@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-06-17 Critical libssh2 RCE Vulnerability (CVE-2026-55200) : './vulns/OSG-SEC-2026-06-17.md'
     - OSG-SEC-2026-06-23 Important privilege escalation flaw in act_pedit : './vulns/OSG-SEC-2026-06-23.md'
     - OSG-SEC-2026-06-11a Critical flaw in the Linux kernel's IPv6 tunneling : './vulns/OSG-SEC-2026-06-11a.md'
     - OSG-SEC-2026-06-11 IPv6 ICMP Error Handling Vulnerability: './vulns/OSG-SEC-2026-06-11.md'
