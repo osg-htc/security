@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+ 2026-07-06  | HIGH Linux Kernel epoll Local Privilege Escalation (CVE-2026-46242)  | [OSG-SEC-2026-07-06](./vulns/OSG-SEC-2026-07-06.md) |     |
 | 2026-06-16  | Critical vulnerability in the Linux kernel (DirtyClone) could allow a local user to gain full administrative (root) access  | [OSG-SEC-2026-06-26](./vulns/OSG-SEC-2026-06-26.md) |     |
 | 2026-06-17  | Critical libssh2 RCE Vulnerability (CVE-2026-55200)  | [OSG-SEC-2026-06-17](./vulns/OSG-SEC-2026-06-17.md) |     |
 | 2026-06-23  | Important privilege escalation flaw in act_pedit   | [OSG-SEC-2026-06-23](./vulns/OSG-SEC-2026-06-23.md) |     |
