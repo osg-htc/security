@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2021-01-27-heap-based-buffer-overflow-in-sudo/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-07-08/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2021-01-27 heap-based buffer overflow in sudo - OSG Security</title>
+        <title>OSG-SEC-2026-07-08 Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499) - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#update" class="md-skip">
+        <a href="#linux-kernel-rtmutex-local-privilege-escalation-cve-2026-43499" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2021-01-27 heap-based buffer overflow in sudo
+              OSG-SEC-2026-07-08 Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)
             
           </span>
         </div>
@@ -302,11 +302,73 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2026-07-08/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          OSG-SEC-2026-07-08 Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2026-07-08 Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#linux-kernel-rtmutex-local-privilege-escalation-cve-2026-43499" class="md-nav__link">
+    Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
+    WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    REFERENCES
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1262,80 +1324,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2021-01-27 heap-based buffer overflow in sudo
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2021-01-27-heap-based-buffer-overflow-in-sudo/" class="md-nav__link">
         OSG-SEC-2021-01-27 heap-based buffer overflow in sudo
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#update" class="md-nav__link">
-    UPDATE:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#correction" class="md-nav__link">
-    CORRECTION:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1987,15 +1980,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#update" class="md-nav__link">
-    UPDATE:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#correction" class="md-nav__link">
-    CORRECTION:
+  <a href="#linux-kernel-rtmutex-local-privilege-escalation-cve-2026-43499" class="md-nav__link">
+    Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)
   </a>
   
 </li>
@@ -2008,15 +1994,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#related-links" class="md-nav__link">
-    RELATED LINKS
+  <a href="#what-you-should-do" class="md-nav__link">
+    WHAT YOU SHOULD DO:
   </a>
   
 </li>
@@ -2040,45 +2026,48 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2021-01-27-heap-based-buffer-overflow-in-sudo.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-07-08.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                  <h1>OSG-SEC-2021-01-27 heap-based buffer overflow in sudo</h1>
+                  <h1>OSG-SEC-2026-07-08 Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)</h1>
                 
-                <h2 id="update">UPDATE:</h2>
-<p>CentOS8 packages now available [6].</p>
-<h2 id="correction">CORRECTION:</h2>
-<p>In the previous notice the patched versions were erroneously listed as the impacted versions. The heading has been updated in the message below for clarity.</p>
-<hr />
-<p>Dear OSG Security Contacts,</p>
-<p>A heap-based buffer overflow vulnerability that could lead to privilege escalation described in CVE-2021-3156 [1] has been discovered in 'sudo' [2]. The vulnerable code was introduced in July 2011 and affects all legacy versions of sudo from v1.8.2 to v1.8.31p2, and all stable versions from v1.9.0 to v1.9.5p1, using default configurations. The OSG Security team considers this vulnerability to be of CRITICAL severity.</p>
-<p>Patched Versions:</p>
-<p>RHEL/CentOS7: sudo-1.8.23-10.el7_9.1 [3][4]</p>
-<p>RHEL/CentOS8: sudo-1.8.29-6.el8_3.1 [5]</p>
-<p>Other operating systems and distributions are also likely to be exploitable.</p>
+                <h2 id="linux-kernel-rtmutex-local-privilege-escalation-cve-2026-43499">Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)</h2>
+<p>Dear OSG Security Contacts,  </p>
+<p>A 15 year old Linux kernel vulnerability has been identified in the real-time mutex (rtmutex) subsystem (CVE-2026-43499), also referred to as GhostLock. <br />
+The vulnerability may allow an unprivileged local user to exploit a use-after-free condition in the kernel, potentially resulting in privilege escalation or arbitrary code execution or DoS on affected systems. <br />
+Because the flaw affects a core Linux kernel component, a broad range of Linux systems may be impacted.     </p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>The vulnerability is exploitable by any local user. The attacker does not need to know the user's password, nor be a part of any sudoers list. Successful exploitation of this vulnerability could lead to privilege escalation.</p>
+<p>The vulnerability is caused by a use-after-free condition in the Linux kernel's rtmutex subsystem during specific futex operations. Under certain conditions, the kernel may continue accessing memory after it has been released, leading to memory corruption.<br />
+A publicly available proof-of-concept demonstrates that an unprivileged local user can exploit the vulnerability to obtain elevated privileges on affected systems. The vulnerability affects default kernel configurations and does not require unusual system settings or special capabilities to trigger. <br />
+The public exploit code is specific to Android and causes a crash, not privilege escalation; however, the availability of public exploit code significantly lowers the barrier to exploitation.   </p>
+<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
+<p>The vulnerability affects Linux systems running kernel versions that include the vulnerable rtmutex code.
+The following Red Hat Enterprise Linux releases are affected:</p>
+<ul>
+<li>Red Hat Enterprise Linux 7  </li>
+<li>Red Hat Enterprise Linux 8  </li>
+<li>Red Hat Enterprise Linux 9  </li>
+<li>Red Hat Enterprise Linux 10  </li>
+</ul>
+<p>Ubuntu, Debian, Rocky Linux, AlmaLinux, SUSE, and other Linux distributions may also be affected depending on the kernel package version and vendor backports. <br />
+Security updates are already available for some Debian releases, while others remain vulnerable until updated packages are installed.  </p>
+<p>Administrators should consult their respective Linux distribution vendor to determine whether installed kernel packages are affected and whether security updates are available.   </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>How to Check: As a non-root user account, run the following:
-<code>sudoedit -s '\' `perl -e 'print "A" x 65536'`</code></p>
-<p>A vulnerable system will segfault or show a similar error indicating memory corruption.</p>
-<p>If your system has local user accounts, update to the latest version of 'sudo' available for your operating system. After updating, run the command in "How to Check" above to verify the patch. If a patch is not yet available for your system, a mitigation using 'systemtap' has been described in the RedHat announcement for this issue [2]. The OSG Security team recommends updating as soon as possible.</p>
-<h2 id="related-links">RELATED LINKS</h2>
-<p>https://wiki.egi.eu/wiki/SVG:Advisory-SVG-CVE-2021-3156</p>
-<p>https://ubuntu.com/security/CVE-2021-3156</p>
-<p>https://security-tracker.debian.org/tracker/CVE-2021-3156</p>
-<p>http://mirror.centos.org/centos-8/8/BaseOS/x86_64/os/Packages/?C=M;O=D</p>
+<p>Apply vendor-provided kernel updates addressing CVE-2026-43499 when they become available. A system reboot is required after installing the updated kernel for the changes to take effect. <br />
+Because this vulnerability affects built-in  Linux kernel code, there is currently no complete mitigation that eliminates exposure prior to patching. <br />
+Systems that provide local access to untrusted users should be prioritized for kernel updates. <br />
+Continue to monitor your Linux distribution vendor for additional security advisories and updated kernel packages.   </p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://access.redhat.com/security/cve/CVE-2021-3156</p>
-<p>[2] https://blog.qualys.com/vulnerabilities-research/2021/01/26/cve-2021-3156-heap-based-buffer-overflow-in-sudo-baron-samedit</p>
-<p>[3] https://access.redhat.com/errata/RHSA-2021:0221</p>
-<p>[4] https://lists.centos.org/pipermail/centos-announce/2021-January/048252.html</p>
-<p>[5] https://access.redhat.com/errata/RHSA-2021:0218 (RHEL8)</p>
-<p>[6] http://mirror.centos.org/centos-8/8/BaseOS/x86_64/os/Packages/?C=M;O=D</p>
-<p>Please contact the OSG security team immediately at security at opensciencegrid.org if you have any questions or concerns.</p>
-<p>OSG Security Team</p>
+<p>[1] https://www.cve.org/CVERecord?id=CVE-2026-43499 <br />
+[2] https://nvd.nist.gov/vuln/detail/CVE-2026-43499 <br />
+[3] https://access.redhat.com/security/cve/cve-2026-43499 <br />
+[4] https://nebusec.ai/research/ionstack-part-2/  <br />
+[5] https://security-tracker.debian.org/tracker/CVE-2026-43499 <br />
+[6] https://ubuntu.com/security/CVE-2026-43499   </p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.</p>
+<p>OSG Security Team  </p>
                 
               
               
@@ -2097,7 +2086,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2021-01-28-vulnerabilities-in-HTCondor/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../OSGSecurityAnnouncements-x86/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2106,19 +2095,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2021-01-28 vulnerabilities in HTCondor
+              Overview x86 vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2020-09-22-CVE-2020-14386-Memory-corruption-in-kernel-on-EL8-UPDATE/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2026-07-07/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2020-09-22 CVE-2020-14386 Memory corruption in kernel on EL8 **UPDATE**
+              OSG-SEC-2026-07-07 Linux Kernel KVM Guest-to-Host Escape Vulnerability (CVE-2026-53359)
             </div>
           </div>
           <div class="md-footer__button md-icon">
