@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-07-08  | Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)  | [OSG-SEC-2026-07-08](./vulns/OSG-SEC-2026-07-08.md) |     |
 | 2026-07-07  | Linux Kernel KVM Guest-to-Host Escape Vulnerability (CVE-2026-53359)  | [OSG-SEC-2026-07-07](./vulns/OSG-SEC-2026-07-07.md) |     |
 | 2026-07-06  | HIGH Linux Kernel epoll Local Privilege Escalation (CVE-2026-46242)  | [OSG-SEC-2026-07-06](./vulns/OSG-SEC-2026-07-06.md) |     |
 | 2026-06-16  | Critical vulnerability in the Linux kernel (DirtyClone) could allow a local user to gain full administrative (root) access  | [OSG-SEC-2026-06-26](./vulns/OSG-SEC-2026-06-26.md) |     |
