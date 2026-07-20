@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2022-03-16_update/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-07-20/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2022-03-16 UPDATE - HIGH Severity DOS Vulnerability in OpenSSL - OSG Security</title>
+        <title>OSG SEC 2026 07 20 - OSG Security</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#original-announcement" class="md-skip">
+        <a href="#nginx-heap-buffer-overflow-vulnerability-cve-2026-42533" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2022-03-16 UPDATE - HIGH Severity DOS Vulnerability in OpenSSL
+              OSG SEC 2026 07 20
             
           </span>
         </div>
@@ -279,14 +279,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       <label class="md-nav__link" for="__nav_4">
         Announcement Details
@@ -998,70 +996,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2022-03-16 UPDATE - HIGH Severity DOS Vulnerability in OpenSSL
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2022-03-16_update/" class="md-nav__link">
         OSG-SEC-2022-03-16 UPDATE - HIGH Severity DOS Vulnerability in OpenSSL
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-are-the-vulnerabilities" class="md-nav__link">
-    WHAT ARE THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1981,8 +1920,6 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1991,8 +1928,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
+  <a href="#nginx-heap-buffer-overflow-vulnerability-cve-2026-42533" class="md-nav__link">
+    NGINX Heap Buffer Overflow Vulnerability (CVE-2026-42533)
   </a>
   
 </li>
@@ -2000,6 +1937,13 @@
         <li class="md-nav__item">
   <a href="#what-are-the-vulnerabilities" class="md-nav__link">
     WHAT ARE THE VULNERABILITIES:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impacted-versions" class="md-nav__link">
+    IMPACTED VERSIONS:
   </a>
   
 </li>
@@ -2030,50 +1974,51 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2022-03-16_update.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-07-20.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <p># OSG-SEC-2022-03-16 UPDATE on HIGH Severity DOS Vulnerability in OpenSSL</p>
-<p>UPDATE 03-17-2022: This vulnerability does not affect the version of OpenSSL shipped with RHEL 7/8 and derivatives.  For EL7/8 systems this vulnerabilty has LOW severity.  </p>
-<p>https://access.redhat.com/security/cve/cve-2022-0778</p>
-<hr />
-<h1 id="original-announcement">ORIGINAL ANNOUNCEMENT</h1>
-<p>Dear OSG Security Contacts,</p>
-<p>A function in OpenSSL contains a bug that can be used by attackers to cause an infinite loop, resulting in a denial-of-service (DOS) attack against vulnerable hosts.</p>
-<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>This issue affects OpenSSL versions 1.0.2, 1.1.0, 1.1.1 and 3.0.</p>
+                  <h1>OSG SEC 2026 07 20</h1>
+                
+                <h2 id="nginx-heap-buffer-overflow-vulnerability-cve-2026-42533">NGINX Heap Buffer Overflow Vulnerability (CVE-2026-42533)</h2>
+<p>Dear OSG Security Contacts,  </p>
+<p>A vulnerability has been identified in NGINX (CVE-2026-42533) that could allow a remote, unauthenticated attacker to trigger a heap buffer overflow by sending specially crafted HTTP requests to affected servers using certain map directive configurations. Successful exploitation can cause NGINX worker processes to restart, resulting in a denial of service. Under limited circumstances, such as when Address Space Layout Randomization (ASLR) is disabled or bypassed, arbitrary code execution may also be possible.</p>
 <h2 id="what-are-the-vulnerabilities">WHAT ARE THE VULNERABILITIES:</h2>
-<p>The BN_mod_sqrt() function, which computes a modular square root, contains
-a bug that can cause it to loop forever for non-prime moduli. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. [1]</p>
-<p>Vulnerable situations include:
- - TLS clients consuming server certificates
- - TLS servers consuming client certificates
- - Hosting providers taking certificates or private keys from customers
- - Certificate authorities parsing certification requests from subscribers
- - Anything else which parses ASN.1 elliptic curve parameters</p>
+<p>CVE-2026-42533 is a heap buffer overflow vulnerability in NGINX's request processing logic. The issue occurs when the map directive performs regular expression matching and a configuration references regex capture variables before the associated map output variable. An unauthenticated attacker can exploit this behavior by sending specially crafted HTTP requests that trigger incorrect buffer sizing during request processing.</p>
+<p>The vulnerability is configuration-dependent and does not affect every NGINX deployment. Successful exploitation can cause NGINX worker processes to crash and restart, leading to a denial of service. It affects the NGINX data plane by targeting worker processes that handle HTTP requests and does not expose the NGINX control plane. Although remote code execution has been identified as a potential outcome under specific conditions, Red Hat notes that this risk is significantly reduced on RHEL systems where ASLR is enabled by default.</p>
+<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
+<p>NGINX Open Source<br />
+- Versions earlier than 1.30.4 (stable branch)<br />
+- Versions earlier than 1.31.3 (mainline branch)  </p>
+<p>NGINX Plus<br />
+- Versions earlier than 37.0.3.1  </p>
+<p>Red Hat Enterprise Linux<br />
+- RHEL 8 nginx AppStream (nginx:1.24) - Affected<br />
+- RHEL 9 nginx packages (nginx, nginx:1.24, nginx:1.26) - Affected<br />
+- RHEL 10 nginx packages - Affected<br />
+- Red Hat has identified the affected packages, but security errata are not yet available.  </p>
+<p>Debian<br />
+- Debian has identified affected nginx packages (Bullseye, Bookworm, Trixie, Forky, and Sid); fixes are not yet available. <br />
+Ubuntu <br />
+- Ubuntu is evaluating affected packages.  </p>
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<p>Update to a patched version of OpenSSL</p>
 <ul>
-<li>
-<p>(OpenSSL 1.0.2) This version is out of support and no longer receiving public updates. Extended support to upgrade to 1.0.2zd is available for premium support customers:
-https://www.openssl.org/support/contracts.html. Other users should upgrade to 1.1.1n or 3.0.2.</p>
-</li>
-<li>
-<p>(OpenSSL 1.1.0) This version is out of support and no longer receiving updates of any kind. Users should upgrade to 1.1.1n or 3.0.2. </p>
-</li>
-<li>
-<p>(OpenSSL 1.1.1) Users should upgrade to 1.1.1n</p>
-</li>
-<li>
-<p>(OpenSSL 3.0) Users should upgrade to 3.0.2</p>
-</li>
+<li>Apply vendor security updates as soon as they become available.</li>
+<li>Review NGINX configurations that use regex-based map directives to determine whether they are exposed to the vulnerable code path.</li>
+<li>Replace unnamed regular expression captures (for example, $1, $2) with named captures where practical, and use them only within the same block as the associated regular expression match.</li>
+<li>Monitor security advisories from your Linux distribution and update affected NGINX packages promptly once fixes are released.</li>
 </ul>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://www.openssl.org/news/secadv/20220315.txt</p>
-<p>Please contact the OSG security team at security@opensciencegrid.org if you have any questions or concerns.</p>
-<p>OSG Security Team</p>
+<p>[1] https://access.redhat.com/security/cve/cve-2026-42533 <br />
+[2] https://nvd.nist.gov/vuln/detail/CVE-2026-42533<br />
+[3] https://www.cve.org/CVERecord?id=CVE-2026-42533 <br />
+[4] https://my.f5.com/manage/s/article/K000162097 <br />
+[5] https://security-tracker.debian.org/tracker/CVE-2026-42533 <br />
+[6] https://ubuntu.com/security/CVE-2026-42533 <br />
+[7] https://vuldb.com/vuln/379270   </p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.  </p>
+<p>OSG Security Team  </p>
                 
               
               
@@ -2089,39 +2034,6 @@ https://www.openssl.org/support/contracts.html. Other users should upgrade to 1.
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        <a href="../OSG-SEC-2022-03-18/" class="md-footer__link md-footer__link--prev" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              OSG-SEC-2022-03-18 CRITICAL OOB memory access flaw in Linux kernel
-            </div>
-          </div>
-        </a>
-      
-      
-        <a href="../OSG-SEC-2022-03-16/" class="md-footer__link md-footer__link--next" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              OSG-SEC-2022-03-16 HIGH Severity DOS Vulnerability in OpenSSL
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
