@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-07-20  | Linux Kernel Fuse fs/fuse/file.c fuse_try_move_folio folios/mapping use after free (CVE-2026-53388)  | [OSG-SEC-2026-07-20b](./vulns/OSG-SEC-2026-07-20b.md) |     |
 | 2026-07-20  | NGINX Heap Buffer Overflow Vulnerability (CVE-2026-42533)  | [OSG-SEC-2026-07-20a](./vulns/OSG-SEC-2026-07-20a.md) |     |
 | 2026-07-08  | Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499)  | [OSG-SEC-2026-07-08](./vulns/OSG-SEC-2026-07-08.md) |     |
 | 2026-07-07  | Linux Kernel KVM Guest-to-Host Escape Vulnerability (CVE-2026-53359)  | [OSG-SEC-2026-07-07](./vulns/OSG-SEC-2026-07-07.md) |     |
