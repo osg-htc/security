@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-07-20b Linux Kernel Fuse fs/fuse/file.c fuse_try_move_folio folios/mapping use after free (CVE-2026-53388) : './vulns/OSG-SEC-2026-07-20b.md'
     - OSG-SEC-2026-07-20a NGINX Heap Buffer Overflow Vulnerability (CVE-2026-42533) : './vulns/OSG-SEC-2026-07-20a.md'
     - OSG-SEC-2026-07-08 Linux Kernel rtmutex Local Privilege Escalation (CVE-2026-43499) : './vulns/OSG-SEC-2026-07-08.md'
     - OSG-SEC-2026-07-07 Linux Kernel KVM Guest-to-Host Escape Vulnerability (CVE-2026-53359) : './vulns/OSG-SEC-2026-07-07.md'
