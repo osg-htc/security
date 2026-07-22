@@ -2029,8 +2029,8 @@
                 
                   <h1>OSG-SEC-2026-07-20b Linux Kernel Fuse fs/fuse/file.c fuse_try_move_folio folios/mapping use after free (CVE-2026-53388)</h1>
                 
-                <p>Dear OSG Security Contacts,
-A flaw was identified in the Linux kernel's Filesystem in Userspace (FUSE) component. After a request is unlocked, it may continue processing after memory associated with the request has already been released, creating a use-after-free condition. Successful exploitation could result in a denial of service or potentially arbitrary code execution.
+                <p>Dear OSG Security Contacts,</p>
+<p>A flaw was identified in the Linux kernel's Filesystem in Userspace (FUSE) component. After a request is unlocked, it may continue processing after memory associated with the request has already been released, creating a use-after-free condition. Successful exploitation could result in a denial of service or potentially arbitrary code execution.
  ## WHAT ARE THE VULNERABILITIES:
 CVE-2026-53388 is caused by improper request synchronization within the Linux kernel's FUSE subsystem.  The issue occurs in the fuse_try_move_folio() function, which manages page cache folios. On the successful execution path, the function unlocks a request but fails to re-acquire the lock before continuing, allowing fuse_chan_abort() to prematurely free the associated fuse_io_args structure. This results in a use-after-free condition that could allow a local attacker to cause a denial of service or potentially execute arbitrary code. </p>
 <h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
@@ -2053,7 +2053,7 @@ Prioritize systems that provide access to unprivileged users or make use of FUSE
 <p>[1] https://nvd.nist.gov/vuln/detail/CVE-2026-53388<br />
 [2] https://access.redhat.com/security/cve/cve-2026-53388<br />
 [3] https://vuldb.com/vuln/380120<br />
-[4] https://www.cve.org/CVERecord?id=CVE-2026-53388 
+[4] https://www.cve.org/CVERecord?id=CVE-2026-53388<br />
 [5] https://security-tracker.debian.org/tracker/CVE-2026-53388<br />
 Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.
 OSG Security Team  </p>
