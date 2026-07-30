@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-07-30  | Linux Kernel Network Scheduler Vulnerability  | [OSG-SEC-2026-07-30](./vulns/OSG-SEC-2026-07-30.md) |     |
 | 2026-07-29  | OVSwrap kernel: net: openvswitch: reject oversized nested action attrs (CVE-2026-64531)  | [OSG-SEC-2026-07-29](./vulns/OSG-SEC-2026-07-29.md) |     |
 | 2026-07-20  | Linux Kernel Fuse fs/fuse/file.c fuse_try_move_folio folios/mapping use after free (CVE-2026-53388)  | [OSG-SEC-2026-07-20b](./vulns/OSG-SEC-2026-07-20b.md) |     |
 | 2026-07-20  | NGINX Heap Buffer Overflow Vulnerability (CVE-2026-42533)  | [OSG-SEC-2026-07-20a](./vulns/OSG-SEC-2026-07-20a.md) |     |
