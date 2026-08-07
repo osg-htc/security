@@ -141,6 +141,8 @@ nav:
 - OSG Security Policies & Procedures:
   - Including Let’s Encrypt signing certificate in OSG CA bundle: 'LetsEncryptOSGCAbundle.md'
   - Approved OSG Security Policies: 'OSGSecurityPolicies.md'
+  - OSG Master Information Security Policy: 'policy/OSGMasterInformationSecurityPolicy.md'
+  - OSG Incident Response Policy: 'policy/OSGIncidentResponsePolicy.md'
   - Site/VO Removal Policy: 'SiteVORemovalPolicy.md'
   - OSG Security Procedures: 'OSGSecurityProcedures.md'
   - Site/VO Removal Procedure: 'SiteVORemovalProcedure.md'
