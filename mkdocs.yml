@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-08-06 HIGH-Linux kernel vulnerability-SCTPhantom : './vulns/OSG-SEC-2026-08-06.md'
     - OSG-SEC-2026-07-30 Linux Kernel Network Scheduler Vulnerability : './vulns/OSG-SEC-2026-07-30.md'
     - OSG-SEC-2026-07-29 OVSwrap kernel net openvswitch reject oversized nested action attrs (CVE-2026-64531) : './vulns/OSG-SEC-2026-07-29.md'
     - OSG-SEC-2026-07-20b Linux Kernel Fuse fs/fuse/file.c fuse_try_move_folio folios/mapping use after free (CVE-2026-53388) : './vulns/OSG-SEC-2026-07-20b.md'
