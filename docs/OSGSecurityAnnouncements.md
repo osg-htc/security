@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-08-11  | CRITICAL-RUCIO - Improper Authentication Vulnerability | [OSG-SEC-2026-08-11](./vulns/OSG-SEC-2026-08-11.md) |     |
 | 2026-08-06  | HIGH-Linux kernel vulnerability-SCTPhantom  | [OSG-SEC-2026-08-06](./vulns/OSG-SEC-2026-08-06.md) |     |
 | 2026-07-30  | Linux Kernel Network Scheduler Vulnerability  | [OSG-SEC-2026-07-30](./vulns/OSG-SEC-2026-07-30.md) |     |
 | 2026-07-29  | OVSwrap kernel: net: openvswitch: reject oversized nested action attrs (CVE-2026-64531)  | [OSG-SEC-2026-07-29](./vulns/OSG-SEC-2026-07-29.md) |     |
