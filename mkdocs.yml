@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-08-28 Important Linux kernel's ipv6 frag escape vulnerability : './vulns/OSG-SEC-2026-08-28.md'
     - OSG-SEC-2026-08-27 Important-Ceph Vulnerabilities (CVE-2025-30156 and CVE-2026-54330) : './vulns/OSG-SEC-2026-08-27.md'
     - OSG-SEC-2026-08-25 NVIDIA GPUThor Rowhammer Security Guidance : './vulns/OSG-SEC-2026-08-25.md'
     - OSG-SEC-2026-08-21 Critical-GitLab Vulnerability-CVE-2026-19478 : './vulns/OSG-SEC-2026-08-21.md'
