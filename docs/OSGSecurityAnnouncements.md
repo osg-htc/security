@@ -1,5 +1,7 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-08-27 | Important-Ceph Vulnerabilities (CVE-2025-30156 and CVE-2026-54330) | [OSG-SEC-2026-08-27](./vulns/OSG-SEC-2026-08-27.md) |     |
+| 2026-08-25  | NVIDIA GPUThor Rowhammer Security Guidance | [OSG-SEC-2026-08-25](./vulns/OSG-SEC-2026-08-25.md) |     |
 | 2026-08-21  | Critical-GitLab Vulnerability-CVE-2026-19478 | [OSG-SEC-2026-08-21](./vulns/OSG-SEC-2026-08-21.md) |     |
 | 2026-08-17  | Important-Linux Kernel CAN BCM LPE Vulnerability | [OSG-SEC-2026-08-17](./vulns/OSG-SEC-2026-08-17.md) |     |
 | 2026-08-11  | CRITICAL-RUCIO - Improper Authentication Vulnerability | [OSG-SEC-2026-08-11](./vulns/OSG-SEC-2026-08-11.md) |     |
