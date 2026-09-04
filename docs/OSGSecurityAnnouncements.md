@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-09-02 | Important-Linux Kernel XFRM NAT Keepalive LPE | [OSG-SEC-2026-09-02](./vulns/OSG-SEC-2026-09-02.md) |     |
 | 2026-08-28 | Important Linux kernel's ipv6 frag escape vulnerability | [OSG-SEC-2026-08-28](./vulns/OSG-SEC-2026-08-28.md) |     |
 | 2026-08-27 | Important-Ceph Vulnerabilities (CVE-2025-30156 and CVE-2026-54330) | [OSG-SEC-2026-08-27](./vulns/OSG-SEC-2026-08-27.md) |     |
 | 2026-08-25  | NVIDIA GPUThor Rowhammer Security Guidance | [OSG-SEC-2026-08-25](./vulns/OSG-SEC-2026-08-25.md) |     |
