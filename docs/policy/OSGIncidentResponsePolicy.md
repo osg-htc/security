@@ -4,7 +4,7 @@
 Version 1.0  
 Updated 29 September 2026
 
-Authors: Zalak Shah  
+Authors: Zalak Shah, Josh Drake  
 Information Security Officer: Mark Krenz
 
 ## 1 Introduction and Scope
