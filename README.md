@@ -19,4 +19,11 @@ into `.claude/skills/`. Start the agent from the repository root, then:
 - OpenAI Codex (CLI, IDE, or ChatGPT Codex cloud): `$osg-cve-announcement CVE-2026-12345 https://vendor.example/advisory`
 - OpenCode: ask "Use the osg-cve-announcement skill for CVE-2026-12345 https://vendor.example/advisory"
 
+It also writes the plain-text email body to `notify/<ID>.txt` (ASCII only,
+as `osg-notify` requires) and prints the `osg-notify` commands (test,
+dry run, production) for emailing it to security contacts. To regenerate
+the email after editing the page:
+
+    python3 .agents/skills/osg-cve-announcement/scripts/to_notify.py docs/vulns/OSG-SEC-YYYY-MM-DD.md
+
 Always review the draft against the cited sources before publishing.
