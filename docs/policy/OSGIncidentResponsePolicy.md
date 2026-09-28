@@ -81,8 +81,8 @@ The following list includes primary entities involved in incident response and t
 
 * **OSG ISO** (Mark Krenz, IU):
     * Backups, in order of preference:
-        * Zalak Shah, IU
-        * Adrian Crenshaw, IU
+        * Garhan Attebury, UNL
+        * Megha Moncy, IU
         * Any other active member of OSG Security Team
     * Responsibilities:
         * Ensures regular communication with OSG Management and stakeholders as needed during an incident.
