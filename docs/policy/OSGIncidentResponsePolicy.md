@@ -5,7 +5,7 @@ Version 1.0
 Updated 1 Dec 2019
 
 Authors: Zalak Shah  
-Information Security Officer: Josh Drake
+Information Security Officer: Mark Krenz
 
 ## 1 Introduction and Scope
 
@@ -79,7 +79,7 @@ The following list includes primary entities involved in incident response and t
         * Request to the OSG ISO or IR Lead to approve the reconnection of the resource center or VO to OSG after issues related to a security incident have been remediated.
 
 
-* **OSG ISO** (Josh Drake, IU):
+* **OSG ISO** (Mark Krenz, IU):
     * Backups, in order of preference:
         * Zalak Shah, IU
         * Adrian Crenshaw, IU
