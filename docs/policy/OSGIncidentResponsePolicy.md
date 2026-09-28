@@ -1,4 +1,4 @@
-**OSG Incident Response Policies and Procedures*
+**OSG Incident Response Policies and Procedures**
 ========================================================================
 
 Version 1.0  
