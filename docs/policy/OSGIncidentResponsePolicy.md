@@ -92,7 +92,7 @@ The following list includes primary entities involved in incident response and t
         * Declares a security incident, when deemed necessary, and names an Incident Response Lead for that incident.
 
 
-* **OSG Security Team** (Shah, Drake, Crenshaw, Kiser (IU)):
+* **OSG Security Team** :
     * Responsibilities:
         * Help as requested by the IR Lead during an incident.
         * Perform post-mortem analysis of incident in conjunction with the IR team and other relevant parties.
