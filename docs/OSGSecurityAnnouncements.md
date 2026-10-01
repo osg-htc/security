@@ -1,6 +1,7 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
 | 2026-09-30 | NVIDIA Linux GPU Driver Security Vulnerabilities | [OSG-SEC-2026-09-30](./vulns/OSG-SEC-2026-09-30.md) |     |
+| 2026-09-29 | Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508 | [OSG-SEC-2026-09-29](./vulns/OSG-SEC-2026-09-29.md) |     |
 | 2026-09-11 | CRITICAL-Multiple Vulnerabilities in Self-Managed GitLab CE/EE | [OSG-SEC-2026-09-11](./vulns/OSG-SEC-2026-09-11.md) |     |
 | 2026-09-02 | Important-Linux Kernel XFRM NAT Keepalive LPE | [OSG-SEC-2026-09-02](./vulns/OSG-SEC-2026-09-02.md) |     |
 | 2026-08-28 | Important Linux kernel's ipv6 frag escape vulnerability | [OSG-SEC-2026-08-28](./vulns/OSG-SEC-2026-08-28.md) |     |
