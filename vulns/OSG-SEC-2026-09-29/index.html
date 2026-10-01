@@ -9,14 +9,14 @@
       
       
       
-        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-08-28/">
+        <link rel="canonical" href="https://osg-htc.org/security/vulns/OSG-SEC-2026-09-29/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
     
     
       
-        <title>OSG-SEC-2026-08-28 Important Linux kernel's ipv6 frag escape vulnerability - OSG Security</title>
+        <title>OSG-SEC-2026-09-29 Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508 - OSG Security</title>
       
     
     
@@ -60,11 +60,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#what-is-the-vulnerabilities" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -91,7 +86,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OSG-SEC-2026-08-28 Important Linux kernel's ipv6 frag escape vulnerability
+              OSG-SEC-2026-09-29 Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508
             
           </span>
         </div>
@@ -314,11 +309,18 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../OSG-SEC-2026-09-29/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         OSG-SEC-2026-09-29 Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508
       </a>
+      
     </li>
   
 
@@ -350,73 +352,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OSG-SEC-2026-08-28 Important Linux kernel's ipv6 frag escape vulnerability
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../OSG-SEC-2026-08-28/" class="md-nav__link">
         OSG-SEC-2026-08-28 Important Linux kernel's ipv6 frag escape vulnerability
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-the-vulnerabilities" class="md-nav__link">
-    WHAT IS THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mitigation" class="md-nav__link">
-    MITIGATION
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2168,106 +2108,46 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-the-vulnerabilities" class="md-nav__link">
-    WHAT IS THE VULNERABILITIES:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#impacted-versions" class="md-nav__link">
-    IMPACTED VERSIONS:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mitigation" class="md-nav__link">
-    MITIGATION
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#what-you-should-do" class="md-nav__link">
-    WHAT YOU SHOULD DO:
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    REFERENCES
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-08-28.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/osg-htc/security/edit/master/docs/vulns/OSG-SEC-2026-09-29.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                  <h1>OSG-SEC-2026-08-28 Important Linux kernel's ipv6 frag escape vulnerability</h1>
+                  <h1>OSG-SEC-2026-09-29 Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508</h1>
                 
-                <p>Dear OSG Security Contacts,  </p>
-<p>An Important Linux kernel vulnerability, CVE-2026-53362 [1] (ipv6_frag_escape), affecting Red Hat Enterprise Linux (RHEL) 10 has been disclosed. The vulnerability has been added to CISA's Known Exploited Vulnerabilities (KEV) Catalog [3], indicating exploitation in the wild.  </p>
-<h2 id="what-is-the-vulnerabilities">WHAT IS THE VULNERABILITIES:</h2>
-<p>An incorrect parameter length calculation in the Linux kernel's IPv6 networking subsystem can allow an attacker to overwrite kernel memory, potentially resulting in privilege escalation, data corruption, or a system crash.<br />
-Exploitation requires the ability to create network namespaces. Default RHEL 10 configurations provide this capability to unprivileged users through user namespaces. <br />
-Exploitation can also be initiated from within a container, potentially allowing an attacker to escape the container, bypass SELinux enforcement, and gain root access to the underlying host.   </p>
-<h2 id="impacted-versions">IMPACTED VERSIONS:</h2>
-<p>RHEL 10 – Affected<br />
-Red Hat products and layered products that rely on an affected RHEL 10 kernel may also be impacted.   </p>
-<h2 id="mitigation">MITIGATION</h2>
-<p>Red Hat has released updated RHEL 10 kernel packages containing a backported fix for CVE-2026-53362 [1].  </p>
-<p>Sites should identify RHEL 10 instances and verify that the currently running kernel contains the fix. Systems running an affected kernel should apply the applicable RHEL 10 kernel security update and reboot into the updated kernel.  </p>
-<p>As a temporary mitigation [2], restricting unprivileged user namespaces or network namespaces [4] can reduce the attack surface. On systems where unprivileged user namespaces are not required, they can be disabled at runtime:   </p>
-<p>sudo sysctl -w user.max_user_namespaces=0   </p>
-<p>To persist the setting across reboots: 
-echo 'user.max_user_namespaces = 0' | sudo tee /etc/sysctl.d/99-disable-userns.conf  </p>
-<p>Warning: Disabling unprivileged user namespaces can break functionality that depends on them, including Apptainer containers. Sites that require this functionality should disable network namespaces [4], which can block the documented exploitation path. Prioritize installing the updated kernel and rebooting remains the recommended remediation.</p>
-<h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
-<ul>
-<li>Identify any RHEL 10 systems in your environment.     </li>
-<li>Verify if you are already running a kernel containing Red Hat's backported fix for CVE-2026-53362.   </li>
-<li>Apply the applicable kernel security update,if necessary, and reboot any affected systems.  </li>
-<li>Where immediate patching is not possible, evaluate disabling unprivileged user namespaces or network namespaces after assessing potential operational impact.   </li>
-</ul>
-<h2 id="references">REFERENCES</h2>
-<p>[1] https://access.redhat.com/security/cve/cve-2026-53362<br />
-[2] https://access.redhat.com/security/vulnerabilities/RHSB-2026-009 <br />
-[3] https://www.cisa.gov/known-exploited-vulnerabilities-catalog   <br />
-[4] https://apptainer.org/docs/admin/latest/user_namespace.html#disabling-network-namespaces   </p>
-<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.  </p>
-<p>OSG Security Team </p>
+                <p># OSG-SEC-2026-09-29-Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508</p>
+<p>Dear OSG Security Contacts,</p>
+<p>A flaw was found in the Linux kernel's and Berkeley Packet Filter (BPF) Just-In-Time (JIT) compiler [1][2]. The vulnerabilities involve the BPFJIT compiler reusing executable memory without adequately clearing stale CPU branch-prediction state, potentially allowing disclosure of sensitive information. Public proof-of-concept (PoC) exploit code is available [3].</p>
+<p>## IMPACTED VERSIONS:</p>
+<p>RHEL: 7,8,9 and 10 are affected.<br />
+Ubuntu:  Multiple Ubuntu kernel versions are affected. See references [4] and [5] for the affected versions and available security updates.</p>
+<p>## WHAT ARE THE VULNERABILITIES:</p>
+<p>BTR is a Spectre-v2-style attack that abuses stale CPU branch-prediction state when executable memory used by the BPF JIT is reused. An unprivileged local process can potentially exploit this behavior to disclose sensitive memory across security boundaries. The published PoC was specifically tested against Ubuntu 24.04 with Linux kernel 6.14.0-27-generic.</p>
+<p>The demonstrated impact is sensitive memory disclosure rather than direct local privilege escalation (LPE). Researchers demonstrated that an unprivileged process could locate a privileged process and recover a root password hash from memory. However, this is likely only one of the potential types of sensitive data that is at risk.</p>
+<p>Obtaining a password hash does not by itself provide root privileges. However, if the associated password is weak and can be recovered through offline password cracking, the disclosed credential could potentially be used for subsequent privilege escalation or unauthorized access.</p>
+<p>## MITIGATION :</p>
+<p>No effective vendor-documented workaround has been identified for affected RHEL systems at this time.<br />
+Disabling unprivileged eBPF alone should not be considered sufficient because the demonstrated attack uses classic BPF (cBPF).</p>
+<p>## WHAT YOU SHOULD DO:</p>
+<p>Ubuntu: Apply the applicable Canonical kernel security updates addressing CVE-2026-64507 and CVE-2026-64508.<br />
+RHEL: Continue monitoring Red Hat for kernel security updates and apply the vendor-provided kernel fix when available.<br />
+Reboot into the updated kernel after applying vendor security updates.</p>
+<p>Where a usable root password is configured, sites should consider performing an authorized offline password-strength audit of the root password hash using an established password-auditing tool such as Hashcat[6] or John the Ripper[7] and an appropriate common-password corpus. Any weak passwords identified during the audit should be replaced with strong, unique credentials.</p>
+<p>## REFERENCES</p>
+<p>[1] <a href="https://access.redhat.com/security/cve/cve-2026-64507">https\://access.redhat.com/security/cve/cve-2026-64507</a> <br />
+[2] <a href="https://access.redhat.com/security/cve/cve-2026-64508">https\://access.redhat.com/security/cve/cve-2026-64508</a> <br />
+[3] <a href="https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html">https\://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html</a><br />
+[4 ]<a href="https://ubuntu.com/security/CVE-2026-64507">https\://ubuntu.com/security/CVE-2026-64507</a><br />
+[5 ]<a href="https://ubuntu.com/security/CVE-2026-64508">https\://ubuntu.com/security/CVE-2026-64508</a>  <br />
+[6] <a href="https://hashcat.net/hashcat/">https\://hashcat.net/hashcat/</a><br />
+[7] <a href="https://www.openwall.com/john/">https\://www.openwall.com/john/</a></p>
+<p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.<br />
+OSG Security Team  </p>
                 
               
               
@@ -2286,7 +2166,7 @@ echo 'user.max_user_namespaces = 0' | sudo tee /etc/sysctl.d/99-disable-userns.c
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../OSG-SEC-2026-09-02/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../OSG-SEC-2026-09-30/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2295,19 +2175,19 @@ echo 'user.max_user_namespaces = 0' | sudo tee /etc/sysctl.d/99-disable-userns.c
               <span class="md-footer__direction">
                 Previous
               </span>
-              OSG-SEC-2026-09-02 Important-Linux Kernel XFRM NAT Keepalive LPE
+              OSG-SEC-2026-09-30 NVIDIA Linux GPU Driver Security Vulnerabilities
             </div>
           </div>
         </a>
       
       
-        <a href="../OSG-SEC-2026-08-27/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../OSG-SEC-2026-09-11/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              OSG-SEC-2026-08-27 Important-Ceph Vulnerabilities (CVE-2025-30156 and CVE-2026-54330)
+              OSG-SEC-2026-09-11 CRITICAL-Multiple Vulnerabilities in Self-Managed GitLab CE/EE
             </div>
           </div>
           <div class="md-footer__button md-icon">
