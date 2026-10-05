@@ -2,10 +2,10 @@
 ========================================================================
 
 Version 1.1 
-Updated 6 December 2024
+Updated 5 October 2026
 
 Authors: Zalak Shah, Mike Stanfield  
-Information Security Officer: Mike Stanfield
+Information Security Officer: Mark Krenz
 
 # 1 Introduction
 
@@ -19,12 +19,12 @@ The OSG Executive Director accepts risk on behalf of the organization, with advi
 
 ### 2.2 Information Security Officer (ISO)
 
-OSG maintains a position of Information Security Officer (ISO), who reports to the OSG Technical Director, Miron Livny, and the OSG Executive Director. The ISO has responsibility for overseeing and coordinating the information security program. The ISO maintains all security policy and procedure documents for OSG, including this document. All reviews of OSG-wide security policies and procedures are coordinated and archived through this office. The ISO’s office also documents any exceptions made to security policies. The ISO is the first point of contact for any request for clarification of OSG information security policy and procedures. The ISO will coordinate information security incident response, including correspondence between the affected staff and users. As of the date of publication of this document, the Information Security Officer is​ ​Josh Drake.
+OSG maintains a position of Information Security Officer (ISO), who reports to the OSG Technical Director, Miron Livny, and the OSG Executive Director. The ISO has responsibility for overseeing and coordinating the information security program. The ISO maintains all security policy and procedure documents for OSG, including this document. All reviews of OSG-wide security policies and procedures are coordinated and archived through this office. The ISO’s office also documents any exceptions made to security policies. The ISO is the first point of contact for any request for clarification of OSG information security policy and procedures. The ISO will coordinate information security incident response, including correspondence between the affected staff and users. As of the date of publication of this document, the Information Security Officer is​ ​Mark Krenz.
 
 Contact information for the ISO follows:
 
-ISO: Mike Stanfield  
-Email: [stanfiem@iu.edu](mailto:stanfiem@iu.edu)    
+ISO: Mark Krenz  
+Email: [mkrenz@iu.edu](mailto:mkrenz@iu.edu)    
 OSG Security Team: [security@osg-htc.org](mailto:security@osg-htc.org)
 
 ### 2.3 Project Personnel and Staff
