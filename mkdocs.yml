@@ -14,6 +14,7 @@ nav:
 - Announcement Details:
     - OSG-SEC-2026-09-30 NVIDIA Linux GPU Driver Security Vulnerabilities : './vulns/OSG-SEC-2026-09-30.md'
     - OSG-SEC-2026-09-29 Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508 : './vulns/OSG-SEC-2026-09-29.md'
+    - OSG-SEC-2026-09-22 IMPORTANT-Apptainer 1.5.4 fixes local privilege escalation vulnerability : './vulns/OSG-SEC-2026-09-22.md'
     - OSG-SEC-2026-09-18 Linux multiple LPE vulns : './vulns/OSG-SEC-2026-09-18.md'
     - OSG-SEC-2026-09-11 CRITICAL-Multiple Vulnerabilities in Self-Managed GitLab CE/EE : './vulns/OSG-SEC-2026-09-11.md'
     - OSG-SEC-2026-09-02 Important-Linux Kernel XFRM NAT Keepalive LPE : './vulns/OSG-SEC-2026-09-02.md'
