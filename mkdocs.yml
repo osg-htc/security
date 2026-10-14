@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-10-14 IMPORTANT- Linux Kernel vhost LPE- CVE-2026-74580 : './vulns/OSG-SEC-2026-10-14.md'
     - OSG-SEC-2026-09-30 NVIDIA Linux GPU Driver Security Vulnerabilities : './vulns/OSG-SEC-2026-09-30.md'
     - OSG-SEC-2026-09-29 Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508 : './vulns/OSG-SEC-2026-09-29.md'
     - OSG-SEC-2026-09-22 IMPORTANT-Apptainer 1.5.4 fixes local privilege escalation vulnerability : './vulns/OSG-SEC-2026-09-22.md'
