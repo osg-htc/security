@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-10-14 | IMPORTANT- Linux Kernel vhost LPE- CVE-2026-74580 | [OSG-SEC-2026-10-14](./vulns/OSG-SEC-2026-10-14.md) |     |
 | 2026-09-30 | NVIDIA Linux GPU Driver Security Vulnerabilities | [OSG-SEC-2026-09-30](./vulns/OSG-SEC-2026-09-30.md) |     |
 | 2026-09-29 | Linux BTR / Spectre-v2–CVE-2026-64507 and CVE-2026-64508 | [OSG-SEC-2026-09-29](./vulns/OSG-SEC-2026-09-29.md) |     |
 | 2026-09-22 | IMPORTANT-Apptainer 1.5.4 fixes local privilege escalation vulnerability | [OSG-SEC-2026-09-22](./vulns/OSG-SEC-2026-09-22.md) |     |
