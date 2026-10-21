@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-10-21 | PHP2Shell PHP RCE via OOM corruption and stale global state (CVE-2026-109618, CVE-2026-109619) | [OSG-SEC-2026-10-21](./vulns/OSG-SEC-2026-10-21.md) |     |
 | 2026-10-15 | IMPORTANT-NGINX Vulnerabilities Including Potential Remote Code Execution | [OSG-SEC-2026-10-15](./vulns/OSG-SEC-2026-10-15.md) |     |
 | 2026-10-14 | IMPORTANT- Linux Kernel vhost LPE- CVE-2026-74580 | [OSG-SEC-2026-10-14](./vulns/OSG-SEC-2026-10-14.md) |     |
 | 2026-09-30 | NVIDIA Linux GPU Driver Security Vulnerabilities | [OSG-SEC-2026-09-30](./vulns/OSG-SEC-2026-09-30.md) |     |
