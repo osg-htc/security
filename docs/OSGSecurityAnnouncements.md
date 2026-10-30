@@ -1,5 +1,6 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-10-30 | CRITICAL-Linux Kernel IPv4 TCP Use-After-Free (CVE-2026-98432) | [OSG-SEC-2026-10-30](./vulns/OSG-SEC-2026-10-30.md) |     |
 | 2026-10-23 | eMudhra certificate authority key compromise | [OSG-SEC-2026-10-23](./vulns/OSG-SEC-2026-10-23.md) |     |
 | 2026-10-21 | PHP2Shell PHP RCE via OOM corruption and stale global state (CVE-2026-109618, CVE-2026-109619) | [OSG-SEC-2026-10-21](./vulns/OSG-SEC-2026-10-21.md) |     |
 | 2026-10-15 | IMPORTANT-NGINX Vulnerabilities Including Potential Remote Code Execution | [OSG-SEC-2026-10-15](./vulns/OSG-SEC-2026-10-15.md) |     |
