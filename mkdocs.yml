@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-11-05 IMPORTANT-ZDI-CAN-33367 Linux kernel local privilege escalation vulnerability  : './vulns/OSG-SEC-2026-11-05.md'
     - OSG-SEC-2026-10-30 CRITICAL-Linux Kernel IPv4 TCP Use-After-Free (CVE-2026-98432) : './vulns/OSG-SEC-2026-10-30.md'
     - OSG-SEC-2026-10-23 eMudhra certificate authority key compromise : './vulns/OSG-SEC-2026-10-23.md'
     - OSG-SEC-2026-10-21 PHP2Shell PHP RCE via OOM corruption and stale global state (CVE-2026-109618, CVE-2026-109619) : './vulns/OSG-SEC-2026-10-21.md'
