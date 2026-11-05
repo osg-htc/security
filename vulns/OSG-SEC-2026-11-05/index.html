@@ -2265,10 +2265,12 @@
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <p>Install the vendor-fixed kernel and reboot affected hosts. Verify that the fixed kernel is running after reboot.</p>
 <p>If patching is delayed and the host does not rely on IPsec, blocking and unloading esp4 and esp6 blocks the published PoC path. If the earlier Dirty Frag or Fragnesia module mitigation is still active and both modules are blocked and not loaded, it also covers this PoC. [2][8]</p>
-<p>sudo sh -c "printf 'install esp4 /bin/false\ninstall esp6 /bin/false\n' \
-                     &gt;/etc/modprobe.d/dirtyfrag.conf"
-    sudo rmmod esp4 esp6 2&gt;/dev/null; true
-    lsmod | grep -E 'esp4|esp6'</p>
+<p>sudo sh -c "printf 'install esp4 /bin/false\ninstall esp6 /bin/false\n' \</p>
+<p>&emsp;&emsp;&emsp;&emsp;&gt;/etc/modprobe.d/dirtyfrag.conf"</p>
+<pre><code>sudo rmmod esp4 esp6 2&gt;/dev/null; true
+
+lsmod | grep -E 'esp4|esp6'
+</code></pre>
 <p>No output from the last command means neither module appears loaded. If either module remains listed, it may still be in use and the mitigation is not active. Blocking these modules prevents IPsec ESP from working while the block is in place. [8] </p>
 <p>Disabling unprivileged user namespaces with user.max_user_namespaces=0 is another possible mitigation. [7] However, that can disrupt rootless containers and some unprivileged Apptainer workflows, so assess job impact before applying. Alternatively, disabling network namespaces should also block the PoC, although that can disrupt other functions. [13]</p>
 <h2 id="references">REFERENCES</h2>
