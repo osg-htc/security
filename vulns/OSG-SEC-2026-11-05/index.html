@@ -2276,19 +2276,19 @@ lsmod | grep -E 'esp4|esp6'
 <p>No output from the last command means neither module appears loaded. If either module remains listed, it may still be in use and the mitigation is not active. Blocking these modules prevents IPsec ESP from working while the block is in place. [8] </p>
 <p>Disabling unprivileged user namespaces with user.max_user_namespaces=0 is another possible mitigation. [7] However, that can disrupt rootless containers and some unprivileged Apptainer workflows, so assess job impact before applying. Alternatively, disabling network namespaces should also block the PoC, although that can disrupt other functions. [13]</p>
 <h2 id="references">REFERENCES</h2>
-<p>[1] https://lore.kernel.org/lkml/BYAPR01MB3830CECF5D0871064C59BA0280662@BYAPR01MB3830.prod.exchangelabs.com/<br />
-[2] https://almalinux.org/blog/2026-10-23-zdi-can-33367/. 
-[3] https://bugzilla.redhat.com/show_bug.cgi?id=2559835. 
-[4] https://access.redhat.com/security/vulnerabilities/RHSB-2026-014. 
-[5] https://almalinux.org/blog/2026-05-07-dirty-frag/. 
-[6] https://almalinux.org/blog/2026-05-13-fragnesia-cve-2026-46300/. 
-[7] https://blog.cloudlinux.com/?p=266368. 
-[8] https://access.redhat.com/security/vulnerabilities/RHSB-2026-003. 
-[9] https://access.redhat.com/errata/RHSA-2026:93436. 
-[10] https://access.redhat.com/errata/RHSA-2026:94508 <br />
-[11] https://access.redhat.com/errata/RHSA-2026:93412. 
-[12] https://tuxcare.com/blog/zdi-ksmbd-bugs-cve/?utm_term=zdi-can-33367&amp;utm_campaign=s+%7C+ZDI+skb_zerocopy+blog+post. 
-[13] https://apptainer.org/docs/admin/latest/user_namespace.html#disabling-network-namespaces. </p>
+<p>[1] https://lore.kernel.org/lkml/BYAPR01MB3830CECF5D0871064C59BA0280662@BYAPR01MB3830.prod.exchangelabs.com/ <br />
+[2] https://almalinux.org/blog/2026-10-23-zdi-can-33367/.<br />
+[3] https://bugzilla.redhat.com/show_bug.cgi?id=2559835.<br />
+[4] https://access.redhat.com/security/vulnerabilities/RHSB-2026-014.<br />
+[5] https://almalinux.org/blog/2026-05-07-dirty-frag/.<br />
+[6] https://almalinux.org/blog/2026-05-13-fragnesia-cve-2026-46300/.<br />
+[7] https://blog.cloudlinux.com/?p=266368.<br />
+[8] https://access.redhat.com/security/vulnerabilities/RHSB-2026-003.<br />
+[9] https://access.redhat.com/errata/RHSA-2026:93436.<br />
+[10] https://access.redhat.com/errata/RHSA-2026:94508  <br />
+[11] https://access.redhat.com/errata/RHSA-2026:93412.<br />
+[12] https://tuxcare.com/blog/zdi-ksmbd-bugs-cve/?utm_term=zdi-can-33367&amp;utm_campaign=s+%7C+ZDI+skb_zerocopy+blog+post.<br />
+[13] https://apptainer.org/docs/admin/latest/user_namespace.html#disabling-network-namespaces.  </p>
 <p>Please contact the OSG security team at security@osg-htc.org if you have any questions or concerns.
 OSG Security Team</p>
                 
