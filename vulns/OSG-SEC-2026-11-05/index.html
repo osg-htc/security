@@ -2265,9 +2265,11 @@
 <h2 id="what-you-should-do">WHAT YOU SHOULD DO:</h2>
 <p>Install the vendor-fixed kernel and reboot affected hosts. Verify that the fixed kernel is running after reboot.</p>
 <p>If patching is delayed and the host does not rely on IPsec, blocking and unloading esp4 and esp6 blocks the published PoC path. If the earlier Dirty Frag or Fragnesia module mitigation is still active and both modules are blocked and not loaded, it also covers this PoC. [2][8]</p>
-<p>sudo sh -c "printf 'install esp4 /bin/false\ninstall esp6 /bin/false\n' \</p>
-<p>&emsp;&emsp;&emsp;&emsp;&gt;/etc/modprobe.d/dirtyfrag.conf"</p>
-<pre><code>sudo rmmod esp4 esp6 2&gt;/dev/null; true
+<pre><code>sudo sh -c "printf 'install esp4 /bin/false\ninstall esp6 /bin/false\n' \
+
+&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&gt;/etc/modprobe.d/dirtyfrag.conf"
+
+sudo rmmod esp4 esp6 2&gt;/dev/null; true
 
 lsmod | grep -E 'esp4|esp6'
 </code></pre>
