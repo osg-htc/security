@@ -12,6 +12,7 @@ nav:
   - Overview: 'OSGSecurityAnnouncements.md'
   - Overview x86 vulnerabilities: 'OSGSecurityAnnouncements-x86.md'
 - Announcement Details:
+    - OSG-SEC-2026-11-06 CRITICAL- Puppet Server vulnerabilities- CVE-2026-115731 and CVE-2026-115732 : './vulns/OSG-SEC-2026-11-06.md'
     - OSG-SEC-2026-11-05 IMPORTANT-ZDI-CAN-33367 Linux kernel local privilege escalation vulnerability  : './vulns/OSG-SEC-2026-11-05.md'
     - OSG-SEC-2026-10-30 CRITICAL-Linux Kernel IPv4 TCP Use-After-Free (CVE-2026-98432) : './vulns/OSG-SEC-2026-10-30.md'
     - OSG-SEC-2026-10-23 eMudhra certificate authority key compromise : './vulns/OSG-SEC-2026-10-23.md'
