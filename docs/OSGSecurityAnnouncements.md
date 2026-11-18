@@ -1,5 +1,7 @@
 | Date        | Title                                                 | Contents/Link       |   Risk        |
 |-------------|-------------------------------------------------------|---------------------|---------------|
+| 2026-11-18 | Critical Java4Shell Remote Code Execution Vulnerability (CVE-2026-114938)  | [OSG-SEC-2026-11-18](./vulns/OSG-SEC-2026-11-18.md) |     |
+| 2026-11-17 | Critical Linux Kernel Local Privilege Escalation Vulnerability in assoc_array  | [OSG-SEC-2026-11-17](./vulns/OSG-SEC-2026-11-17.md) |     |
 | 2026-11-06 | CRITICAL- Puppet Server vulnerabilities- CVE-2026-115731 and CVE-2026-115732  | [OSG-SEC-2026-11-06](./vulns/OSG-SEC-2026-11-06.md) |     |
 | 2026-11-05 | IMPORTANT-ZDI-CAN-33367 Linux kernel local privilege escalation vulnerability  | [OSG-SEC-2026-11-05](./vulns/OSG-SEC-2026-11-05.md) |     |
 | 2026-10-30 | CRITICAL-Linux Kernel IPv4 TCP Use-After-Free (CVE-2026-98432) | [OSG-SEC-2026-10-30](./vulns/OSG-SEC-2026-10-30.md) |     |
